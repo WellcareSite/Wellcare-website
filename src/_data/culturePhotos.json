@@ -1,23 +1,24 @@
-{"items": [
-  {
-    "image": "/images/team-celebration.png",
-    "caption": "🎉 Celebrating Milestones Together",
-    "size": "large"
-  },
-  {
-    "image": "/images/team-outing.png",
-    "caption": "🏔️ Team Outings in Colorado",
-    "size": "normal"
-  },
-  {
-    "image": "/images/team-recognition.png",
-    "caption": "⭐ Recognizing Our Stars",
-    "size": "normal"
-  },
-  {
-    "image": "/images/team-training.png",
-    "caption": "🤝 Learning & Growing Together",
-    "size": "wide"
-  }
-]
+{
+  "items": [
+    {
+      "image": "/images/img_4307.png",
+      "caption": "🎉 Celebrating Milestones Together",
+      "size": "large"
+    },
+    {
+      "image": "/images/team-outing.png",
+      "caption": "🏔️ Team Outings in Colorado",
+      "size": "normal"
+    },
+    {
+      "image": "/images/team-recognition.png",
+      "caption": "⭐ Recognizing Our Stars",
+      "size": "normal"
+    },
+    {
+      "image": "/images/team-training.png",
+      "caption": "🤝 Learning & Growing Together",
+      "size": "wide"
+    }
+  ]
 }

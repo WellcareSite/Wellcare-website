@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Our Leadership Team
+description: Meet the leadership team at WellCare & Nurture Pediatric Therapy in Colorado Springs.
+permalink: /team/
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Our Leadership Team</h1>
+    <p>Meet the dedicated professionals leading our multi-disciplinary team</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="team-grid">
+      {% for member in collections.team %}
+      <div class="team-card">
+        <div class="team-card-photo" style="background-image: url('{{ member.data.photo or '/images/team-placeholder.jpg' }}');"></div>
+        <div class="team-card-body">
+          <h3>{{ member.data.name }}</h3>
+          <div class="title">{{ member.data.role }}</div>
+          <div class="bio">{{ member.data.bio }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

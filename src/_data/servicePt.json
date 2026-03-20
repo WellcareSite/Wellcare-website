@@ -1,0 +1,33 @@
+{
+  "heroTitle": "Physical Therapy",
+  "heroSubtitle": "Enhancing movement abilities and helping children reach their developmental milestones",
+  "seoDescription": "Pediatric physical therapy in Colorado Springs. In-home & in-clinic PT for developmental delays, gross motor skills, balance, coordination, and post-surgical rehab. Experienced pediatric physical therapists.",
+  "image": "/images/service-pt.jpg",
+  "content": "Our physical therapists work with children to enhance their **movement abilities** and help them reach their **developmental milestones**. We address developmental delays, genetic disorders, and orthopedic conditions.\n\n### What We Address\n\n- Gross motor development (crawling, walking, running, jumping)\n- Balance and coordination\n- Strength and endurance\n- Developmental delays\n- Genetic and orthopedic conditions\n- Post-surgical rehabilitation\n\n### Service Options\n\nWe offer both **in-home** and **in-clinic** physical therapy services to meet your family's needs and schedule.",
+  "faqs": [
+    {
+      "question": "When should my child see a physical therapist?",
+      "answer": "If your child is not meeting movement milestones — like rolling, crawling, walking, or running — a physical therapy evaluation can help identify any delays. Early intervention gives children the best chance to catch up and build confidence in their movement abilities."
+    },
+    {
+      "question": "What happens during a PT session?",
+      "answer": "Sessions are active and fun! Your child might practice crawling through tunnels, climbing on equipment, balancing on beams, or playing ball games. Every activity is designed to build strength, coordination, and motor skills in a way that feels like play."
+    },
+    {
+      "question": "Do you offer in-home physical therapy?",
+      "answer": "Yes! We offer both in-home and in-clinic PT services. In-home therapy can be especially helpful for younger children or families who prefer the comfort and convenience of their own environment."
+    },
+    {
+      "question": "Will insurance cover my child's physical therapy?",
+      "answer": "Most insurance plans cover pediatric physical therapy with a referral from your child's pediatrician. We accept multiple insurance providers and our team can help verify your benefits before starting services."
+    },
+    {
+      "question": "What should my child wear to PT?",
+      "answer": "Comfortable, stretchy clothes that allow your child to move freely — think athletic wear, leggings, or shorts and a t-shirt. Avoid jeans or restrictive clothing. Tennis shoes with good grip are best. We'll be climbing, balancing, and moving!"
+    },
+    {
+      "question": "How long does a typical treatment plan last?",
+      "answer": "Treatment length varies based on your child's needs and goals. Some children make progress in a few months, while others benefit from longer-term therapy. Your therapist will set clear goals and regularly reassess to ensure your child is on track."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "quote": "The entire team at WellCare has been a blessing for our family. Our son has made incredible progress with his speech therapy and we couldn't be happier with the care he receives.",
+    "name": "Sarah M.",
+    "service": "Speech Therapy",
+    "stars": 5
+  },
+  {
+    "quote": "We've tried other clinics, but WellCare truly stands out. The therapists are so patient and genuinely care about every child. Our daughter looks forward to her OT sessions every week!",
+    "name": "Jennifer L.",
+    "service": "Occupational Therapy",
+    "stars": 5
+  },
+  {
+    "quote": "From day one, the staff made us feel welcome and supported. The ABA team has helped our son develop skills we never thought possible. We are so grateful!",
+    "name": "Michael T.",
+    "service": "ABA Therapy",
+    "stars": 5
+  },
+  {
+    "quote": "Amazing place with amazing people! The collaborative approach between therapists makes such a difference. You can tell they truly love what they do.",
+    "name": "Amanda R.",
+    "service": "Physical Therapy",
+    "stars": 5
+  }
+]

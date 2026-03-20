@@ -1,0 +1,13 @@
+{
+  "name": "wellcare-nurture-website",
+  "version": "1.0.0",
+  "description": "WellCare & Nurture Pediatric Therapy Website",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "markdown-it": "^14.1.1"
+  }
+}

@@ -1,0 +1,64 @@
+---
+layout: base.njk
+title: Careers
+description: "Join Colorado Springs' #1 rated pediatric therapy team. BCBA, OT, PT & SLP careers with medical insurance, 401k, CEU reimbursement, student loan reimbursement & paid time off. 4.8 stars on Indeed."
+permalink: /careers/
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Join Our Team</h1>
+    <p>Make a difference in the lives of children and families every day</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 0;">
+  <div class="container" style="max-width: 900px;">
+
+    <!-- Employee Satisfaction Highlight -->
+    <div style="background: linear-gradient(135deg, #f0f8ff 0%, #e8f4fd 100%); border-radius: 16px; padding: 1.8rem 2rem; text-align: center; margin: 2rem auto 2.5rem; max-width: 700px; border: 2px solid var(--sky-blue); box-shadow: 0 4px 20px rgba(94,182,217,0.15);">
+      <div style="font-size: 3.5rem; font-weight: 800; color: var(--dark-blue); line-height: 1;">4.8</div>
+      <div style="font-size: 1.4rem; margin: 0.3rem 0 0.6rem; letter-spacing: 2px;">⭐⭐⭐⭐⭐</div>
+      <h2 style="font-size: 1.4rem; margin-bottom: 0.5rem; color: var(--dark-blue);">#1 Employee Satisfaction in Colorado Springs</h2>
+      <p style="margin: 0 0 1rem; color: var(--text-secondary); font-size: 1rem;">We take care of our team the same way we take care of our families.</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        {% if settings.indeedUrl %}<a href="{{ settings.indeedUrl }}" target="_blank" rel="noopener" style="background: #1a3a5c; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">⭐ {{ settings.indeedRating }} on Indeed</a>{% endif %}
+        {% if settings.glassdoorUrl %}<a href="{{ settings.glassdoorUrl }}" target="_blank" rel="noopener" style="background: #0caa41; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">⭐ {{ settings.glassdoorRating }} on Glassdoor</a>{% endif %}
+      </div>
+    </div>
+
+    <h2>Why Work With Us?</h2>
+    <p>At WellCare & Nurture, we believe in fostering a supportive, multi-disciplinary environment where professionals can grow and make a lasting impact. Our core values guide everything we do — and that starts with how we treat our team.</p>
+
+    <h3 style="margin-top: 2rem;">Benefits</h3>
+    <div class="benefits-grid" style="margin-top: 1rem;">
+      {% for b in benefits %}
+      <div class="benefit-item">
+        <span class="icon">{{ b.icon }}</span>
+        <div>
+          <strong>{{ b.name }}</strong>
+          <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">{{ b.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h3 style="margin-top: 2.5rem;">Our Culture</h3>
+    <p>We celebrate our team through recognition programs, team-building events, and celebrating work anniversaries and milestones. Our multi-disciplinary collaboration means you'll always be learning from colleagues across specialties.</p>
+
+    <div class="culture-gallery">
+      {% for photo in culturePhotos %}
+      <div class="culture-photo {{ photo.size }}">
+        <img src="{{ photo.image }}" alt="{{ photo.caption }}">
+        <div class="culture-caption">{{ photo.caption }}</div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 2.5rem;">
+      <h2>Ready to Make a Difference?</h2>
+      <p>We're always looking for passionate, compassionate professionals to join our team.</p>
+      <a href="{{ settings.applyUrl or ('mailto:' + settings.email + '?subject=Career%20Inquiry') }}" {% if settings.applyUrl %}target="_blank" rel="noopener"{% endif %} class="btn-cta" style="font-size: 1.1rem; margin-top: 1rem;">Apply Now ✉</a>
+    </div>
+  </div>
+</section>

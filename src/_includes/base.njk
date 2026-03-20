@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description or 'WellCare & Nurture Pediatric Therapy — Empowering kids, supporting families, changing lives. ABA, OT, PT, and Speech therapy in Colorado Springs.' }}">
+  <title>{{ title }} | {{ settings.siteName }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.wellcareco.com{{ page.url }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.wellcareco.com{{ page.url }}">
+  <meta property="og:title" content="{{ title }} | {{ settings.siteName }}">
+  <meta property="og:description" content="{{ description or 'WellCare & Nurture Pediatric Therapy — Empowering kids, supporting families, changing lives. ABA, OT, PT, and Speech therapy in Colorado Springs.' }}">
+  <meta property="og:image" content="https://www.wellcareco.com/images/og-image.png">
+  <meta property="og:site_name" content="{{ settings.siteName }}">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }} | {{ settings.siteName }}">
+  <meta name="twitter:description" content="{{ description or 'WellCare & Nurture Pediatric Therapy — Empowering kids, supporting families, changing lives.' }}">
+  <meta name="twitter:image" content="https://www.wellcareco.com/images/og-image.png">
+
+  <!-- Geo & Business Tags -->
+  <meta name="geo.region" content="US-CO">
+  <meta name="geo.placename" content="Colorado Springs">
+
+  <!-- Structured Data: Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "WellCare & Nurture Pediatric Therapy",
+    "description": "Pediatric therapy clinic offering ABA, Occupational Therapy, Physical Therapy, and Speech-Language Pathology in Colorado Springs, CO.",
+    "url": "https://www.wellcareco.com",
+    "telephone": "{{ settings.phone }}",
+    "email": "{{ settings.email }}",
+    "priceRange": "$$",
+    "image": "https://www.wellcareco.com/images/og-image.png",
+    "sameAs": [
+      "{{ settings.social.facebook }}",
+      "{{ settings.social.instagram }}",
+      "{{ settings.social.linkedin }}"
+    ],
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "1930 Frequent Flyer Point",
+        "addressLocality": "Colorado Springs",
+        "addressRegion": "CO",
+        "postalCode": "80915",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "2105 Academy Circle",
+        "addressLocality": "Colorado Springs",
+        "addressRegion": "CO",
+        "postalCode": "80909",
+        "addressCountry": "US"
+      }
+    ],
+    "areaServed": {
+      "@type": "City",
+      "name": "Colorado Springs"
+    },
+    "medicalSpecialty": [
+      "Pediatric Therapy",
+      "Applied Behavior Analysis",
+      "Occupational Therapy",
+      "Physical Therapy",
+      "Speech-Language Pathology"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pediatric Therapy Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalTherapy",
+            "name": "Applied Behavior Analysis (ABA)"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalTherapy",
+            "name": "Occupational Therapy"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalTherapy",
+            "name": "Physical Therapy"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalTherapy",
+            "name": "Speech-Language Pathology"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  {% include "header.njk" %}
+
+  <main id="main-content">
+    {{ content | safe }}
+  </main>
+
+  {% include "footer.njk" %}
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

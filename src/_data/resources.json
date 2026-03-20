@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Cookie Cutters Haircuts for Kids",
+    "category": "sensory-friendly",
+    "description": "Stylists trained to work with children with sensory sensitivities. TVs and fun chairs to make haircuts enjoyable.",
+    "address": "9697 Prominent Point, Ste. 124",
+    "url": "https://haircutsarefun.com"
+  },
+  {
+    "name": "Kiddie Kutters",
+    "category": "sensory-friendly",
+    "description": "Patient stylists experienced with children on the autism spectrum. Will use scissors instead of clippers for sensory-sensitive kids.",
+    "address": "5582 Powers Center Point",
+    "url": "https://kiddiekutterscoloradosprings.com"
+  },
+  {
+    "name": "Komb's Studio",
+    "category": "sensory-friendly",
+    "description": "Gentle stylists who accommodate sensory needs — scissors-only cuts, quiet appointment times, and a patient approach.",
+    "address": "6165 Barnes Rd, Suite 22",
+    "url": "https://glossgenius.com/kombsstudio"
+  },
+  {
+    "name": "Venus Salon",
+    "category": "sensory-friendly",
+    "description": "Autism-friendly salon providing a calm, accommodating environment for kids. Serving Colorado Springs for 14+ years.",
+    "address": "1802 Chapel Hills Dr.",
+    "url": "https://venussaloncs.com"
+  },
+  {
+    "name": "Family Support Center",
+    "category": "sensory-friendly",
+    "description": "Offers free haircuts for children with autism. Contact Kearstie Pearce to schedule.",
+    "address": "1330 Quail Loop, Suite 140",
+    "url": "https://fscautism.com"
+  },
+  {
+    "name": "Care and Share Food Bank",
+    "category": "food-resources",
+    "description": "Southern Colorado's leading food bank. Operates Sunny Side Markets — free pantries with fresh produce, meats, dairy, and more.",
+    "address": "",
+    "url": "https://careandshare.org"
+  },
+  {
+    "name": "Catholic Charities — Marian House",
+    "category": "food-resources",
+    "description": "Free hot meals served daily, 365 days a year (10:30 AM–1 PM). The Marketplace offers monthly grocery shopping for families.",
+    "address": "",
+    "url": "https://ccharitiescc.org"
+  },
+  {
+    "name": "Salvation Army Food Pantry",
+    "category": "food-resources",
+    "description": "Nonperishable staples and fresh produce. Open Wed & Fri, 10 AM–2 PM. Bring valid ID.",
+    "address": "",
+    "url": "https://www.salvationarmyusa.org"
+  },
+  {
+    "name": "Mercy's Gate",
+    "category": "food-resources",
+    "description": "Emergency food assistance — 3-day supply per household member. Pantry organized like a mini store. Up to 4 visits per year.",
+    "address": "",
+    "url": "https://mercysgatecs.org"
+  },
+  {
+    "name": "Pikes Peak United Way",
+    "category": "food-resources",
+    "description": "Family Success Center hosting Sunny Side Markets plus resources to help families achieve financial stability.",
+    "address": "",
+    "url": "https://ppunitedway.org"
+  },
+  {
+    "name": "Play Street Museum",
+    "category": "events-activities",
+    "description": "Sensory-friendly playtime every Wednesday 12:30–2 PM. Limited attendance and reduced sensory stimuli.",
+    "address": "",
+    "url": "https://www.playstreetmuseum.com/colorado-springs"
+  },
+  {
+    "name": "We Rock the Spectrum",
+    "category": "events-activities",
+    "description": "Indoor playground designed with children on the autism spectrum in mind. Inclusive equipment, events, and classes for ages 0–13.",
+    "address": "",
+    "url": "https://werockthespectrumcoloradosprings.com"
+  },
+  {
+    "name": "Air City 360",
+    "category": "events-activities",
+    "description": "Special Needs Family Night every Monday 3–8 PM. Sensory room available plus in-person discounts.",
+    "address": "",
+    "url": "https://aircity360.com"
+  },
+  {
+    "name": "Cheyenne Mountain Zoo",
+    "category": "events-activities",
+    "description": "Sensory bags with noise-canceling headphones, fidget tools, and communication cards. Quiet zones available throughout.",
+    "address": "",
+    "url": "https://cmzoo.org"
+  },
+  {
+    "name": "SafeSplash Swim School",
+    "category": "events-activities",
+    "description": "Adaptive swim lessons led by trained instructors in a calm, supportive environment for all abilities.",
+    "address": "",
+    "url": "https://safesplash.com"
+  },
+  {
+    "name": "Pioneers Museum — Sensory Mornings",
+    "category": "events-activities",
+    "description": "Reduced lighting and noise with hands-on activities for a more inclusive museum experience.",
+    "address": "",
+    "url": "https://cspm.org"
+  },
+  {
+    "name": "Inclusive Playgrounds",
+    "category": "events-activities",
+    "description": "Panorama Park, Swing High at Memorial Park, and The Corral at John Venezia Park feature wheelchair-accessible, sensory-friendly equipment.",
+    "address": "",
+    "url": "https://coloradosprings.gov/parks"
+  },
+  {
+    "name": "The Arc Pikes Peak Region",
+    "category": "support-advocacy",
+    "description": "Advocates for individuals with intellectual and developmental disabilities. IEP/504 meeting support and educational advocacy.",
+    "address": "",
+    "url": "https://thearcppr.org"
+  },
+  {
+    "name": "Special Kids Special Families",
+    "category": "support-advocacy",
+    "description": "Respite care, adult day programs, foster care, and host home programs for individuals with disabilities across their lifespan.",
+    "address": "",
+    "url": "https://sksfcolorado.org"
+  },
+  {
+    "name": "PEAK Parent Center",
+    "category": "support-advocacy",
+    "description": "Statewide training and resources empowering parents to advocate for their children's educational needs and rights.",
+    "address": "",
+    "url": "https://peakparent.org"
+  },
+  {
+    "name": "Disability Law Colorado",
+    "category": "support-advocacy",
+    "description": "Legal representation, advocacy, and education protecting the rights of people with disabilities.",
+    "address": "",
+    "url": "https://disabilitylawco.org"
+  },
+  {
+    "name": "The Resource Exchange",
+    "category": "support-advocacy",
+    "description": "Serves El Paso and Teller Counties. Early intervention services, Medicaid waiver coordination for 9,000+ individuals.",
+    "address": "",
+    "url": "https://tre.org"
+  }
+]

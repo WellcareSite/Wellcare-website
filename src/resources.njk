@@ -1,0 +1,131 @@
+---
+layout: base.njk
+title: Resources & Support
+description: "Parent resources, therapy guides, and community resources in Colorado Springs for families with special needs children. First visit prep, insurance help, developmental milestones, sensory-friendly businesses, and more."
+permalink: /resources/
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Resources & Support</h1>
+    <p>Guides for parents and local community resources to support your family</p>
+  </div>
+</section>
+
+<!-- Parent Resources Section -->
+<section class="section" id="for-parents">
+  <div class="container" style="max-width: 950px;">
+    <div class="section-header">
+      <h2>📚 For Parents</h2>
+      <p>Helpful guides to prepare for therapy and support your child's progress at home</p>
+    </div>
+
+    <div style="display: grid; gap: 1.5rem;">
+      {% for guide in parentResources %}
+      <details class="faq-item" style="background: white;">
+        <summary style="font-size: 1.05rem;">{{ guide.icon }} {{ guide.title }}</summary>
+        <div class="faq-answer">
+          {{ guide.content | markdownify | safe }}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="{{ settings.screeningUrl }}" class="btn-cta">📋 Schedule Your Free Screening</a>
+    </div>
+  </div>
+</section>
+
+<!-- Community Resources Section -->
+<section class="section section-light" id="community-resources">
+  <div class="container" style="max-width: 950px;">
+    <div class="section-header">
+      <h2>🏘️ Community Resources</h2>
+      <p>Local businesses, organizations, and events that support our families</p>
+    </div>
+
+    <div style="display: grid; gap: 1.5rem;">
+
+      <!-- Sensory-Friendly Services -->
+      <details class="faq-item" style="background: white;" id="sensory-friendly">
+        <summary style="font-size: 1.05rem;">✂️ Sensory-Friendly Services</summary>
+        <div class="faq-answer">
+          <p style="margin-bottom: 1rem; color: var(--text-secondary);">Local businesses that create welcoming, sensory-friendly environments for children with special needs.</p>
+          {% for r in resources %}
+            {% if r.category == "sensory-friendly" %}
+            <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
+              <strong>{{ r.name }}</strong>
+              <p style="margin: 0.25rem 0;">{{ r.description }}</p>
+              {% if r.address %}<p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0.25rem 0;">📍 {{ r.address }}</p>{% endif %}
+              {% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener" style="font-size: 0.9rem; color: var(--sky-blue);">Visit Website →</a>{% endif %}
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </details>
+
+      <!-- Food Resources -->
+      <details class="faq-item" style="background: white;" id="food-resources">
+        <summary style="font-size: 1.05rem;">🍎 Food Resources</summary>
+        <div class="faq-answer">
+          <p style="margin-bottom: 1rem; color: var(--text-secondary);">Local food assistance programs for families in need.</p>
+          {% for r in resources %}
+            {% if r.category == "food-resources" %}
+            <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
+              <strong>{{ r.name }}</strong>
+              <p style="margin: 0.25rem 0;">{{ r.description }}</p>
+              {% if r.address %}<p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0.25rem 0;">📍 {{ r.address }}</p>{% endif %}
+              {% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener" style="font-size: 0.9rem; color: var(--sky-blue);">Visit Website →</a>{% endif %}
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </details>
+
+      <!-- Events & Activities -->
+      <details class="faq-item" style="background: white;" id="events-activities">
+        <summary style="font-size: 1.05rem;">🎉 Sensory-Friendly Events & Activities</summary>
+        <div class="faq-answer">
+          <p style="margin-bottom: 1rem; color: var(--text-secondary);">Inclusive events and venues designed for children with sensory sensitivities.</p>
+          {% for r in resources %}
+            {% if r.category == "events-activities" %}
+            <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
+              <strong>{{ r.name }}</strong>
+              <p style="margin: 0.25rem 0;">{{ r.description }}</p>
+              {% if r.address %}<p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0.25rem 0;">📍 {{ r.address }}</p>{% endif %}
+              {% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener" style="font-size: 0.9rem; color: var(--sky-blue);">Visit Website →</a>{% endif %}
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </details>
+
+      <!-- Support & Advocacy -->
+      <details class="faq-item" style="background: white;" id="support-advocacy">
+        <summary style="font-size: 1.05rem;">💙 Support & Advocacy</summary>
+        <div class="faq-answer">
+          <p style="margin-bottom: 1rem; color: var(--text-secondary);">Organizations providing advocacy, education, and support for families navigating special needs.</p>
+          {% for r in resources %}
+            {% if r.category == "support-advocacy" %}
+            <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
+              <strong>{{ r.name }}</strong>
+              <p style="margin: 0.25rem 0;">{{ r.description }}</p>
+              {% if r.address %}<p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0.25rem 0;">📍 {{ r.address }}</p>{% endif %}
+              {% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener" style="font-size: 0.9rem; color: var(--sky-blue);">Visit Website →</a>{% endif %}
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </details>
+
+    </div>
+
+    <!-- Call to Action -->
+    <div style="text-align: center; margin-top: 2rem; padding: 2rem; background: white; border-radius: 12px; box-shadow: var(--shadow-sm);">
+      <h3>Know a Great Resource?</h3>
+      <p>We're always looking to grow this list! If you know of a local business, organization, or event that supports our community, let us know.</p>
+      <a href="/contact/" class="btn-cta" style="margin-top: 1rem;">Share a Resource</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,68 @@
+---
+layout: base.njk
+title: "{{ serviceAba.heroTitle }}"
+description: "{{ serviceAba.seoDescription }}"
+permalink: /aba/
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ serviceAba.heroTitle }}</h1>
+    <p>{{ serviceAba.heroSubtitle }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="service-detail">
+      <div>
+        <h2>What We Offer</h2>
+        {{ serviceAba.content | markdownify | safe }}
+        <a href="/team/" class="btn-cta" style="margin-top: 1.5rem;">Meet Our Therapists</a>
+        <a href="{{ settings.screeningUrl }}" class="btn-cta" style="margin-top: 0.5rem; background: var(--dark-blue);">📋 Schedule Your Free Screening</a>
+      </div>
+      <div class="service-detail-img" style="background-image: url('{{ serviceAba.image }}');"></div>
+    </div>
+  </div>
+</section>
+
+{% if serviceAba.faqs.length > 0 %}
+<!-- FAQ Section -->
+<section class="section section-light">
+  <div class="container">
+    <div class="section-header">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-section">
+      {% for faq in serviceAba.faqs %}
+      <details class="faq-item">
+        <summary>{{ faq.question }}</summary>
+        <div class="faq-answer">
+          <p>{{ faq.answer }}</p>
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Insurance Section -->
+<section class="section{% if serviceAba.faqs.length == 0 %} section-light{% endif %}">
+  <div class="container">
+    <div class="section-header">
+      <h2>Insurance Partners</h2>
+    </div>
+    <div class="partners-grid">
+      {% for partner in insurance %}
+        <div class="partner-badge">
+          {% if partner.logo %}
+            <img src="{{ partner.logo }}" alt="{{ partner.name }}" class="partner-logo">
+          {% else %}
+            {{ partner.name }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

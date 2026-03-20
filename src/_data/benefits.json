@@ -1,0 +1,57 @@
+[
+  {
+    "icon": "🏥",
+    "name": "Medical Insurance",
+    "description": "Comprehensive health coverage for you and your family"
+  },
+  {
+    "icon": "🦷",
+    "name": "Dental & Vision",
+    "description": "Full dental and vision plans included"
+  },
+  {
+    "icon": "🛡️",
+    "name": "Life Insurance",
+    "description": "Peace of mind with employer-provided coverage"
+  },
+  {
+    "icon": "💰",
+    "name": "401(k) Retirement",
+    "description": "Plan for your future with our retirement program"
+  },
+  {
+    "icon": "🌴",
+    "name": "Paid Time Off",
+    "description": "Generous PTO to recharge and relax"
+  },
+  {
+    "icon": "🤝",
+    "name": "Multi-Disciplinary Team",
+    "description": "Collaborate with experts across therapy disciplines"
+  },
+  {
+    "icon": "💚",
+    "name": "Mental Health Counseling",
+    "description": "Affordable, confidential counseling services — because we believe in caring for the people who care for others"
+  },
+  {
+    "icon": "📈",
+    "name": "Annual Raises",
+    "description": "We invest in our team with consistent annual raises that recognize your growth and dedication"
+  },
+  {
+    "icon": "🏠",
+    "name": "Locally Owned & Operated",
+    "description": "Not a corporate chain — we're a locally owned Colorado Springs company where your voice is heard"
+  },
+  {
+    "icon": "📚",
+    "name": "CEU Reimbursement",
+    "description": "We invest in your professional growth with continuing education unit reimbursement"
+  },
+  {
+    "icon": "🎓",
+    "name": "Student Loan Reimbursement",
+    "description": "Helping you pay down student loans so you can focus on what matters most — your career and your clients"
+  }
+]

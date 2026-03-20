@@ -1,0 +1,50 @@
+{
+  "heroTitle": "Speech-Language Pathology",
+  "heroSubtitle": "Helping children find their voice and communicate with confidence",
+  "seoDescription": "Pediatric speech therapy in Colorado Springs. Specialists in AAC, Childhood Apraxia of Speech (CAS), articulation, language delays, feeding therapy, and AAC device funding. Accepting Medicaid.",
+  "image": "/images/service-speech.jpg",
+  "content": "Our speech-language pathologists address **speech, language, voice, fluency, and swallowing** challenges. We take a comprehensive approach to help every child communicate effectively.\n\n### What We Address\n\n- Speech sound disorders and articulation\n- Language comprehension and expression\n- Voice and fluency disorders\n- Childhood Apraxia of Speech (CAS) — we are specialists!\n- Augmentative and Alternative Communication (AAC)\n- Feeding and swallowing difficulties\n\n### Feeding Therapy\n\nDoes your child struggle with mealtimes? Our speech-language pathologists specialize in **pediatric feeding therapy** for children experiencing:\n\n- **Picky eating** and extreme food selectivity\n- **Texture aversions** — gagging or refusing certain textures\n- **Oral motor difficulties** — trouble chewing or managing food\n- **Swallowing problems** (dysphagia)\n- **Difficulty transitioning** from bottle/puree to solid foods\n- **Sensory-related feeding challenges**\n\nWe use a gentle, child-led approach to help expand your child's diet and make mealtimes less stressful for the whole family.\n\n### AAC Expertise\n\nWe are proud specialists in **AAC (Augmentative and Alternative Communication)** — giving every child a way to be heard. AAC includes tools and strategies for children who are non-verbal or have limited speech:\n\n- **Low-tech options:** Picture boards, communication books, sign language\n- **High-tech devices:** Tablets and speech-generating devices (SGDs) with customized vocabulary\n- **App-based systems:** Proloquo2Go, TouchChat, LAMP Words for Life\n\n**Who benefits from AAC?** Children with autism, apraxia, cerebral palsy, Down syndrome, or any condition affecting verbal communication. AAC doesn't replace speech — it supports language development and gives your child a voice while they build verbal skills.\n\nWe also help families navigate the process of **getting AAC devices funded** through insurance, and we've had great success helping children access the communication tools they need.\n\n### Service Options\n\nWe offer both **in-home** and **in-clinic** speech therapy services to meet your family's needs and schedule.",
+  "highlights": [
+    {
+      "icon": "🗣️",
+      "title": "22 AAC Devices Funded",
+      "description": "In the last 2 years, we've helped fund 22 speech-generating devices for children who need them."
+    },
+    {
+      "icon": "⭐",
+      "title": "CAS Specialists",
+      "description": "Our team has specialized training in Childhood Apraxia of Speech (CAS), a motor speech disorder."
+    },
+    {
+      "icon": "💊",
+      "title": "Medicaid Coverage",
+      "description": "Many of our speech therapy services are covered through Health First Colorado (Medicaid)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if my child needs speech therapy?",
+      "answer": "Signs to look for include limited babbling by 12 months, few words by 18 months, difficulty being understood by age 3, frustration when trying to communicate, or trouble following directions. If you're concerned, a free screening can help determine if an evaluation is recommended."
+    },
+    {
+      "question": "What is AAC and how does it help?",
+      "answer": "AAC (Augmentative and Alternative Communication) includes tools and strategies — from picture boards to speech-generating devices — that help children who are non-verbal or have limited speech communicate. AAC doesn't replace speech; it supports language development and gives your child a voice while they build verbal skills."
+    },
+    {
+      "question": "What is Childhood Apraxia of Speech (CAS)?",
+      "answer": "CAS is a motor speech disorder where the brain has difficulty coordinating the movements needed for speech. Children with CAS know what they want to say but struggle to make the right sounds. Our team has specialized training in treating CAS with intensive, evidence-based approaches."
+    },
+    {
+      "question": "How often will my child attend speech therapy?",
+      "answer": "Most children attend 1-2 sessions per week, but frequency depends on your child's needs. Some children with more intensive needs may benefit from more frequent sessions. Your speech-language pathologist will create a personalized plan after evaluation."
+    },
+    {
+      "question": "Can I sit in on my child's session?",
+      "answer": "Absolutely! Parent involvement is encouraged. You can observe sessions and learn techniques to use at home. Some sessions may work better with you in the room, others with you observing through a window — your SLP will guide you on what works best for your child."
+    },
+    {
+      "question": "How can I practice speech goals at home?",
+      "answer": "Read books aloud and pause for your child to fill in words. Narrate daily activities ('We're putting on shoes!'). Practice target sounds during play. Use the home program your SLP provides — even 10 minutes of daily practice at home makes a big difference in your child's progress."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+---
+layout: base.njk
+title: Contact Us
+description: "Contact WellCare & Nurture Pediatric Therapy in Colorado Springs. Schedule a free screening, request information about ABA, OT, PT or speech therapy. Call (719) 598-5555. Two convenient locations."
+permalink: /contact/
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Reach out today!</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width: 900px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+      <!-- Contact Info -->
+      <div>
+        <h2>Get In Touch</h2>
+        <p style="margin-bottom: 2rem;">Whether you have questions about our services, want to schedule a consultation, or need more information, we're here to help.</p>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h3>📞 Phone</h3>
+          <p><a href="tel:{{ settings.phone | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}">{{ settings.phone }}</a></p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h3>✉ Email</h3>
+          <p><a href="mailto:{{ settings.email }}">{{ settings.email }}</a></p>
+        </div>
+
+        <h3 style="margin-top: 2rem;">📍 Locations</h3>
+        {% for loc in settings.locations %}
+        <div style="margin-bottom: 1rem; padding: 1rem; background: var(--bg-lighter); border-radius: 8px;">
+          <strong>{{ loc.name }}</strong><br>
+          {{ loc.address }}<br>
+          {{ loc.city }}, {{ loc.state }} {{ loc.zip }}<br>
+          <a href="{{ loc.mapUrl }}" target="_blank" rel="noopener">🗺️ Get Directions</a>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Contact Form -->
+      <div>
+        <h2>Send Us a Message</h2>
+        <form class="contact-form" name="contact" method="POST" data-netlify="true" id="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="service">Service of Interest</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option value="aba">Applied Behavior Analysis (ABA)</option>
+              <option value="ot">Occupational Therapy</option>
+              <option value="pt">Physical Therapy</option>
+              <option value="speech">Speech-Language Pathology</option>
+              <option value="other">Other / General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message ✉</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

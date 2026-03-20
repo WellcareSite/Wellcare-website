@@ -1,0 +1,270 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  # ── Team Members ──
+  - name: "team"
+    label: "Team Members"
+    folder: "src/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role / Title", name: "role", widget: "string" }
+      - { label: "Credentials", name: "credentials", widget: "string", required: false }
+      - { label: "Bio", name: "bio", widget: "text" }
+      - { label: "Photo", name: "photo", widget: "image", required: false }
+      - { label: "Display Order", name: "order", widget: "number", value_type: "int", default: 10 }
+
+  # ── Blog Posts ──
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "WellCare & Nurture Team" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
+      - { label: "Cover Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "post" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
+
+  # ── ABA Page ──
+  - name: "serviceAba"
+    label: "ABA Page"
+    file: "src/_data/serviceAba.json"
+    description: "Edit the ABA Therapy service page"
+    fields:
+      - { label: "Page Title", name: "heroTitle", widget: "string" }
+      - { label: "Subtitle", name: "heroSubtitle", widget: "string" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text" }
+      - { label: "Page Image", name: "image", widget: "image" }
+      - { label: "Page Content", name: "content", widget: "markdown" }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+
+  # ── OT Page ──
+  - name: "serviceOt"
+    label: "OT Page"
+    file: "src/_data/serviceOt.json"
+    description: "Edit the Occupational Therapy service page"
+    fields:
+      - { label: "Page Title", name: "heroTitle", widget: "string" }
+      - { label: "Subtitle", name: "heroSubtitle", widget: "string" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text" }
+      - { label: "Page Image", name: "image", widget: "image" }
+      - { label: "Page Content", name: "content", widget: "markdown" }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+
+  # ── PT Page ──
+  - name: "servicePt"
+    label: "PT Page"
+    file: "src/_data/servicePt.json"
+    description: "Edit the Physical Therapy service page"
+    fields:
+      - { label: "Page Title", name: "heroTitle", widget: "string" }
+      - { label: "Subtitle", name: "heroSubtitle", widget: "string" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text" }
+      - { label: "Page Image", name: "image", widget: "image" }
+      - { label: "Page Content", name: "content", widget: "markdown" }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+
+  # ── Speech Page ──
+  - name: "serviceSpeech"
+    label: "Speech Page"
+    file: "src/_data/serviceSpeech.json"
+    description: "Edit the Speech-Language Pathology service page"
+    fields:
+      - { label: "Page Title", name: "heroTitle", widget: "string" }
+      - { label: "Subtitle", name: "heroSubtitle", widget: "string" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text" }
+      - { label: "Page Image", name: "image", widget: "image" }
+      - { label: "Page Content", name: "content", widget: "markdown" }
+      - label: "Highlights"
+        name: "highlights"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Emoji Icon", name: "icon", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+
+  # ── Parent Resources ──
+  - name: "parentResources"
+    label: "Parent Resources"
+    file: "src/_data/parentResources.json"
+    description: "Manage parent guides shown on the Resources page"
+    fields:
+      - label: "Guides"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Emoji Icon", name: "icon", widget: "string", hint: "e.g. 📋 🎒 🏠" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+
+  # ── Benefits ──
+  - name: "benefits"
+    label: "Employee Benefits"
+    file: "src/_data/benefits.json"
+    description: "Manage benefits listed on the Careers page"
+    fields:
+      - label: "Benefits"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Emoji Icon", name: "icon", widget: "string", hint: "e.g. 🏥 🦷 💰" }
+          - { label: "Benefit Name", name: "name", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+
+  # ── Culture Photos ──
+  - name: "culturePhotos"
+    label: "Culture Photos"
+    file: "src/_data/culturePhotos.json"
+    description: "Manage team culture photos on the Careers page"
+    fields:
+      - label: "Photos"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Caption", name: "caption", widget: "string" }
+          - label: "Size"
+            name: "size"
+            widget: "select"
+            options:
+              - { label: "Full Width (large)", value: "large" }
+              - { label: "Half Width (normal)", value: "normal" }
+              - { label: "Full Width (wide)", value: "wide" }
+
+  # ── Insurance Partners ──
+  - name: "insurance"
+    label: "Insurance Partners"
+    file: "src/_data/insurance.json"
+    description: "Manage insurance partner logos shown on the site"
+    fields:
+      - label: "Partners"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+
+  # ── Community Partners ──
+  - name: "communityPartners"
+    label: "Community Partners"
+    file: "src/_data/communityPartners.json"
+    description: "Manage community partner logos shown in the footer"
+    fields:
+      - label: "Partners"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - { label: "Website URL", name: "url", widget: "string", required: false }
+
+  # ── Community Resources ──
+  - name: "resources"
+    label: "Community Resources"
+    file: "src/_data/resources.json"
+    description: "Manage community resources shown on the Resources page"
+    fields:
+      - label: "Resources"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - label: "Category"
+            name: "category"
+            widget: "select"
+            options:
+              - { label: "✂️ Sensory-Friendly Services", value: "sensory-friendly" }
+              - { label: "🍎 Food Resources", value: "food-resources" }
+              - { label: "🎉 Events & Activities", value: "events-activities" }
+              - { label: "💙 Support & Advocacy", value: "support-advocacy" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "Website URL", name: "url", widget: "string", required: false }
+
+  # ── Site Settings ──
+  - name: "settings"
+    label: "Site Settings"
+    file: "src/_data/settings.json"
+    description: "Global site settings (phone, email, social links, locations)"
+    fields:
+      - { label: "Site Name", name: "siteName", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Phone", name: "phone", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Screening Form URL", name: "screeningUrl", widget: "string", hint: "Link for the 'Schedule Your Free Screening' buttons" }
+      - { label: "Indeed Reviews URL", name: "indeedUrl", widget: "string", required: false, hint: "Link to your Indeed reviews page" }
+      - { label: "Indeed Rating", name: "indeedRating", widget: "string", required: false, hint: "e.g. 4.8" }
+      - { label: "Glassdoor Reviews URL", name: "glassdoorUrl", widget: "string", required: false, hint: "Link to your Glassdoor reviews page" }
+      - { label: "Glassdoor Rating", name: "glassdoorRating", widget: "string", required: false, hint: "e.g. 4.4" }
+      - { label: "Apply Now URL", name: "applyUrl", widget: "string", required: false, hint: "Link for the Apply Now button (e.g. your Indeed hiring page)" }
+      - label: "Social Media"
+        name: "social"
+        widget: "object"
+        fields:
+          - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+          - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+          - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+      - label: "Locations"
+        name: "locations"
+        widget: "list"
+        fields:
+          - { label: "Location Name", name: "name", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "City", name: "city", widget: "string" }
+          - { label: "State", name: "state", widget: "string" }
+          - { label: "Zip Code", name: "zip", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Google Maps URL", name: "mapUrl", widget: "string" }
+          - { label: "Google Review URL", name: "reviewUrl", widget: "string", required: false, hint: "Link for the 'Leave a Review' button" }
+
+  # ── Testimonials ──
+  - name: "testimonials"
+    label: "Testimonials"
+    file: "src/_data/testimonials.json"
+    description: "Manage family testimonials shown on the homepage"
+    fields:
+      - label: "Testimonials"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Quote", name: "quote", widget: "text" }
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Service", name: "service", widget: "string", required: false }
+          - { label: "Stars (1-5)", name: "stars", widget: "number", value_type: "int", default: 5, min: 1, max: 5 }

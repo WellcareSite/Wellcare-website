@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
+  <!-- TRICARE logo -->
+  <!-- Red waves -->
+  <g fill="none" stroke="#BF0D3E" stroke-width="4" stroke-linecap="round">
+    <path d="M60,80 Q90,65 120,80 Q150,95 180,80"/>
+    <path d="M60,95 Q90,80 120,95 Q150,110 180,95"/>
+    <path d="M60,110 Q90,95 120,110 Q150,125 180,110"/>
+  </g>
+  <!-- Blue stars -->
+  <g fill="#003B71">
+    <polygon points="215,45 220,60 236,60 223,70 228,85 215,75 202,85 207,70 194,60 210,60"/>
+    <polygon points="240,30 244,42 257,42 247,50 250,62 240,54 230,62 233,50 223,42 236,42"/>
+    <polygon points="260,55 264,67 277,67 267,75 270,87 260,79 250,87 253,75 243,67 256,67"/>
+  </g>
+  <!-- Text -->
+  <text x="150" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#003B71" letter-spacing="6">TRICARE</text>
+  <text x="243" y="155" font-family="Arial, sans-serif" font-size="14" fill="#003B71">®</text>
+</svg>

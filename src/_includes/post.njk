@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: Blog Post
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <p>{{ date | date("MMMM d, yyyy") if date else "" }}{% if author %} • {{ author }}{% endif %}</p>
+  </div>
+</section>
+
+<section class="content-page">
+  <div class="container">
+    {% if image %}
+    <img src="{{ image }}" alt="{{ title }}" style="border-radius: 12px; margin-bottom: 2rem; width: 100%; max-height: 400px; object-fit: cover;">
+    {% endif %}
+    {{ content | safe }}
+  </div>
+</section>

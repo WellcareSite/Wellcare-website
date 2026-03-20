@@ -1,0 +1,39 @@
+{
+  "siteName": "WellCare & Nurture",
+  "tagline": "Empowering kids, supporting families, changing lives",
+  "phone": "(719) 598-5555",
+  "email": "info@wellcareco.com",
+  "screeningUrl": "/contact/",
+  "indeedUrl": "https://www.indeed.com/cmp/Wellcare-&-Nurture/reviews",
+  "indeedRating": "4.8",
+  "glassdoorUrl": "https://www.glassdoor.com/Reviews/WellCare-and-Nurture-Reviews-E9702498.htm",
+  "glassdoorRating": "4.4",
+  "applyUrl": "",
+  "social": {
+    "facebook": "https://www.facebook.com/wellcareco",
+    "instagram": "https://www.instagram.com/wellcareco",
+    "linkedin": "https://www.linkedin.com/company/wellcareco"
+  },
+  "locations": [
+    {
+      "name": "Powers Clinic",
+      "address": "1930 Frequent Flyer Point",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": "80915",
+      "phone": "(719) 598-5555",
+      "mapUrl": "https://maps.google.com/?q=1930+Frequent+Flyer+Point+Colorado+Springs+CO+80915",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Academy Clinic",
+      "address": "2105 Academy Circle",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": "80909",
+      "phone": "(719) 598-5555",
+      "mapUrl": "https://maps.google.com/?q=2105+Academy+Circle+Colorado+Springs+CO+80909",
+      "reviewUrl": ""
+    }
+  ]
+}

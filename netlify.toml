@@ -1,5 +1,5 @@
 [build]
-  command = "npx @11ty/eleventy"
+  command = "npx @11ty/eleventy --input=src --output=_site"
   publish = "_site"
 
 [dev]

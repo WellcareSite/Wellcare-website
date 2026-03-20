@@ -7,6 +7,7 @@
   <title>{{ title }} | {{ settings.siteName }}</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://www.wellcareco.com{{ page.url }}">
@@ -124,5 +125,16 @@
   {% include "footer.njk" %}
 
   <script src="/js/main.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>

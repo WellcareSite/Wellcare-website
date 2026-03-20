@@ -1,4 +1,4 @@
-[
+{"items": [
   {
     "icon": "🏥",
     "name": "Medical Insurance",
@@ -55,3 +55,4 @@
     "description": "Helping you pay down student loans so you can focus on what matters most — your career and your clients"
   }
 ]
+}

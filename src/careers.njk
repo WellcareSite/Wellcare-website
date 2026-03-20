@@ -32,7 +32,7 @@ permalink: /careers/
 
     <h3 style="margin-top: 2rem;">Benefits</h3>
     <div class="benefits-grid" style="margin-top: 1rem;">
-      {% for b in benefits %}
+      {% for b in benefits.items %}
       <div class="benefit-item">
         <span class="icon">{{ b.icon }}</span>
         <div>
@@ -47,7 +47,7 @@ permalink: /careers/
     <p>We celebrate our team through recognition programs, team-building events, and celebrating work anniversaries and milestones. Our multi-disciplinary collaboration means you'll always be learning from colleagues across specialties.</p>
 
     <div class="culture-gallery">
-      {% for photo in culturePhotos %}
+      {% for photo in culturePhotos.items %}
       <div class="culture-photo {{ photo.size }}">
         <img src="{{ photo.image }}" alt="{{ photo.caption }}">
         <div class="culture-caption">{{ photo.caption }}</div>

@@ -21,7 +21,7 @@ permalink: /resources/
     </div>
 
     <div style="display: grid; gap: 1.5rem;">
-      {% for guide in parentResources %}
+      {% for guide in parentResources.items %}
       <details class="faq-item" style="background: white;">
         <summary style="font-size: 1.05rem;">{{ guide.icon }} {{ guide.title }}</summary>
         <div class="faq-answer">
@@ -52,7 +52,7 @@ permalink: /resources/
         <summary style="font-size: 1.05rem;">✂️ Sensory-Friendly Services</summary>
         <div class="faq-answer">
           <p style="margin-bottom: 1rem; color: var(--text-secondary);">Local businesses that create welcoming, sensory-friendly environments for children with special needs.</p>
-          {% for r in resources %}
+          {% for r in resources.items %}
             {% if r.category == "sensory-friendly" %}
             <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
               <strong>{{ r.name }}</strong>
@@ -70,7 +70,7 @@ permalink: /resources/
         <summary style="font-size: 1.05rem;">🍎 Food Resources</summary>
         <div class="faq-answer">
           <p style="margin-bottom: 1rem; color: var(--text-secondary);">Local food assistance programs for families in need.</p>
-          {% for r in resources %}
+          {% for r in resources.items %}
             {% if r.category == "food-resources" %}
             <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
               <strong>{{ r.name }}</strong>
@@ -88,7 +88,7 @@ permalink: /resources/
         <summary style="font-size: 1.05rem;">🎉 Sensory-Friendly Events & Activities</summary>
         <div class="faq-answer">
           <p style="margin-bottom: 1rem; color: var(--text-secondary);">Inclusive events and venues designed for children with sensory sensitivities.</p>
-          {% for r in resources %}
+          {% for r in resources.items %}
             {% if r.category == "events-activities" %}
             <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
               <strong>{{ r.name }}</strong>
@@ -106,7 +106,7 @@ permalink: /resources/
         <summary style="font-size: 1.05rem;">💙 Support & Advocacy</summary>
         <div class="faq-answer">
           <p style="margin-bottom: 1rem; color: var(--text-secondary);">Organizations providing advocacy, education, and support for families navigating special needs.</p>
-          {% for r in resources %}
+          {% for r in resources.items %}
             {% if r.category == "support-advocacy" %}
             <div style="padding: 0.75rem 0; border-top: 1px solid var(--border-color);">
               <strong>{{ r.name }}</strong>

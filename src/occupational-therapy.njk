@@ -53,7 +53,7 @@ permalink: /occupational-therapy/
       <h2>Insurance Partners</h2>
     </div>
     <div class="partners-grid">
-      {% for partner in insurance %}
+      {% for partner in insurance.items %}
         <div class="partner-badge">
           {% if partner.logo %}
             <img src="{{ partner.logo }}" alt="{{ partner.name }}" class="partner-logo">

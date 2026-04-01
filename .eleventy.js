@@ -13,9 +13,15 @@ module.exports = function(eleventyConfig) {
   if (prefix) {
     eleventyConfig.addTransform("ghpages-paths", function(content) {
       if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
-        return content
-          .replace(/(href|src|action)="\/(?!\/)/g, `$1="${prefix}/`)
-          .replace(/url\(\/(?!\/)/g, `url(${prefix}/`);
+        // Rewrite href, src, action attributes
+        content = content.replace(/(href|src|action)="\/(?!\/)/g, '$1="' + prefix + '/');
+        // Rewrite url('/path') in inline styles (single quotes)
+        content = content.replace(/url\('\/(?!\/)/g, "url('" + prefix + '/');
+        // Rewrite url("/path") in inline styles (double quotes)
+        content = content.replace(/url\("\/(?!\/)/g, 'url("' + prefix + '/');
+        // Rewrite url(/path) without quotes
+        content = content.replace(/url\(\/(?!\/)/g, 'url(' + prefix + '/');
+        return content;
       }
       return content;
     });

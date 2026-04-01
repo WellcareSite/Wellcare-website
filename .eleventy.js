@@ -45,6 +45,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    pathPrefix: process.env.GITHUB_PAGES ? "/Wellcare-website/" : "/",
     dir: {
       input: "src",
       output: "_site",

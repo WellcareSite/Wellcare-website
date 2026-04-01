@@ -8,6 +8,19 @@ module.exports = function(eleventyConfig) {
     return md.render(content);
   });
 
+  // GitHub Pages path prefix rewriting
+  const prefix = process.env.GITHUB_PAGES ? "/Wellcare-website" : "";
+  if (prefix) {
+    eleventyConfig.addTransform("ghpages-paths", function(content) {
+      if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
+        return content
+          .replace(/(href|src|action)="\/(?!\/)/g, `$1="${prefix}/`)
+          .replace(/url\(\/(?!\/)/g, `url(${prefix}/`);
+      }
+      return content;
+    });
+  }
+
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");

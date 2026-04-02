@@ -1,10 +1,16 @@
 ---
 name: Brittani Burks
 role: Clinical Director
-bio: "Brittani Is our wonderful clinical director. she da best and does
-  everything i want her too and loves chocolate and akk rhw w wiurwbwe wje wjhwe
-  w we ujhewuwhw. uehwuwhe wuhwhu wueh weuwh wuh eu w. wuhe ww euewh ewu ehe uw
-  ewhue wuhw whu whw huew wuhw euwh euwhe wuh "
+bio: "Brittani Burks is a Board Certified Behavior Analyst and Director of
+  Clinical Operations at WellCare, where she leads clinical programs and
+  supports the growth of high-quality, multidisciplinary therapy services. She
+  brings nearly a decade of experience in applied behavior analysis across
+  direct care, supervision, and leadership roles. She earned her Master’s degree
+  in Education with an emphasis in Applied Behavior Analysis from Arizona State
+  University and holds a background in biochemistry from the University of
+  Colorado Colorado Springs. Brittani is committed to fostering collaboration,
+  integrity, and growth within the teams she leads and the families she serves.
+  "
 photo: /images/dsc_3876-3-1-.jpeg
 order: 10
 ---

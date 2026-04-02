@@ -1,6 +1,7 @@
 ---
 name: Brittani Burks
 role: Clinical Director
+credentials: BCBA
 bio: "Brittani Burks is a Board Certified Behavior Analyst and Director of
   Clinical Operations at WellCare, where she leads clinical programs and
   supports the growth of high-quality, multidisciplinary therapy services. She

@@ -3,7 +3,7 @@
    ============================================ */
 
 /* ---------- Google Fonts ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
@@ -150,27 +150,31 @@ p { margin-bottom: var(--space-md); }
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .logo-area {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: 0;
 }
 
 .logo {
-  height: 85px;
+  height: 95px;
   width: auto;
 }
 
 .tagline {
-  font-family: var(--font-heading);
+  font-family: 'Arial Narrow', Arial, 'Helvetica Neue', sans-serif;
   font-style: italic;
+  font-weight: 700;
   color: var(--accent-blue);
   font-size: 1.05rem;
-  max-width: 280px;
+  max-width: 300px;
   line-height: 1.4;
+  align-self: center;
+  margin-top: 30px;
+  margin-left: -15px;
 }
 
 .header-right {

@@ -2,7 +2,8 @@ backend:
   name: github
   repo: WellcareSite/Wellcare-website
   branch: main
-
+  base_url: https://wellcare-cms-auth.wellcare-auth.workers.dev
+  auth_endpoint: /auth
 media_folder: "src/images"
 public_folder: "/images"
 

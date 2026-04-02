@@ -140,7 +140,7 @@ p { margin-bottom: var(--space-md); }
 /* ---------- Top Header Bar ---------- */
 .top-header {
   background: var(--bg-white);
-  padding: var(--space-md) 0;
+  padding: 6px 0;
   position: relative;
   z-index: 100;
 }
@@ -160,7 +160,7 @@ p { margin-bottom: var(--space-md); }
 }
 
 .logo {
-  height: 70px;
+  height: 85px;
   width: auto;
 }
 

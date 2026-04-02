@@ -135,7 +135,7 @@ p { margin-bottom: var(--space-md); }
 .rainbow-bar .rb-orange { background: var(--orange); }
 .rainbow-bar .rb-yellow { background: var(--yellow); }
 .rainbow-bar .rb-green { background: var(--green); }
-.rainbow-bar .rb-navy { background: var(--navy); }
+.rainbow-bar .rb-navy { display: none; }
 
 /* ---------- Top Header Bar ---------- */
 .top-header {
@@ -157,6 +157,7 @@ p { margin-bottom: var(--space-md); }
   display: flex;
   align-items: center;
   gap: 0;
+  margin-left: -20px;
 }
 
 .logo {

@@ -42,7 +42,8 @@
         <h4 style="margin-top: 1.5rem;">Contact</h4>
         <p>
           📞 <a href="tel:{{ settings.phone | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}">{{ settings.phone }}</a><br>
-          ✉ <a href="mailto:{{ settings.email }}">{{ settings.email }}</a>
+          ✉ <a href="mailto:{{ settings.email }}">{{ settings.email }}</a><br>
+          💬 <a href="#" class="footer-text-us" onclick="document.querySelector('.weave-text-connect-button')?.click(); return false;">Text Us</a>
         </p>
       </div>
     </div>

@@ -313,6 +313,43 @@ p { margin-bottom: var(--space-md); }
   padding: 8px;
 }
 
+/* Text Us button in nav */
+.nav-text-us {
+  margin-left: auto;
+}
+.btn-text-us {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 18px !important;
+  background: var(--green);
+  color: white !important;
+  border-radius: 50px;
+  font-size: 0.85rem !important;
+  font-weight: 600;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  border-bottom: none !important;
+  transition: all var(--transition) !important;
+  box-shadow: var(--shadow-sm);
+}
+.btn-text-us:hover {
+  background: #6fa33a;
+  color: white !important;
+  transform: translateY(-2px) !important;
+  box-shadow: var(--shadow-md);
+  border-bottom-color: transparent !important;
+}
+
+/* Footer Text Us link */
+.footer-text-us {
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+.footer-text-us:hover {
+  color: white;
+}
+
 /* ---------- Hero Section ---------- */
 .hero {
   position: relative;

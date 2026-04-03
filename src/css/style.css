@@ -174,8 +174,8 @@ p { margin-bottom: var(--space-md); }
   max-width: 300px;
   line-height: 1.4;
   align-self: center;
-  margin-top: 30px;
-  margin-left: -15px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .header-right {

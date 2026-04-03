@@ -186,14 +186,14 @@ description: "Pediatric therapy clinic in Colorado Springs — ABA therapy, occu
 <!-- Insurance & Partners Section -->
 <section class="section section-light" id="insurance-section" style="padding-top: 1.5rem;">
   <div class="container">
-    <div class="section-header">
+    <div class="section-header" style="margin-bottom: 1rem;">
       <h2>Insurance</h2>
     </div>
     <div class="partners-grid">
       {% for partner in insurance.items %}
         <div class="partner-badge">
           {% if partner.logo %}
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}" class="partner-logo">
+            <img src="{{ partner.logo }}" alt="{{ partner.name }}" class="partner-logo" {% if partner.name == "Aetna" %}style="height: 70px; width: 160px;"{% endif %}>
           {% else %}
             {{ partner.name }}
           {% endif %}

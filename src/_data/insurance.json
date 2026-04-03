@@ -11,6 +11,18 @@
     {
       "name": "TRICARE",
       "logo": "/images/partners/tricare.png"
+    },
+    {
+      "name": "Aetna",
+      "logo": "/images/partners/aetna.svg"
+    },
+    {
+      "name": "Cigna Healthcare",
+      "logo": "/images/partners/cigna.png"
+    },
+    {
+      "name": "BlueCross BlueShield",
+      "logo": "/images/partners/bluecross-blueshield.jpg"
     }
   ]
 }

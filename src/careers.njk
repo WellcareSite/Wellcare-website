@@ -22,15 +22,28 @@ permalink: /careers/
 <section class="section" style="padding-top: 0;">
   <div class="container" style="max-width: 900px;">
 
-    <!-- Employee Satisfaction Highlight -->
-    <div style="background: linear-gradient(135deg, #f0f8ff 0%, #e8f4fd 100%); border-radius: 16px; padding: 1.8rem 2rem; text-align: center; margin: 2rem auto 2.5rem; max-width: 700px; border: 2px solid var(--sky-blue); box-shadow: 0 4px 20px rgba(94,182,217,0.15);">
-      <div style="font-size: 3.5rem; font-weight: 800; color: var(--dark-blue); line-height: 1;">4.8</div>
-      <div style="font-size: 1.4rem; margin: 0.3rem 0 0.6rem; letter-spacing: 2px;">⭐⭐⭐⭐⭐</div>
-      <h2 style="font-size: 1.4rem; margin-bottom: 0.5rem; color: var(--dark-blue);">#1 Employee Satisfaction in Colorado Springs</h2>
-      <p style="margin: 0 0 1rem; color: var(--text-secondary); font-size: 1rem;">We take care of our team the same way we take care of our families.</p>
-      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        {% if settings.indeedUrl %}<a href="{{ settings.indeedUrl }}" target="_blank" rel="noopener" style="background: #1a3a5c; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">⭐ {{ settings.indeedRating }} on Indeed</a>{% endif %}
-        {% if settings.glassdoorUrl %}<a href="{{ settings.glassdoorUrl }}" target="_blank" rel="noopener" style="background: #0caa41; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">⭐ {{ settings.glassdoorRating }} on Glassdoor</a>{% endif %}
+    <!-- Employee Satisfaction Highlight — Testimonial Style -->
+    <div style="background: #edf2f7; border-radius: 14px; padding: 1.2rem 2rem 1rem; text-align: center; margin: 2rem auto 2.5rem; max-width: 520px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+      <p style="font-size: 1.5rem; font-weight: 700; color: #1a3a5c; line-height: 1.3; margin: 0 0.3rem 0.8rem; font-style: italic;"><span style="font-family: Georgia, serif; font-size: 2rem; opacity: 0.5; vertical-align: -0.1em;">&ldquo;</span> We take care of our team the same way we take care of our families. <span style="font-family: Georgia, serif; font-size: 2rem; opacity: 0.5; vertical-align: -0.1em;">&rdquo;</span></p>
+      <!-- Compact badge with flanking lines -->
+      <div style="display: flex; align-items: center; gap: 0; margin: 0;">
+        <div style="flex: 1; height: 1px; background: #c0d0de;"></div>
+        <div style="display: inline-flex; align-items: stretch; background: white; border: 2px solid #5eb6d9; border-radius: 8px; overflow: hidden; margin: 0 0.5rem; transform: scale(0.85);">
+          <!-- Left: 4.8 with stars below -->
+          <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0.4rem 1.2rem; border-right: 1px solid #d0dbe6;">
+            <div style="font-size: 1.7rem; font-weight: 800; color: #1a3a5c; line-height: 1;">4.8</div>
+            <div style="color: #f5a623; font-size: 0.7rem; letter-spacing: 1px; margin-top: 0.2rem;">⭐⭐⭐⭐⭐</div>
+          </div>
+          <!-- Right: tagline + buttons -->
+          <div style="text-align: left; padding: 0.4rem 0.6rem;">
+            <div style="color: #1a3a5c; font-weight: 700; font-size: 0.7rem; line-height: 1.25;">#1 Employee Satisfaction<br>in Colorado Springs</div>
+            <div style="display: flex; gap: 0.3rem; margin-top: 0.25rem;">
+              {% if settings.indeedUrl %}<a href="{{ settings.indeedUrl }}" target="_blank" rel="noopener" style="background: #1a3a5c; color: white; padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.6rem; font-weight: 600; text-decoration: none;">Indeed</a>{% endif %}
+              {% if settings.glassdoorUrl %}<a href="{{ settings.glassdoorUrl }}" target="_blank" rel="noopener" style="background: #0caa41; color: white; padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.6rem; font-weight: 600; text-decoration: none;">Glassdoor</a>{% endif %}
+            </div>
+          </div>
+        </div>
+        <div style="flex: 1; height: 1px; background: #c0d0de;"></div>
       </div>
     </div>
 

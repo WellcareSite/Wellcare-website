@@ -1268,7 +1268,7 @@ p { margin-bottom: var(--space-md); }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-2xl);
-  align-items: center;
+  align-items: start;
 }
 .service-detail.reverse {
   direction: rtl;

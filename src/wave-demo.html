@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wave Style Options</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Outfit', sans-serif; }
+    
+    .option-label {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #1a3a5c;
+      background: white;
+      letter-spacing: 1px;
+    }
+
+    .section-light { background: #f0f5fa; padding: 3rem 2rem; text-align: center; }
+    .section-blue { background: linear-gradient(135deg, #1a3a5c 0%, #2c5f8a 50%, #4a90d9 100%); padding: 3rem 2rem; text-align: center; color: white; }
+    .section-white { background: white; padding: 3rem 2rem; text-align: center; }
+    .section-dark { background: linear-gradient(135deg, #1a3a5c 0%, #2a5a8c 100%); padding: 3rem 2rem; text-align: center; color: white; }
+    
+    h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    p { opacity: 0.8; }
+
+    .wave-svg { display: block; width: 100%; line-height: 0; }
+    .wave-svg svg { display: block; width: 100%; }
+
+    hr { border: none; border-top: 3px dashed #ccc; margin: 0; }
+  </style>
+</head>
+<body>
+
+  <!-- ========== OPTION A: Gentle Single Wave ========== -->
+  <div class="option-label">🅰️ OPTION A — Gentle Single Wave</div>
+  
+  <div class="section-light">
+    <h2>Core Values</h2>
+    <p>Light background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style="height:80px;">
+      <path d="M0,60 C200,20 400,20 600,40 C800,60 1000,60 1200,20 L1200,80 L0,80 Z" fill="#1a3a5c"/>
+    </svg>
+  </div>
+  <div class="section-blue">
+    <h2>Our Services</h2>
+    <p>Blue background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style="height:80px;">
+      <path d="M0,20 C200,60 400,60 600,40 C800,20 1000,20 1200,60 L1200,80 L0,80 Z" fill="#f0f5fa"/>
+    </svg>
+  </div>
+  <div class="section-light">
+    <h2>Testimonials</h2>
+    <p>Light background section</p>
+  </div>
+
+  <hr>
+
+  <!-- ========== OPTION B: Layered Double Wave ========== -->
+  <div class="option-label">🅱️ OPTION B — Layered Double Wave</div>
+  
+  <div class="section-light">
+    <h2>Core Values</h2>
+    <p>Light background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="height:100px;">
+      <path d="M0,40 C300,100 600,0 900,60 C1050,90 1150,70 1200,80 L1200,120 L0,120 Z" fill="#2c5f8a" opacity="0.4"/>
+      <path d="M0,60 C300,120 600,20 900,80 C1050,105 1150,90 1200,100 L1200,120 L0,120 Z" fill="#1a3a5c"/>
+    </svg>
+  </div>
+  <div class="section-blue">
+    <h2>Our Services</h2>
+    <p>Blue background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="height:100px;">
+      <path d="M0,80 C300,20 600,120 900,60 C1050,30 1150,50 1200,40 L1200,120 L0,120 Z" fill="#d4e8f5" opacity="0.4"/>
+      <path d="M0,100 C300,40 600,120 900,80 C1050,55 1150,65 1200,60 L1200,120 L0,120 Z" fill="#f0f5fa"/>
+    </svg>
+  </div>
+  <div class="section-light">
+    <h2>Testimonials</h2>
+    <p>Light background section</p>
+  </div>
+
+  <hr>
+
+  <!-- ========== OPTION C: Smooth Flowing Curve ========== -->
+  <div class="option-label">🅲 OPTION C — Smooth Flowing Curve</div>
+  
+  <div class="section-light">
+    <h2>Core Values</h2>
+    <p>Light background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 100" preserveAspectRatio="none" style="height:90px;">
+      <path d="M0,100 C150,50 350,0 600,50 C850,100 1050,50 1200,0 L1200,100 Z" fill="#1a3a5c"/>
+    </svg>
+  </div>
+  <div class="section-blue">
+    <h2>Our Services</h2>
+    <p>Blue background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 100" preserveAspectRatio="none" style="height:90px;">
+      <path d="M0,0 C150,50 350,100 600,50 C850,0 1050,50 1200,100 L1200,100 L0,100 Z" fill="#f0f5fa"/>
+    </svg>
+  </div>
+  <div class="section-light">
+    <h2>Testimonials</h2>
+    <p>Light background section</p>
+  </div>
+
+  <hr>
+
+  <!-- ========== OPTION D: Organic Blob Wave ========== -->
+  <div class="option-label">🅳 OPTION D — Organic Blob Wave</div>
+  
+  <div class="section-light">
+    <h2>Core Values</h2>
+    <p>Light background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="height:100px;">
+      <path d="M0,80 Q200,0 400,60 T800,30 Q1000,10 1200,50 L1200,120 L0,120 Z" fill="#1a3a5c"/>
+    </svg>
+  </div>
+  <div class="section-blue">
+    <h2>Our Services</h2>
+    <p>Blue background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="height:100px;">
+      <path d="M0,50 Q200,120 400,60 T800,90 Q1000,110 1200,70 L1200,120 L0,120 Z" fill="#f0f5fa"/>
+    </svg>
+  </div>
+  <div class="section-light">
+    <h2>Testimonials</h2>
+    <p>Light background section</p>
+  </div>
+
+  <hr>
+
+  <!-- ========== OPTION E: Triple Layer Wave (Premium) ========== -->
+  <div class="option-label">🅴 OPTION E — Triple Layer Wave (Premium)</div>
+  
+  <div class="section-light">
+    <h2>Core Values</h2>
+    <p>Light background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 150" preserveAspectRatio="none" style="height:120px;">
+      <path d="M0,30 C300,90 600,10 900,50 C1050,70 1150,60 1200,65 L1200,150 L0,150 Z" fill="#4a90d9" opacity="0.3"/>
+      <path d="M0,50 C300,110 600,30 900,70 C1050,90 1150,80 1200,85 L1200,150 L0,150 Z" fill="#2c5f8a" opacity="0.5"/>
+      <path d="M0,70 C300,130 600,50 900,90 C1050,110 1150,100 1200,105 L1200,150 L0,150 Z" fill="#1a3a5c"/>
+    </svg>
+  </div>
+  <div class="section-blue">
+    <h2>Our Services</h2>
+    <p>Blue background section</p>
+  </div>
+  <div class="wave-svg">
+    <svg viewBox="0 0 1200 150" preserveAspectRatio="none" style="height:120px;">
+      <path d="M0,65 C300,10 600,90 900,50 C1050,30 1150,40 1200,35 L1200,150 L0,150 Z" fill="#8ecae6" opacity="0.3"/>
+      <path d="M0,85 C300,30 600,110 900,70 C1050,50 1150,60 1200,55 L1200,150 L0,150 Z" fill="#c5e8f5" opacity="0.5"/>
+      <path d="M0,105 C300,50 600,130 900,90 C1050,70 1150,80 1200,75 L1200,150 L0,150 Z" fill="#f0f5fa"/>
+    </svg>
+  </div>
+  <div class="section-light">
+    <h2>Testimonials</h2>
+    <p>Light background section</p>
+  </div>
+
+</body>
+</html>

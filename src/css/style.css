@@ -1238,6 +1238,23 @@ p { margin-bottom: var(--space-md); }
   position: relative;
   z-index: 1;
 }
+.page-hero-cta {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  padding: 14px 38px;
+  background: white !important;
+  color: var(--dark-blue) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  border: none;
+}
+.page-hero-cta:hover {
+  background: var(--dark-blue) !important;
+  color: white !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.28);
+}
 
 /* ---------- Content Page ---------- */
 .content-page {

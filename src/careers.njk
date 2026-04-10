@@ -9,6 +9,7 @@ permalink: /careers/
   <div class="container">
     <h1>Join Our Team</h1>
     <p>Make a difference in the lives of children and families every day</p>
+    <a href="{{ settings.applyUrl or ('mailto:' + settings.email + '?subject=Career%20Inquiry') }}" {% if settings.applyUrl %}target="_blank" rel="noopener"{% endif %} class="btn-cta page-hero-cta">Apply Now ✉</a>
   </div>
 </section>
 

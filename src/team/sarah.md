@@ -2,9 +2,16 @@
 name: Sarah PT, DPT
 role: Physical Therapy Team Coordinator
 credentials: PT, DPT
-bio: Sarah leads our physical therapy team with a focus on pediatric movement
-  development and developmental milestones. She works with children to enhance
-  their motor abilities and reach their full potential.
+bio: Sarah obtained her undergraduate degree in Developmental Psychological
+  Sciences where she studied child social and emotional development in the
+  context of family systems. This has carried into her Physical Therapy career,
+  as she integrates the knowledge of family systems into developing the PT plan
+  of care. Sarah’s clinical practice focuses on neurological diagnoses,
+  pediatric vestibular disorders, hypermobility and pediatric pelvic floor
+  conditions. Sarah values patient advocacy and access to adaptive recreation,
+  as she understands how difficult it can be to navigate resources and how
+  important access to adaptive recreational activities can be for client success
+  in physical therapy.
 photo: /images/dsc_3611.jpg
 order: 3
 ---

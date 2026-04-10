@@ -9,6 +9,6 @@ bio: "Brittani Burks is a Board Certified Behavior Analyst and Director of
   experience across direct care, supervision, and leadership roles. Brittani is
   committed to fostering collaboration, integrity, and growth within the teams
   she leads and the families she serves.  "
-photo: ""
+photo: /images/blog-placeholder.jpg
 order: 10
 ---

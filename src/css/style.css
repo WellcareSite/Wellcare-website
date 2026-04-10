@@ -1210,7 +1210,7 @@ p { margin-bottom: var(--space-md); }
 /* ---------- Page Hero (Inner Pages) ---------- */
 .page-hero {
   background: var(--gradient-hero);
-  padding: var(--space-3xl) 0;
+  padding: var(--space-2xl) 0 var(--space-3xl);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -1234,14 +1234,14 @@ p { margin-bottom: var(--space-md); }
   color: rgba(255,255,255,0.9);
   font-size: 1.1rem;
   max-width: 600px;
-  margin: var(--space-md) auto 0;
+  margin: var(--space-sm) auto 0;
   position: relative;
   z-index: 1;
 }
 .page-hero-cta {
   position: relative;
   z-index: 1;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   font-size: 1.1rem;
   padding: 14px 38px;
   background: white !important;

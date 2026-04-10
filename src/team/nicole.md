@@ -10,6 +10,6 @@ bio: Nicole brings over a decade of experience in applied behavior analysis,
   closely with families and multidisciplinary teams to ensure high-quality
   outcomes. Outside of work, she stays active with her three children, enjoying
   outdoor adventures and keeping up with their busy sports schedules.
-photo: /images/dsc_3529-3-1-.jpg
+photo: /images/dsc_3529_matched.jpg
 order: 4
 ---

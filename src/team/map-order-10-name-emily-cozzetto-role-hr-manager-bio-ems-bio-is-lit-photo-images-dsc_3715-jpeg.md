@@ -1,5 +1,5 @@
 ---
-name: Emily HBIC
+name: "Emily "
 role: HR Manager
 credentials: ""
 bio: Emily is an HR Manager bringing nearly 30 years of experience in hiring,

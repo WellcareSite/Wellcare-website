@@ -1,5 +1,5 @@
 ---
-name: Jenn, RN, BSN, CMSRN
+name: Jenn RN, BSN, CMSRN
 role: Case Management Coordinator
 credentials: " RN, BSN, CMSRN"
 bio: Jenn is a Registered Nurse who has worked in the field for almost 10 years.

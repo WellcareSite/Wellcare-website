@@ -1,19 +1,19 @@
 {
-  "siteName": "WellCare & Nurture",
-  "tagline": "Empowering kids, supporting families, changing lives",
-  "phone": "(719) 598-5555",
-  "email": "info@wellcareco.com",
-  "screeningUrl": "/contact/",
-  "indeedUrl": "https://www.indeed.com/cmp/Wellcare-&-Nurture/reviews",
+  "applyUrl": "",
   "indeedRating": "4.8",
   "glassdoorUrl": "https://www.glassdoor.com/Reviews/WellCare-and-Nurture-Reviews-E9702498.htm",
   "glassdoorRating": "4.4",
-  "applyUrl": "",
+  "indeedUrl": "https://www.indeed.com/cmp/Wellcare-&-Nurture/reviews",
   "social": {
-    "facebook": "https://www.facebook.com/wellcareco",
+    "facebook": "https://www.facebook.com/WellCareNurture/",
     "instagram": "https://www.instagram.com/wellcareco",
     "linkedin": "https://www.linkedin.com/company/wellcareco"
   },
+  "phone": "(719) 598-5555",
+  "tagline": "Empowering kids, supporting families, changing lives",
+  "siteName": "WellCare & Nurture Pediatric Therapy",
+  "screeningUrl": "/contact/",
+  "email": "info@wellcareco.com",
   "locations": [
     {
       "name": "Powers Clinic",

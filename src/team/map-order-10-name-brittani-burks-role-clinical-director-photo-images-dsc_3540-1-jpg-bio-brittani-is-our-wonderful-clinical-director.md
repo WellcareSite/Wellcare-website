@@ -1,6 +1,6 @@
 ---
-name: Brittani Burks, BCBA
-role: Clinical Director
+name: Brittani Burks, ME, BCBA
+role: Director of Clinical Operations
 credentials: BCBA
 bio: "Brittani Burks is a Board Certified Behavior Analyst and Director of
   Clinical Operations, where she leads administrative processes, clinical

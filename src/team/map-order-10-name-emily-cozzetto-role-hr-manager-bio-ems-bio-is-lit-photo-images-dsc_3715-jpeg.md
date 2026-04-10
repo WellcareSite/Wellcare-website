@@ -1,7 +1,7 @@
 ---
-name: Emily
+name: Emily HBIC
 role: HR Manager
-credentials: HBIC
+credentials: ""
 bio: Emily is an HR Manager bringing nearly 30 years of experience in hiring,
   training, and team development across multiple industries. With a Bachelor's
   in Family Studies and Human Services and certifications in Conflict and Trauma

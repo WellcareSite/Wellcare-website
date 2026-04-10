@@ -1,5 +1,5 @@
 ---
-name: Emily Cozzetto
+name: Emily
 role: HR Manager
 bio: Emily is an HR Manager bringing nearly 30 years of experience in hiring,
   training, and team development across multiple industries. With a Bachelor's

@@ -1,0 +1,970 @@
+{
+  "toolName": "Little Leaps",
+  "toolTagline": "Celebrate every leap forward",
+  "brandLine": "by WellCare & Nurture Pediatric Therapy",
+  "disclaimer": "Little Leaps is a fun, educational tool — not a medical screening or diagnosis. It's based on CDC developmental guidelines and designed to help you celebrate your child's growth milestones. Every child's journey is beautifully unique. You know your child best. If you ever have questions — even if every box is checked — our team is always here for a free, friendly conversation. This tool does not create a therapist-client relationship. Always discuss your child's development with your pediatrician or a qualified professional. Milestone data: CDC \"Learn the Signs. Act Early.\" (2022 revision). Activities informed by ASHA, AOTA, APTA, and evidence-based ABA practices.",
+  "disclaimerShort": "This is an educational tool, not a diagnosis. Every child is unique!",
+  "scoring": {
+    "soaring": { "min": 80, "label": "Soaring!", "emoji": "🌟", "color": "#38a169", "message": "Your little one is soaring! 🎉 So many amazing milestones happening. Keep celebrating every moment — and remember, we're always here if you have questions about their journey." },
+    "growing": { "min": 50, "label": "Growing Strong", "emoji": "🌱", "color": "#319795", "message": "Your child is growing strong in so many areas! 💪 A few milestones are still on their way — and that's totally normal. If you'd like to explore these areas together, a free 15-minute check-in is a great next step." },
+    "blooming": { "min": 0, "label": "Room to Bloom", "emoji": "🌻", "color": "#d69e2e", "message": "Every child blooms in their own time 🌻 Some milestones are still unfolding, and early exploration can unlock incredible growth. Our free screening is a friendly, no-pressure conversation about how we can help your little one thrive." }
+  },
+  "alwaysMessage": "You know your child best. Trust your instincts — if anything feels worth exploring, we're always here.",
+  "screeningCTA": {
+    "text": "Schedule Your Free Screening",
+    "subtext": "Free, friendly, no obligation — just a conversation about your child's journey"
+  },
+  "disciplines": {
+    "speech": { "id": "speech", "label": "Speech & Language", "shortLabel": "Speech", "icon": "🗣️", "color": "#5eb6d9", "colorDark": "#2b8cb5" },
+    "physical": { "id": "physical", "label": "Movement & Physical", "shortLabel": "Movement", "icon": "🏃", "color": "#e8735a", "colorDark": "#c94d35" },
+    "cognitive": { "id": "cognitive", "label": "Thinking & Daily Skills", "shortLabel": "Thinking", "icon": "🧩", "color": "#9b6fcf", "colorDark": "#7b4fb5" },
+    "social": { "id": "social", "label": "Social & Emotional", "shortLabel": "Social", "icon": "💛", "color": "#e8b84d", "colorDark": "#c99a2e" }
+  },
+  "ageRanges": [
+    {
+      "id": "2-months",
+      "label": "2 Months",
+      "shortLabel": "2mo",
+      "order": 1,
+      "milestones": {
+        "speech": [
+          { "id": "s-2m-1", "text": "Makes sounds other than crying", "activities": [
+            { "title": "Talk & Pause", "emoji": "🗣️", "desc": "Talk to your baby in a sing-song voice, then pause. Wait for them to make a sound back — any sound counts!", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Sound Play", "emoji": "🎵", "desc": "Make gentle sounds — coo, hum, click your tongue. Watch for their mouth to move or a small sound to come out.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-2m-2", "text": "Reacts to loud sounds", "activities": [
+            { "title": "Clap & Watch", "emoji": "👏", "desc": "Clap your hands gently near (not too close to) your baby. Watch for a startle, blink, or head turn.", "materials": "Nothing needed!", "time": "2 min", "source": "ASHA" },
+            { "title": "Rattle Shake", "emoji": "🎶", "desc": "Shake a rattle or crinkle paper to one side. See if they turn toward the sound. Try the other side!", "materials": "Rattle or crinkly paper", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-2m-3", "text": "Makes cooing sounds when content", "activities": [
+            { "title": "Coo Conversation", "emoji": "😊", "desc": "When your baby coos, coo back! Mirror their sounds and add new ones. It's their first 'conversation.'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Calm Narration", "emoji": "💬", "desc": "During calm alert times, narrate what you see: 'You're so happy! I see your little smile!' They start cooing along.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-2m-4", "text": "Quiets or smiles when spoken to", "activities": [
+            { "title": "Face-to-Face Chat", "emoji": "👶", "desc": "Hold your face 8-12 inches from theirs. Talk softly and smile. Watch for them to quiet, focus, or smile back.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Singing Calm", "emoji": "🎶", "desc": "When they're fussy, try singing softly. A familiar tune helps them learn to calm when they hear your voice.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-2m-1", "text": "Holds head up when on tummy", "activities": [
+            { "title": "Tummy Time Face", "emoji": "🤗", "desc": "Lay them on their tummy and get on the floor at their eye level. Smile and talk — they'll lift that head to see you!", "materials": "Blanket or play mat", "time": "3 min", "source": "APTA" },
+            { "title": "Chest Tummy Time", "emoji": "💕", "desc": "Recline on the couch and lay baby on your chest, tummy down. They'll push up to look at your face!", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-2m-2", "text": "Moves both arms and both legs", "activities": [
+            { "title": "Bicycle Legs", "emoji": "🚴", "desc": "Gently cycle their legs while they lie on their back. Sing a song while you do it — they love the rhythm!", "materials": "Nothing needed!", "time": "3 min", "source": "APTA" },
+            { "title": "Arm Stretches", "emoji": "🙌", "desc": "Gently stretch their arms out wide, then cross them over their chest. Do it slowly and rhythmically.", "materials": "Nothing needed!", "time": "3 min", "source": "APTA" }
+          ]},
+          { "id": "p-2m-3", "text": "Briefly opens hands", "activities": [
+            { "title": "Finger Touch", "emoji": "🤚", "desc": "Gently stroke the back of their hand from wrist to fingertip. This encourages them to open their fist.", "materials": "Nothing needed!", "time": "2 min", "source": "AOTA" },
+            { "title": "Palm Play", "emoji": "✋", "desc": "Place a soft cloth or your finger in their palm. They'll grip and release — both are great practice!", "materials": "Soft cloth", "time": "3 min", "source": "AOTA" }
+          ]},
+          { "id": "p-2m-4", "text": "Can hold head up briefly when held upright", "activities": [
+            { "title": "Upright Cuddle", "emoji": "🧸", "desc": "Hold baby upright against your shoulder. They'll practice lifting their head to look around. Support their neck!", "materials": "Nothing needed!", "time": "3 min", "source": "APTA" },
+            { "title": "Mirror Look", "emoji": "🪞", "desc": "Hold them upright in front of a mirror. They'll try to lift their head to see the interesting face!", "materials": "Mirror", "time": "3 min", "source": "APTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-2m-1", "text": "Watches you as you move", "activities": [
+            { "title": "Slow Dance", "emoji": "💃", "desc": "Move slowly from side to side while facing your baby. Watch their eyes follow you — that's tracking!", "materials": "Nothing needed!", "time": "2 min", "source": "AOTA" },
+            { "title": "Peek Around", "emoji": "🙈", "desc": "Move to different spots around them and call their name. See if their eyes search for you.", "materials": "Nothing needed!", "time": "3 min", "source": "AOTA" }
+          ]},
+          { "id": "c-2m-2", "text": "Looks at a toy for several seconds", "activities": [
+            { "title": "High Contrast Cards", "emoji": "🃏", "desc": "Hold a black-and-white image 8-12 inches from their face. Babies this age love high contrast patterns!", "materials": "Black & white images (print or phone)", "time": "3 min", "source": "AOTA" },
+            { "title": "Colorful Toy Hold", "emoji": "🧸", "desc": "Hold a bright toy steady in front of them. Give them time to focus — even 5-10 seconds is great!", "materials": "Colorful toy", "time": "3 min", "source": "AOTA" }
+          ]},
+          { "id": "c-2m-3", "text": "Follows objects with eyes side to side", "activities": [
+            { "title": "Slow Toy Tracking", "emoji": "👀", "desc": "Hold a bright toy in front of their face and slowly move it side to side. Go slowly — let their eyes catch up!", "materials": "Bright toy or rattle", "time": "3 min", "source": "AOTA" },
+            { "title": "Face Follow", "emoji": "😊", "desc": "Move your face slowly from one side to the other while talking. Your face is the best thing to track!", "materials": "Nothing needed!", "time": "2 min", "source": "AOTA" }
+          ]},
+          { "id": "c-2m-4", "text": "Shows interest in faces", "activities": [
+            { "title": "Face Time", "emoji": "👨‍👩‍👧", "desc": "During alert times, hold your face close and make different expressions — smile, open mouth wide, stick out tongue.", "materials": "Nothing needed!", "time": "3 min", "source": "AOTA" },
+            { "title": "Family Faces", "emoji": "📸", "desc": "Show them photos of family members' faces on your phone. Hold still and let them study each face.", "materials": "Phone with photos", "time": "3 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-2m-1", "text": "Calms down when spoken to or picked up", "activities": [
+            { "title": "Voice Comfort", "emoji": "🤱", "desc": "When they're fussy, try your voice first: 'I'm here, you're okay.' Sometimes sound alone can calm them.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Swaddle & Talk", "emoji": "🧸", "desc": "Swaddle snugly and talk softly. The combo of containment + your voice is very soothing at this age.", "materials": "Swaddle blanket", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-2m-2", "text": "Looks at your face", "activities": [
+            { "title": "Feeding Gaze", "emoji": "👀", "desc": "During feeding, make eye contact and talk softly. This is prime bonding and face-study time.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Close Conversations", "emoji": "💛", "desc": "Get face-to-face during calm moments. Simply being present and close encourages them to study your features.", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-2m-3", "text": "Seems happy to see you when you walk up", "activities": [
+            { "title": "Happy Hello", "emoji": "😄", "desc": "When you approach, use a bright voice: 'Hi baby!' Watch for their body to get excited — kicking legs, widening eyes.", "materials": "Nothing needed!", "time": "1 min", "source": "BACB" },
+            { "title": "Return Ritual", "emoji": "👋", "desc": "After being away (even briefly), always greet them warmly. Consistency builds their anticipation of you!", "materials": "Nothing needed!", "time": "1 min", "source": "BACB" }
+          ]},
+          { "id": "e-2m-4", "text": "Smiles when you talk to or smile at them", "activities": [
+            { "title": "Smile Mirror", "emoji": "😊", "desc": "Smile big at your baby and wait. It may take a moment, but that first social smile is coming! Be patient.", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" },
+            { "title": "Silly Faces", "emoji": "🤪", "desc": "Make exaggerated happy faces — big smiles, wide eyes, raised eyebrows. Babies are wired to respond to faces!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "4-months",
+      "label": "4 Months",
+      "shortLabel": "4mo",
+      "order": 2,
+      "milestones": {
+        "speech": [
+          { "id": "s-4m-1", "text": "Makes sounds like 'oooo' and 'aahh' (cooing)", "activities": [
+            { "title": "Vowel Duets", "emoji": "🎤", "desc": "When they say 'ooo,' say it back! Then try 'aah.' Take turns making vowel sounds — it's a duet!", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Sing-Song Talk", "emoji": "🎵", "desc": "Use an exaggerated sing-song voice when talking. Higher pitch and longer vowels encourage their own sound-making.", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-4m-2", "text": "Makes sounds back when you talk to them", "activities": [
+            { "title": "Chat & Wait", "emoji": "⏳", "desc": "Say something short, then WAIT 5-10 seconds. Give them time to respond. The pause is the magic part!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Echo Game", "emoji": "🔄", "desc": "Copy every sound they make. When they realize you're echoing them, they'll make more sounds to test you!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-4m-3", "text": "Turns head toward the sound of your voice", "activities": [
+            { "title": "Name Game", "emoji": "👋", "desc": "Stand to one side and say their name. When they turn toward you, smile big! Try the other side.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Where's the Sound?", "emoji": "🔔", "desc": "Use a rattle or bell and make sound from different positions — left, right, above. Watch for the head turn!", "materials": "Rattle or bell", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-4m-4", "text": "Begins to babble with expression", "activities": [
+            { "title": "Babble Back", "emoji": "👶", "desc": "When they babble with emotion, respond as if they said something meaningful: 'Oh really? Tell me more!' Keeps them going.", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Emotion Narration", "emoji": "😃", "desc": "Match your tone to theirs: when they sound excited, get excited too. When they're calm, respond calmly.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-4m-1", "text": "Holds head steady without support", "activities": [
+            { "title": "Sit-Up Practice", "emoji": "🪑", "desc": "Hold them in a seated position on your lap. Let them practice holding their head steady while you support their trunk.", "materials": "Nothing needed!", "time": "3 min", "source": "APTA" },
+            { "title": "Look Around Time", "emoji": "👀", "desc": "Hold them upright and slowly walk around the room. The interesting visuals motivate them to hold their head up!", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-4m-2", "text": "Holds a toy when you put it in their hand", "activities": [
+            { "title": "Rattle Grasp", "emoji": "🎶", "desc": "Place a lightweight rattle in their hand and shake it gently. They'll hold on and begin to connect 'hold = sound!'", "materials": "Light rattle", "time": "3 min", "source": "AOTA" },
+            { "title": "Fabric Hold", "emoji": "🧣", "desc": "Offer a small, soft piece of fabric. They'll grip and explore the texture. Different fabrics = new sensations!", "materials": "Small soft cloth", "time": "3 min", "source": "AOTA" }
+          ]},
+          { "id": "p-4m-3", "text": "Uses arms to swing at toys", "activities": [
+            { "title": "Toy Dangle", "emoji": "🧸", "desc": "Hold a toy above them while they're on their back. Dangle it within arm's reach and cheer when they swipe!", "materials": "Small dangling toy", "time": "5 min", "source": "APTA" },
+            { "title": "Kick & Bat", "emoji": "⚽", "desc": "Hang light toys from a play gym or hold them overhead. Encourage batting with arms and kicking with feet!", "materials": "Play gym or held toy", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-4m-4", "text": "Brings hands to mouth", "activities": [
+            { "title": "Hand Discovery", "emoji": "🤚", "desc": "During calm times, gently guide their hand to their mouth. They're learning about their own body!", "materials": "Nothing needed!", "time": "2 min", "source": "AOTA" },
+            { "title": "Teether Play", "emoji": "🦷", "desc": "Offer a clean teether. They'll bring it to their mouth — building hand-to-mouth coordination!", "materials": "Teether", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "p-4m-5", "text": "Pushes up onto elbows when on tummy", "activities": [
+            { "title": "Tummy Time Mirror", "emoji": "🪞", "desc": "Place a baby-safe mirror in front during tummy time. They'll push up on elbows to see that interesting face!", "materials": "Baby-safe mirror", "time": "5 min", "source": "APTA" },
+            { "title": "Rolled Towel Boost", "emoji": "🧴", "desc": "Roll a small towel under their chest during tummy time. It gives a boost to make pushing up easier.", "materials": "Rolled towel", "time": "5 min", "source": "APTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-4m-1", "text": "Opens mouth when they see breast or bottle (if hungry)", "activities": [
+            { "title": "Feeding Cues Chat", "emoji": "🍼", "desc": "Before feeding, show the bottle/breast and narrate: 'Are you hungry? Here comes milk!' They learn to anticipate.", "materials": "Nothing needed!", "time": "2 min", "source": "AOTA" },
+            { "title": "Routine Words", "emoji": "🗣️", "desc": "Use the same words before each feeding. 'Time to eat!' Repetition builds their connection between words and events.", "materials": "Nothing needed!", "time": "1 min", "source": "AOTA" }
+          ]},
+          { "id": "c-4m-2", "text": "Looks at their hands with interest", "activities": [
+            { "title": "Hand Show", "emoji": "🤲", "desc": "Gently hold their hands in front of their face. Wiggle their fingers. They're fascinated by their own hands!", "materials": "Nothing needed!", "time": "2 min", "source": "AOTA" },
+            { "title": "Colorful Mittens", "emoji": "🧤", "desc": "Put a bright sock on their hand (like a mitten). They'll stare and wave it around — discovering they control it!", "materials": "Colorful sock", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-4m-3", "text": "Follows a moving toy with eyes from side to side", "activities": [
+            { "title": "Arc Tracking", "emoji": "🌈", "desc": "Move a bright toy in a slow arc from left to right. Go at their pace — smooth, even movements work best.", "materials": "Bright toy", "time": "3 min", "source": "AOTA" },
+            { "title": "Bubble Watch", "emoji": "🫧", "desc": "Blow bubbles above them. Their eyes will follow the floating bubbles across their field of vision!", "materials": "Bubbles", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-4m-4", "text": "Recognizes familiar objects like a bottle", "activities": [
+            { "title": "Show & Name", "emoji": "📖", "desc": "Show familiar objects throughout the day and name them: 'Here's your bottle! Here's your blankie!' Repetition builds recognition.", "materials": "Familiar objects", "time": "3 min", "source": "AOTA" },
+            { "title": "Object Parade", "emoji": "🎪", "desc": "Hold up familiar items one at a time. Watch for signs of recognition — excited kicks, reaching, or sounds!", "materials": "Familiar toys/objects", "time": "3 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-4m-1", "text": "Smiles on their own to get your attention", "activities": [
+            { "title": "Smile & Respond", "emoji": "😊", "desc": "When they smile at you, ALWAYS respond with a big smile and words: 'You're smiling! I love it!' This reinforces social smiling.", "materials": "Nothing needed!", "time": "All day", "source": "BACB" },
+            { "title": "Surprise Face", "emoji": "😮", "desc": "Make a surprised face when they smile. The reaction encourages them to smile more to see what you'll do!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-4m-2", "text": "Chuckles (not yet a full laugh)", "activities": [
+            { "title": "Gentle Tickle", "emoji": "🤗", "desc": "Light tickles on their tummy or under their chin. The anticipation before the tickle is what builds the chuckle!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" },
+            { "title": "Funny Sounds", "emoji": "🤪", "desc": "Make silly sounds — raspberries, popping lips, funny faces. Watch for that first chuckle!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-4m-3", "text": "Looks at you, moves, or makes sounds to get attention", "activities": [
+            { "title": "Respond to Bids", "emoji": "👶", "desc": "When they look at you and wiggle or vocalize, respond immediately. They're learning: 'When I do this, they notice!'", "materials": "Nothing needed!", "time": "All day", "source": "BACB" },
+            { "title": "Narrate Their Moves", "emoji": "💬", "desc": "When they kick or vocalize, narrate: 'You're kicking! You want me to play!' This validates their communication.", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-4m-4", "text": "Enjoys playing with people and may cry when playing stops", "activities": [
+            { "title": "Play Re-Start", "emoji": "🔄", "desc": "Play peekaboo, then stop. Wait for them to signal they want more (fussing, reaching). Then restart — they learn to ask!", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Gentle Transition", "emoji": "🎵", "desc": "When play ends, transition with a song or gentle narration: 'All done playing! Let's go see...' instead of abrupt stops.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "6-months",
+      "label": "6 Months",
+      "shortLabel": "6mo",
+      "order": 3,
+      "milestones": {
+        "speech": [
+          { "id": "s-6m-1", "text": "Takes turns making sounds with you", "activities": [
+            { "title": "Sound Tennis", "emoji": "🎾", "desc": "Make a sound, then wait. When they respond, make another sound. You're playing 'sound tennis' — back and forth!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Whisper & Loud", "emoji": "🤫", "desc": "Alternate between whispering and speaking louder. They'll try to match your volume. It teaches listening and responding.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-6m-2", "text": "Blows 'raspberries' (sticks tongue out and blows)", "activities": [
+            { "title": "Raspberry Contest", "emoji": "😛", "desc": "Blow a big raspberry and wait. When they do it back, cheer! Take turns seeing who can make the silliest one.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Lip Games", "emoji": "👄", "desc": "Make different mouth shapes and sounds — pop lips, blow air, stick tongue out. They'll experiment copying you!", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-6m-3", "text": "Makes squealing noises", "activities": [
+            { "title": "Squeal Along", "emoji": "🎉", "desc": "When they squeal, squeal back! Match their excitement level. High-pitched sounds are excellent vocal practice.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Tickle Squeals", "emoji": "🤗", "desc": "Gentle tickles often bring out squeals! The anticipation of the tickle is the fun part.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-6m-4", "text": "Begins to string vowel sounds together ('ah', 'eh', 'oh')", "activities": [
+            { "title": "Vowel Chain", "emoji": "🔗", "desc": "String your own vowels together: 'ah-oh-ee!' Make it musical. They'll try to copy the pattern.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Singing Vowels", "emoji": "🎵", "desc": "Sing simple songs emphasizing the vowels. 'Row, row, row' becomes 'ooh, ooh, ooh!' Easy to copy.", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-6m-1", "text": "Rolls from tummy to back", "activities": [
+            { "title": "Toy Lure Roll", "emoji": "🧸", "desc": "During tummy time, hold a toy to one side so they look and reach for it. The weight shift helps them flip!", "materials": "Favorite toy", "time": "5 min", "source": "APTA" },
+            { "title": "Gentle Hip Guide", "emoji": "🤲", "desc": "Place your hand on their hip during tummy time and gently guide them to roll when they're off-balance.", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-6m-2", "text": "Pushes up with straight arms when on tummy", "activities": [
+            { "title": "Airplane Play", "emoji": "✈️", "desc": "During tummy time, place a toy just out of reach above eye level. They'll push up higher to see it!", "materials": "Bright toy", "time": "5 min", "source": "APTA" },
+            { "title": "Chest Support", "emoji": "🧱", "desc": "Place a rolled towel or small pillow under their chest. It helps them get the feel of pushing up with arms straight.", "materials": "Rolled towel", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-6m-3", "text": "Leans on hands to support self when sitting", "activities": [
+            { "title": "Tripod Sit", "emoji": "🪑", "desc": "Sit them between your legs with toys in front. They'll lean forward on their hands to play. You're the safety net!", "materials": "Toys", "time": "5 min", "source": "APTA" },
+            { "title": "Boppy Sit", "emoji": "🛟", "desc": "Place a pillow around them in a ring for support. Let them practice sitting and leaning on their hands to play.", "materials": "Nursing pillow or pillows", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-6m-4", "text": "Rocks back and forth on hands and knees", "activities": [
+            { "title": "Rock & Sing", "emoji": "🎵", "desc": "When they get on hands and knees, sing a song with a rocking beat. The rhythm encourages rocking!", "materials": "Nothing needed!", "time": "3 min", "source": "APTA" },
+            { "title": "Tunnel View", "emoji": "🌀", "desc": "Get on your hands and knees facing them. Rock back and forth together. They love mimicking you!", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-6m-1", "text": "Puts things in their mouth to explore them", "activities": [
+            { "title": "Safe Taste Tour", "emoji": "👅", "desc": "Offer safe objects of different textures (rubber toy, wooden spoon, cloth). Mouthing IS how babies explore!", "materials": "Safe household items", "time": "5 min", "source": "AOTA" },
+            { "title": "Teether Variety", "emoji": "🦷", "desc": "Offer different shaped teethers — bumpy, smooth, cold. Each one teaches them something new through mouthing.", "materials": "Different teethers", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-6m-2", "text": "Reaches to grab a toy they want", "activities": [
+            { "title": "Just Out of Reach", "emoji": "🤏", "desc": "Place a toy slightly beyond their reach. Encourage them to stretch for it — but don't frustrate them. Help if needed!", "materials": "Toy", "time": "5 min", "source": "AOTA" },
+            { "title": "Two Toy Choice", "emoji": "🧸", "desc": "Hold two toys up and see which one they reach for. This practices reaching AND decision-making!", "materials": "Two toys", "time": "3 min", "source": "AOTA" }
+          ]},
+          { "id": "c-6m-3", "text": "Closes lips to show they don't want more food", "activities": [
+            { "title": "Respect the Signal", "emoji": "🚫", "desc": "When they close their lips or turn away, say 'All done! You told me!' Respecting their signal teaches communication.", "materials": "During mealtimes", "time": "1 min", "source": "AOTA" },
+            { "title": "Food Play", "emoji": "🥕", "desc": "Let them explore food with their hands before eating. When they push food away, narrate: 'No thank you!'", "materials": "Soft foods", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-6m-4", "text": "Shows curiosity about things and tries to reach them", "activities": [
+            { "title": "Discovery Basket", "emoji": "🧺", "desc": "Fill a basket with safe, interesting objects (spoon, scarf, crinkle ball). Let them explore and reach into it.", "materials": "Basket + household items", "time": "10 min", "source": "AOTA" },
+            { "title": "New Object Daily", "emoji": "🆕", "desc": "Each day, offer one new safe item to explore (whisk, measuring cup, fabric swatch). Novelty fuels curiosity!", "materials": "Safe household item", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-6m-1", "text": "Knows familiar people", "activities": [
+            { "title": "Who's That?", "emoji": "👨‍👩‍👧", "desc": "When familiar people arrive, name them: 'Look, it's Grandma!' Watch for excited recognition — kicking, smiling!", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Family Song", "emoji": "🎤", "desc": "Make up a little tune for each family member. Sing it when they arrive. Baby will start associating songs with people!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-6m-2", "text": "Likes to look at self in a mirror", "activities": [
+            { "title": "Mirror Play", "emoji": "🪞", "desc": "Hold them in front of a mirror and point: 'Who's that? It's YOU!' Touch their nose, then touch the mirror nose.", "materials": "Mirror", "time": "5 min", "source": "BACB" },
+            { "title": "Mirror Faces", "emoji": "😜", "desc": "Make silly faces in the mirror together. They'll watch both your real face and the mirror face!", "materials": "Mirror", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-6m-3", "text": "Laughs", "activities": [
+            { "title": "Surprise Peekaboo", "emoji": "🙈", "desc": "Play peekaboo from unexpected places — behind a door, under a blanket, around a corner. Surprise = laughs!", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Funny Noises", "emoji": "🤪", "desc": "Try different silly sounds — animal noises, lip buzzing, funny voices. Find the one that gets the biggest laugh!", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-6m-4", "text": "Responds to other people's emotions with interest", "activities": [
+            { "title": "Feelings Show", "emoji": "🎭", "desc": "Show exaggerated emotions: big smile (happy!), pouty face (sad!), surprised face (wow!). Name each one.", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" },
+            { "title": "Empathy Model", "emoji": "❤️", "desc": "When someone around them is upset, narrate: 'Daddy looks sad. Let's give him a hug!' They watch and learn.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "9-months",
+      "label": "9 Months",
+      "shortLabel": "9mo",
+      "order": 4,
+      "milestones": {
+        "speech": [
+          { "id": "s-9m-1", "text": "Makes different sounds like 'mamamama' and 'babababa'", "activities": [
+            { "title": "Babble Song", "emoji": "🎵", "desc": "Make up a silly song using 'ba ba ba' or 'ma ma ma.' They'll join in with their own babble!", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Sound Menu", "emoji": "📋", "desc": "Offer different consonant sounds: 'ba ba ba... da da da... ma ma ma.' Watch which ones they try to copy!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-9m-2", "text": "Responds to their own name when called", "activities": [
+            { "title": "Name Calling Game", "emoji": "📢", "desc": "Say their name from different spots in the room. When they look, smile big and say 'There you are!'", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Name + Action", "emoji": "🎯", "desc": "Pair their name with simple actions: 'Maya, look!' 'Maya, clap!' They learn their name comes before something fun.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-9m-3", "text": "Makes sounds to show joy or displeasure", "activities": [
+            { "title": "Emotion Echo", "emoji": "😄", "desc": "When they squeal with joy, squeal back! When they fuss, narrate: 'You sound frustrated. I hear you.' Mirror their emotions.", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" },
+            { "title": "Celebrate Sounds", "emoji": "🎉", "desc": "Any time they vocalize their feelings, respond: 'You're so happy!' or 'I know, that's tricky.' They learn sounds = communication.", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" }
+          ]},
+          { "id": "s-9m-4", "text": "Understands 'no' and basic tone changes", "activities": [
+            { "title": "Tone Play", "emoji": "🎭", "desc": "Use different tones throughout the day: excited voice for play, calm voice for rest, firm voice for 'no.' They learn to read your tone.", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" },
+            { "title": "Redirect Game", "emoji": "🔄", "desc": "When you say 'no,' immediately redirect: 'No, not that — try this!' Pair the 'no' tone with a 'yes' alternative.", "materials": "Nothing needed!", "time": "2 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-9m-1", "text": "Gets to a sitting position by self", "activities": [
+            { "title": "Side-Lying Play", "emoji": "🛌", "desc": "Place toys beside them while they're lying down. They'll push up to sit to reach them — building core strength!", "materials": "Toys", "time": "5 min", "source": "APTA" },
+            { "title": "Roll & Sit", "emoji": "🔄", "desc": "Gently help them practice the rolling-to-sitting sequence. Soon they'll do it on their own!", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-9m-2", "text": "Moves things from one hand to the other", "activities": [
+            { "title": "Hand Switch", "emoji": "🤲", "desc": "Offer a toy to one hand. Then offer a different toy to the same hand — they'll switch the first to the other hand!", "materials": "Two small toys", "time": "5 min", "source": "AOTA" },
+            { "title": "Pass the Block", "emoji": "🧱", "desc": "Sit together and pass a block back and forth between hands. Narrate: 'This hand... now THIS hand!'", "materials": "Block or small toy", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "p-9m-3", "text": "Uses fingers to 'rake' food toward self", "activities": [
+            { "title": "Cereal Rake", "emoji": "🥣", "desc": "Scatter a few puffs or cheerios on their tray. They'll rake them toward themselves with their fingers to eat!", "materials": "Small cereal pieces", "time": "5 min", "source": "AOTA" },
+            { "title": "Cracker Crumbs", "emoji": "🍘", "desc": "Break a cracker into small pieces on a plate. Let them practice raking the pieces toward themselves.", "materials": "Crackers", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "p-9m-4", "text": "Sits without support", "activities": [
+            { "title": "Sitting Play Circle", "emoji": "⭕", "desc": "Place toys in a circle around them while sitting. They'll twist and reach — building balance while playing!", "materials": "Toys", "time": "10 min", "source": "APTA" },
+            { "title": "Pillow Ring", "emoji": "🛋️", "desc": "Place pillows behind and around them (not blocking). They can practice sitting independently with soft backup!", "materials": "Pillows", "time": "10 min", "source": "APTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-9m-1", "text": "Looks for objects when dropped out of sight", "activities": [
+            { "title": "Drop & Find", "emoji": "🎪", "desc": "Drop a toy off the side of the high chair. Say 'Where did it go?' and lean over to look together!", "materials": "Any toy", "time": "5 min", "source": "AOTA" },
+            { "title": "Scarf Pull", "emoji": "🧣", "desc": "Stuff a scarf into a tube (paper towel roll). Let them pull it out — the object was hidden and now it's not!", "materials": "Scarf + tube", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-9m-2", "text": "Bangs two things together", "activities": [
+            { "title": "Block Clap", "emoji": "🧱", "desc": "Give them two blocks and show how to bang them together. Clap when they try! The sound is the reward.", "materials": "Two blocks", "time": "5 min", "source": "AOTA" },
+            { "title": "Pot & Spoon", "emoji": "🥄", "desc": "Give them a wooden spoon and a pot lid. Banging = music-making = cognitive growth. Let them go!", "materials": "Wooden spoon + pot", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-9m-3", "text": "Explores objects by shaking, banging, and throwing", "activities": [
+            { "title": "Exploration Station", "emoji": "🔬", "desc": "Offer different objects and let them explore freely — shaking, banging, mouthing, throwing. All are valid!", "materials": "Various safe objects", "time": "10 min", "source": "AOTA" },
+            { "title": "What Sound?", "emoji": "🎶", "desc": "Give them containers with different items inside (rice, bells, fabric). Shake each one — different sounds!", "materials": "Sealed containers + fillers", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-9m-4", "text": "Pokes at things with pointer finger", "activities": [
+            { "title": "Button Press", "emoji": "🔘", "desc": "Find safe buttons to poke — toy phones, musical toys, elevator buttons. Pointer finger practice with immediate feedback!", "materials": "Toy with buttons", "time": "5 min", "source": "AOTA" },
+            { "title": "Poke the Play-Doh", "emoji": "🎨", "desc": "Make a flat piece of play-doh and let them poke holes in it. Each poke leaves a mark — cause and effect!", "materials": "Play-doh", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-9m-1", "text": "Is shy, clingy, or cautious around new people", "activities": [
+            { "title": "Safe Introduction", "emoji": "🤝", "desc": "When meeting someone new, hold baby close and let them observe from safety. Don't force interaction — let them warm up.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Narrate Newness", "emoji": "💬", "desc": "Say 'That's Uncle Joe. He's nice!' Stay calm and close. Your calm body language tells them it's safe.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" }
+          ]},
+          { "id": "e-9m-2", "text": "Shows several facial expressions (happy, sad, surprised)", "activities": [
+            { "title": "Emotion Mirror", "emoji": "🪞", "desc": "Make faces in the mirror together — happy, sad, surprised, silly. Name each one: 'That's a HAPPY face!'", "materials": "Mirror", "time": "5 min", "source": "BACB" },
+            { "title": "Book Faces", "emoji": "📖", "desc": "Find books with photos of babies/people showing emotions. Point and name: 'She looks surprised!'", "materials": "Books with faces", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-9m-3", "text": "Lifts arms up to be picked up", "activities": [
+            { "title": "Arms Up!", "emoji": "🙌", "desc": "Before picking them up, say 'Up! Arms up!' and lift your arms. Wait for them to raise theirs. Then scoop!", "materials": "Nothing needed!", "time": "1 min", "source": "BACB" },
+            { "title": "Model & Wait", "emoji": "⏳", "desc": "Reach your arms down and wait. Don't pick up immediately — give them 3-5 seconds to lift their arms to signal.", "materials": "Nothing needed!", "time": "1 min", "source": "BACB" }
+          ]},
+          { "id": "e-9m-4", "text": "Reacts when you leave (looks, reaches, or cries)", "activities": [
+            { "title": "Short Separations", "emoji": "👋", "desc": "Practice brief departures: 'I'll be right back!' Leave for 30 seconds, then return with a big hello. Builds trust.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Peekaboo Door", "emoji": "🚪", "desc": "Hide behind a door and peek out: 'Peekaboo!' This teaches object permanence — you always come back.", "materials": "A door", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-9m-5", "text": "Smiles or laughs during peek-a-boo", "activities": [
+            { "title": "Creative Peekaboo", "emoji": "🙈", "desc": "Use different objects to hide behind — napkin, book, hands, hat. The variety keeps it exciting!", "materials": "Various items to hide behind", "time": "5 min", "source": "BACB" },
+            { "title": "Peekaboo Them", "emoji": "😆", "desc": "Put a light blanket over THEIR head and say 'Where's baby?' They'll pull it off for the reveal — big laughs!", "materials": "Light blanket", "time": "5 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "12-months",
+      "label": "12 Months",
+      "shortLabel": "1yr",
+      "order": 5,
+      "milestones": {
+        "speech": [
+          { "id": "s-12m-1", "text": "Waves 'bye-bye'", "activities": [
+            { "title": "Wave Hello Game", "emoji": "👋", "desc": "Wave dramatically every time someone enters or leaves a room. Pause and wait for your little one to try waving back!", "materials": "Nothing needed!", "time": "2 min", "source": "ASHA" },
+            { "title": "Puppet Waves", "emoji": "🧦", "desc": "Put a sock on your hand like a puppet and make it 'wave.' Let your child wave back. Take turns!", "materials": "A sock", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-12m-2", "text": "Calls parent 'mama' or 'dada' or another special name", "activities": [
+            { "title": "Name Repeat", "emoji": "🗣️", "desc": "Point to yourself and say 'Mama!' or 'Dada!' slowly and clearly. Pause and smile — let them try to copy the sound.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Photo Game", "emoji": "📸", "desc": "Show photos of family members on your phone. Point and name each person: 'That's Mama!' Repeat throughout the day.", "materials": "Phone with photos", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-12m-3", "text": "Understands 'no' (pauses or stops briefly)", "activities": [
+            { "title": "Gentle No Game", "emoji": "🚫", "desc": "When they reach for something off-limits, say 'No, no' gently with a head shake. Then redirect to a safe item and say 'Yes! This one!'", "materials": "Nothing needed!", "time": "2 min", "source": "ASHA" },
+            { "title": "Stop & Go", "emoji": "🚦", "desc": "Play music and dance together. When you stop the music, say 'Stop!' with a hand up. When it starts, say 'Go!' and dance again.", "materials": "Any music", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-12m-4", "text": "Points to show you something", "activities": [
+            { "title": "Window Watching", "emoji": "🪟", "desc": "Sit by a window together. Point to things outside — 'Look! A bird!' Wait for them to point at something too.", "materials": "A window!", "time": "5 min", "source": "ASHA" },
+            { "title": "Point & Name Walk", "emoji": "🚶", "desc": "During a walk or around the house, point to objects and name them. Encourage your child to point at things that interest them.", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-12m-1", "text": "Pulls up to stand", "activities": [
+            { "title": "Couch Cruise", "emoji": "🛋️", "desc": "Place a favorite toy just out of reach on the couch. Encourage them to pull up on the cushion to grab it. Celebrate when they do!", "materials": "Couch + a toy", "time": "5 min", "source": "APTA" },
+            { "title": "Laundry Basket Stand", "emoji": "🧺", "desc": "Turn a sturdy laundry basket upside down. Put toys on top and let them pull up to play with them.", "materials": "Laundry basket + toys", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-12m-2", "text": "Walks holding on to furniture", "activities": [
+            { "title": "Furniture Trail", "emoji": "🪑", "desc": "Line up furniture pieces close together to create a 'path.' Place toys along the way to motivate them to cruise from piece to piece.", "materials": "Chairs, couch, table", "time": "10 min", "source": "APTA" },
+            { "title": "Dance Cruise", "emoji": "💃", "desc": "Play music and hold their hands while they stand. Gently sway. Then let them hold the furniture edge while you dance nearby!", "materials": "Any music", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-12m-3", "text": "Drinks from a cup without a lid, with help", "activities": [
+            { "title": "Sip & Celebrate", "emoji": "🥤", "desc": "At mealtimes, offer a small open cup with just a little water. Help them tip it and cheer each sip!", "materials": "Small cup + water", "time": "3 min", "source": "AOTA" },
+            { "title": "Tea Party", "emoji": "🫖", "desc": "Have a pretend tea party with small cups. Practice 'sipping' together — even empty cups help build the motion!", "materials": "Small cups", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "p-12m-4", "text": "Picks things up between thumb and pointer finger", "activities": [
+            { "title": "Cheerio Pick-Up", "emoji": "🥣", "desc": "Scatter a few cereal pieces on their tray. Let them practice picking up one at a time with their fingers to eat.", "materials": "Small cereal pieces", "time": "5 min", "source": "AOTA" },
+            { "title": "Sticker Peel", "emoji": "⭐", "desc": "Partially peel stickers off a sheet. Let them grip the edge and pull the sticker off. Stick them on paper together!", "materials": "Stickers + paper", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-12m-1", "text": "Puts things in a container", "activities": [
+            { "title": "Drop & Dump", "emoji": "🪣", "desc": "Give them a bucket and soft blocks. Show them how to drop blocks in, then dump them out. Repeat — they love it!", "materials": "Bucket + blocks or balls", "time": "5 min", "source": "AOTA" },
+            { "title": "Sock Basket", "emoji": "🧦", "desc": "Roll up socks into balls. Hold a basket and let them toss the socks in. Count each one!", "materials": "Socks + basket", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-12m-2", "text": "Looks for things they see you hide", "activities": [
+            { "title": "Blanket Hide", "emoji": "🧸", "desc": "While they watch, hide a toy under a blanket. Say 'Where did it go?' and let them pull the blanket to find it!", "materials": "Toy + blanket", "time": "5 min", "source": "AOTA" },
+            { "title": "Cup Shuffle", "emoji": "🥤", "desc": "Put a small toy under one of two cups while they watch. Ask 'Where is it?' and let them lift a cup to find it.", "materials": "2 cups + small toy", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-12m-3", "text": "Explores things in different ways (shaking, throwing)", "activities": [
+            { "title": "Kitchen Band", "emoji": "🥄", "desc": "Give them a wooden spoon and some pots/containers. Let them bang, shake, and explore the different sounds!", "materials": "Pots, spoons, containers", "time": "10 min", "source": "AOTA" },
+            { "title": "Texture Tour", "emoji": "🧊", "desc": "Gather items with different textures (smooth cup, fuzzy sock, crinkly paper). Let them feel, shake, and explore each one.", "materials": "Household items", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-12m-4", "text": "Follows simple directions like 'pick up the toy'", "activities": [
+            { "title": "Clean-Up Song", "emoji": "🎵", "desc": "Sing 'Clean up, clean up!' and hand them a toy to put in a bin. Celebrate when they follow through!", "materials": "Toys + a bin", "time": "3 min", "source": "AOTA" },
+            { "title": "Fetch Game", "emoji": "🎾", "desc": "Roll a ball and say 'Go get it!' When they bring it back, cheer and roll it again. Simple directions + fun!", "materials": "A soft ball", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-12m-1", "text": "Plays games with you like pat-a-cake", "activities": [
+            { "title": "Pat-a-Cake Party", "emoji": "👏", "desc": "Sing pat-a-cake while clapping their hands together with yours. Add their name to the song to make it personal!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" },
+            { "title": "Peek-a-Boo Variations", "emoji": "🙈", "desc": "Play peek-a-boo with different objects — behind a pillow, under a hat, around a corner. Each variation builds anticipation!", "materials": "Pillow, hat, or blanket", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-12m-2", "text": "Has favorite things and people", "activities": [
+            { "title": "Photo Favorites", "emoji": "📱", "desc": "Show pictures of family members and name them. Watch which photos make your child smile or reach — those are favorites!", "materials": "Phone with photos", "time": "5 min", "source": "BACB" },
+            { "title": "Lovey Show & Tell", "emoji": "🧸", "desc": "Gather their favorite toys. Hold each one up and say its name. Let them reach for the one they want most!", "materials": "Favorite toys", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-12m-3", "text": "Shows fear in some situations", "activities": [
+            { "title": "Brave Together", "emoji": "🤗", "desc": "When they seem scared of something new, stay calm and narrate: 'That's a big dog! Let's watch from here.' Your calm teaches calm.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Comfort Corner", "emoji": "🧸", "desc": "Create a cozy spot with pillows and a favorite toy. When things feel big, bring them there to feel safe and recover.", "materials": "Pillows + blanket", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-12m-4", "text": "Repeats sounds or actions to get attention", "activities": [
+            { "title": "Copy Cat", "emoji": "🐱", "desc": "When they make a sound, copy it back! Then add a new sound and wait for them to imitate you. Take turns!", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Sound Mirror", "emoji": "🪞", "desc": "Sit face-to-face. Make a funny sound or face. When they copy you, cheer! Then let them lead and you copy them.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "15-months",
+      "label": "15 Months",
+      "shortLabel": "15mo",
+      "order": 6,
+      "milestones": {
+        "speech": [
+          { "id": "s-15m-1", "text": "Tries to say 1-2 words besides 'mama' or 'dada'", "activities": [
+            { "title": "Word of the Day", "emoji": "📝", "desc": "Pick one word to emphasize all day: 'Ball! Look, a ball! Throw the ball!' Repetition is key.", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" },
+            { "title": "First Words Book", "emoji": "📖", "desc": "Use a simple picture book and point: 'Dog! Dog!' Say the word clearly and slowly. Wait for them to try.", "materials": "Picture book", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-15m-2", "text": "Looks at a familiar object when you name it", "activities": [
+            { "title": "Where Is It?", "emoji": "🔍", "desc": "Ask 'Where's your cup?' or 'Where's the ball?' Wait for them to look toward it. Big celebration when they do!", "materials": "Familiar objects", "time": "3 min", "source": "ASHA" },
+            { "title": "Room Tour", "emoji": "🏠", "desc": "Walk around the room pointing and naming: 'Light! Door! Chair!' They'll start looking at objects when you name them.", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-15m-3", "text": "Follows directions given with both a gesture and words", "activities": [
+            { "title": "Show & Tell Directions", "emoji": "👆", "desc": "Point at the ball AND say 'Give me the ball.' The gesture + words combo helps them understand.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Action Songs", "emoji": "🎵", "desc": "'If You're Happy and You Know It' — clap your hands (gesture) while singing (words). They follow both!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-15m-4", "text": "Points to ask for something or to get help", "activities": [
+            { "title": "Wait & Point", "emoji": "☝️", "desc": "When they want something, wait before giving it. Model pointing: 'Point to what you want!' Then give it.", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" },
+            { "title": "Snack Choices", "emoji": "🍎", "desc": "Hold up two snacks and wait. When they reach, guide their hand to point. 'You're pointing to the banana!'", "materials": "Two snack choices", "time": "3 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-15m-1", "text": "Takes a few steps on their own", "activities": [
+            { "title": "Step to Me", "emoji": "🚶", "desc": "Kneel a few steps away with arms out. Say 'Walk to me!' Catch them with a hug when they arrive.", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" },
+            { "title": "Push Toy Walk", "emoji": "🛒", "desc": "Give them a push toy (laundry basket, toy cart) for stability. It gives confidence for independent steps!", "materials": "Push toy or laundry basket", "time": "10 min", "source": "APTA" }
+          ]},
+          { "id": "p-15m-2", "text": "Uses fingers to feed themselves", "activities": [
+            { "title": "Finger Food Buffet", "emoji": "🍇", "desc": "Offer a variety of small, soft finger foods. Let them pick and choose — it's fine motor AND independence!", "materials": "Soft finger foods (cut small)", "time": "10 min", "source": "AOTA" },
+            { "title": "Dip & Eat", "emoji": "🫕", "desc": "Give them soft food with a dip (hummus, yogurt). They'll pinch food and dip it — advanced finger work!", "materials": "Dippable foods", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-15m-3", "text": "Stands alone without holding on", "activities": [
+            { "title": "Hands-Free Play", "emoji": "🤹", "desc": "While they're standing and holding furniture, offer a toy that needs two hands. They'll let go to grab it!", "materials": "Two-hand toy", "time": "5 min", "source": "APTA" },
+            { "title": "Bubble Pop Stand", "emoji": "🫧", "desc": "Blow bubbles while they're standing. They'll let go of furniture to reach up and pop them!", "materials": "Bubbles", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-15m-4", "text": "May walk up stairs with help", "activities": [
+            { "title": "Stair Climb", "emoji": "🪜", "desc": "Hold both hands and practice going up 2-3 steps. Count each step together. Always supervise closely!", "materials": "Stairs + your hands", "time": "5 min", "source": "APTA" },
+            { "title": "Step Up Play", "emoji": "📦", "desc": "Find a low, stable step (or use a sturdy box). Practice stepping up and down with your support.", "materials": "Low step or box", "time": "5 min", "source": "APTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-15m-1", "text": "Tries to use things the right way (phone, cup, book)", "activities": [
+            { "title": "Pretend Play", "emoji": "📱", "desc": "Give them a play phone and hold one too. Say 'Hello? Hi!' and hold it to your ear. They'll copy!", "materials": "Toy phone or real phone (off)", "time": "5 min", "source": "AOTA" },
+            { "title": "Book Right Side Up", "emoji": "📚", "desc": "Hand them a book upside down. Watch — they may flip it the right way! They're learning how objects work.", "materials": "Board book", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-15m-2", "text": "Stacks at least 2 small objects", "activities": [
+            { "title": "Stack & Cheer", "emoji": "🧱", "desc": "Stack 2 blocks and let them add one more. Cheer! Then let them knock it down and start over — that's learning too!", "materials": "Blocks or cups", "time": "5 min", "source": "AOTA" },
+            { "title": "Cup Tower", "emoji": "🥤", "desc": "Use plastic cups — easier to stack than blocks! Start with 2 and work up. Celebrate every stack!", "materials": "Plastic cups", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-15m-3", "text": "Explores how objects work (pushes buttons, turns knobs)", "activities": [
+            { "title": "Knob & Button Tour", "emoji": "🔘", "desc": "Find safe knobs and buttons around the house. Let them explore: light switches, radio knobs, toy buttons.", "materials": "Household items", "time": "5 min", "source": "AOTA" },
+            { "title": "Busy Board", "emoji": "🎛️", "desc": "Create a simple busy board: attach a latch, a light switch, and a zipper to a board. Endless exploration!", "materials": "Board + latches/switches", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "c-15m-4", "text": "Points at what they want", "activities": [
+            { "title": "Point Power", "emoji": "☝️", "desc": "When they point at something, immediately name it: 'You want the cup!' Responsive naming builds language.", "materials": "Nothing needed!", "time": "All day", "source": "AOTA" },
+            { "title": "Choice Board", "emoji": "🎯", "desc": "Hold up 2-3 items and let them point to choose. 'What do you want? Point!' Respects their communication.", "materials": "Items to choose from", "time": "3 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-15m-1", "text": "Copies other children while playing", "activities": [
+            { "title": "Parallel Play", "emoji": "👦", "desc": "Set up play dates or park visits. They'll watch other kids and start copying. No interaction needed yet — just watching!", "materials": "Nothing needed!", "time": "15 min", "source": "BACB" },
+            { "title": "Sibling Copy", "emoji": "👧", "desc": "Have an older child or sibling do simple actions (clapping, dancing). Toddlers LOVE copying older kids!", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-15m-2", "text": "Shows you an object they like", "activities": [
+            { "title": "Show Me!", "emoji": "🌟", "desc": "When they bring you a toy, respond enthusiastically: 'Wow, you found a block! Show me!' This reinforces sharing joy.", "materials": "Nothing needed!", "time": "All day", "source": "BACB" },
+            { "title": "Discovery Reaction", "emoji": "😲", "desc": "React big when they hold something up to you: 'What did you find?!' Your excitement motivates more showing.", "materials": "Nothing needed!", "time": "All day", "source": "BACB" }
+          ]},
+          { "id": "e-15m-3", "text": "Claps when excited", "activities": [
+            { "title": "Clap Along", "emoji": "👏", "desc": "Clap after every small success: finished eating, built a tower, put on a shoe. They'll start clapping too!", "materials": "Nothing needed!", "time": "All day", "source": "BACB" },
+            { "title": "Clapping Songs", "emoji": "🎵", "desc": "Sing songs with clapping: 'If You're Happy and You Know It' — the clapping part is the best!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-15m-4", "text": "Hugs a stuffed doll or toy", "activities": [
+            { "title": "Teddy Hug", "emoji": "🧸", "desc": "Hold a stuffed animal and hug it: 'Aww, hug the teddy!' Give it to them. Model the gentle hug.", "materials": "Stuffed animal", "time": "3 min", "source": "BACB" },
+            { "title": "Goodnight Hugs", "emoji": "🌙", "desc": "At bedtime, have them hug each stuffed animal goodnight. 'Hug the bear! Hug the bunny!' Sweet routine.", "materials": "Stuffed animals", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-15m-5", "text": "Shows you affection (hugs, cuddles, or kisses)", "activities": [
+            { "title": "Affection Time", "emoji": "💕", "desc": "Throughout the day, ask for hugs and kisses: 'Can I have a hug?' Always respond warmly when they give one!", "materials": "Nothing needed!", "time": "All day", "source": "BACB" },
+            { "title": "Love Circle", "emoji": "❤️", "desc": "Include affection in routines: goodbye hug, hello kiss, bedtime cuddle. Predictable affection builds security.", "materials": "Nothing needed!", "time": "1 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "18-months",
+      "label": "18 Months",
+      "shortLabel": "18mo",
+      "order": 7,
+      "milestones": {
+        "speech": [
+          { "id": "s-18m-1", "text": "Tries to say 3 or more words besides 'mama' or 'dada'", "activities": [
+            { "title": "Narrate Everything", "emoji": "🎙️", "desc": "As you go through daily routines, name everything: 'Shoe! Banana! Cup!' Keep it simple and repeat often.", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" },
+            { "title": "Animal Sounds", "emoji": "🐄", "desc": "Look at animal pictures and make the sounds together. 'The cow says... moo!' Animal sounds count as words!", "materials": "Book or phone", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-18m-2", "text": "Follows one-step directions without gestures", "activities": [
+            { "title": "Helper Time", "emoji": "🧹", "desc": "Give one simple direction at a time: 'Bring me the spoon' or 'Put it on the table.' Cheer when they do it!", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Toy Delivery", "emoji": "📦", "desc": "Ask them to 'Give the ball to Daddy' or 'Put the bear on the chair.' Make it a fun delivery game!", "materials": "Toys", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-18m-3", "text": "Points to show you something interesting", "activities": [
+            { "title": "Discovery Walk", "emoji": "🌳", "desc": "On a walk, stop and point at interesting things — a flower, a truck, a dog. Say 'Look!' and wait for them to point too.", "materials": "Nothing needed!", "time": "10 min", "source": "ASHA" },
+            { "title": "Picture Hunt", "emoji": "📖", "desc": "Open a colorful book. Point to pictures and name them. Ask 'Where's the cat?' and let them point!", "materials": "Any picture book", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-18m-4", "text": "Says 'no' and shakes head", "activities": [
+            { "title": "Yes/No Game", "emoji": "✅", "desc": "Hold up two items — one they love, one they don't. 'Do you want this?' Practice yes (nod) and no (shake).", "materials": "2 items", "time": "3 min", "source": "ASHA" },
+            { "title": "Silly Offers", "emoji": "😂", "desc": "Offer silly things: 'Do you want to eat a shoe?' They'll say 'No!' and laugh. Mix in real offers too.", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-18m-1", "text": "Walks without holding on to anyone or anything", "activities": [
+            { "title": "Walk to Me", "emoji": "🚶", "desc": "Sit a few feet away and hold out your arms. Say 'Walk to me!' and cheer every step. Gradually increase distance.", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" },
+            { "title": "Bubble Chase", "emoji": "🫧", "desc": "Blow bubbles and let them walk (or toddle!) to pop them. Bubbles are great motivation to move!", "materials": "Bubbles", "time": "10 min", "source": "APTA" }
+          ]},
+          { "id": "p-18m-2", "text": "Scribbles", "activities": [
+            { "title": "Big Paper Scribble", "emoji": "🖍️", "desc": "Tape a large piece of paper to the table or floor. Give them a fat crayon and let them go wild!", "materials": "Paper + crayons", "time": "10 min", "source": "AOTA" },
+            { "title": "Water Drawing", "emoji": "💧", "desc": "Give them a paintbrush and a cup of water. Let them 'paint' on the sidewalk or a dark surface — scribbles that disappear!", "materials": "Cup of water + paintbrush", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-18m-3", "text": "Drinks from a cup without a lid (may spill)", "activities": [
+            { "title": "Tiny Sips", "emoji": "🥤", "desc": "Use a small cup with just a little water. Practice at every meal — spills are okay! They're learning.", "materials": "Small cup + water", "time": "3 min", "source": "AOTA" },
+            { "title": "Pour Practice", "emoji": "🫗", "desc": "During bath time, give them small cups to pour water back and forth. Builds the same muscle control!", "materials": "Small cups", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "p-18m-4", "text": "Feeds self with fingers", "activities": [
+            { "title": "Snack Tray", "emoji": "🍇", "desc": "Put a few different finger foods on a plate (cut small!). Let them pick and choose what to eat. Independence!", "materials": "Finger foods", "time": "10 min", "source": "AOTA" },
+            { "title": "Picnic Play", "emoji": "🧺", "desc": "Have a mini picnic on the floor with finger foods on a blanket. The novelty encourages self-feeding!", "materials": "Blanket + snacks", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-18m-5", "text": "Tries to use a spoon", "activities": [
+            { "title": "Scoop & Dump", "emoji": "🥄", "desc": "Give them a spoon and a bowl of dry cereal or puffs. Let them practice scooping — even if most falls off!", "materials": "Spoon + cereal", "time": "5 min", "source": "AOTA" },
+            { "title": "Yogurt Art", "emoji": "🎨", "desc": "Put yogurt on a plate and give them a spoon. Let them scoop, smear, and eventually taste. It's messy but great practice!", "materials": "Yogurt + spoon", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-18m-1", "text": "Copies you doing chores (sweeping, wiping)", "activities": [
+            { "title": "Mini Helper", "emoji": "🧹", "desc": "Give them a small broom, cloth, or sponge while you clean. Narrate: 'We're wiping the table!' They love feeling included.", "materials": "Small cloth or sponge", "time": "5 min", "source": "AOTA" },
+            { "title": "Copy Cat Chores", "emoji": "🧽", "desc": "Dramatically do a chore slowly — wiping, sweeping, folding. Pause and hand them the tool. Watch them imitate!", "materials": "Cleaning supplies (child-safe)", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-18m-2", "text": "Plays with toys in a simple way (pushing a car)", "activities": [
+            { "title": "Car Ramp", "emoji": "🚗", "desc": "Prop a cookie sheet or board on a pillow to make a ramp. Show them how to push a car down. Vroom!", "materials": "Toy car + flat surface for ramp", "time": "10 min", "source": "AOTA" },
+            { "title": "Ball Roll", "emoji": "⚽", "desc": "Sit across from each other and roll a ball back and forth. Add sound effects: 'Here it comes!' Simple, purposeful play.", "materials": "A ball", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-18m-3", "text": "Can identify one or more body parts when asked", "activities": [
+            { "title": "Head, Shoulders Song", "emoji": "🎵", "desc": "Sing 'Head, Shoulders, Knees and Toes' slowly, touching each part. Let them follow along at their own pace.", "materials": "Nothing needed!", "time": "3 min", "source": "AOTA" },
+            { "title": "Where's Your Nose?", "emoji": "👃", "desc": "Ask 'Where's your nose?' and point to yours. When they point to theirs, cheer! Work through: eyes, ears, mouth, tummy.", "materials": "Nothing needed!", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-18m-4", "text": "Stacks blocks or objects on top of each other", "activities": [
+            { "title": "Stack & Crash", "emoji": "🧱", "desc": "Stack blocks (or food containers) together. Let them knock the tower down — then build again! Crash is the best part.", "materials": "Blocks or containers", "time": "5 min", "source": "AOTA" },
+            { "title": "Food Cup Tower", "emoji": "🥤", "desc": "Use plastic cups to build a tower at the table. Stack 2-3 and let them add one on top (or knock it over!).", "materials": "Plastic cups", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-18m-1", "text": "Moves away from you but looks to make sure you're close", "activities": [
+            { "title": "Base Camp", "emoji": "🏕️", "desc": "Let them explore a safe space while you sit nearby. When they look back, smile and wave — showing you're their safe base.", "materials": "Nothing needed!", "time": "10 min", "source": "BACB" },
+            { "title": "Nearby Narration", "emoji": "👀", "desc": "While they play independently, narrate from a distance: 'You found a block!' This keeps connection without hovering.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-18m-2", "text": "Puts hands out for you to wash them", "activities": [
+            { "title": "Wash Time Song", "emoji": "🧼", "desc": "Sing a short song every time you wash hands. Soon they'll put their hands out when they hear it!", "materials": "Soap + water", "time": "2 min", "source": "BACB" },
+            { "title": "Routine Cue", "emoji": "🚿", "desc": "Before meals, say 'Time to wash!' and hold out your hands. Wait for them to copy. Make it a predictable routine.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" }
+          ]},
+          { "id": "e-18m-3", "text": "Looks at a few pages in a book with you", "activities": [
+            { "title": "Point & Chat", "emoji": "📖", "desc": "Don't worry about reading every word. Just point at pictures and chat: 'Look, a bunny! What's he doing?' Let them turn pages.", "materials": "Any picture book", "time": "5 min", "source": "BACB" },
+            { "title": "Touch & Feel Books", "emoji": "🐻", "desc": "Books with textures keep little hands busy. Let them feel each page while you name what they're touching.", "materials": "Textured board book", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-18m-4", "text": "Helps dress self (pushes arm through sleeve)", "activities": [
+            { "title": "Arm Push Game", "emoji": "👕", "desc": "Hold the sleeve open wide and say 'Push!' as they push their arm through. Make it a celebration each time!", "materials": "Any shirt", "time": "2 min", "source": "BACB" },
+            { "title": "Hat On/Off", "emoji": "🧢", "desc": "Put a hat on and take it off — then let them try. Hats, socks, and shoes are great 'dressing practice' starters.", "materials": "Hats, socks", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-18m-5", "text": "Climbs on and off a couch or chair without help", "activities": [
+            { "title": "Pillow Mountain", "emoji": "🛋️", "desc": "Make a small pillow pile near the couch. Let them climb up and over safely. Supervise closely — they love the challenge!", "materials": "Pillows + couch", "time": "10 min", "source": "APTA" },
+            { "title": "Step Up Practice", "emoji": "🪜", "desc": "Find a low, stable surface (like an ottoman). Show them how to climb up and sit, then slide off feet-first.", "materials": "Low furniture", "time": "5 min", "source": "APTA" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "2-years",
+      "label": "2 Years",
+      "shortLabel": "2yr",
+      "order": 8,
+      "milestones": {
+        "speech": [
+          { "id": "s-2y-1", "text": "Points to things in a book when asked", "activities": [
+            { "title": "Find the Picture", "emoji": "📖", "desc": "Open a picture book and ask 'Where's the dog?' Wait for them to point. Celebrate and name it!", "materials": "Any picture book", "time": "5 min", "source": "ASHA" },
+            { "title": "Magazine Hunt", "emoji": "🔍", "desc": "Flip through a magazine together. Ask them to find things: 'Show me a baby!' or 'Where's the car?'", "materials": "Magazine or catalog", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-2y-2", "text": "Says at least 2 words together like 'more milk'", "activities": [
+            { "title": "Expansion Game", "emoji": "➕", "desc": "When they say one word ('milk'), add to it: 'More milk? Yes, more milk!' Model the 2-word phrase naturally.", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" },
+            { "title": "Choice Time", "emoji": "🤔", "desc": "Hold up two items and model: 'Want milk? Want juice?' They'll start combining: 'want milk!' Give what they ask for!", "materials": "2 items to choose from", "time": "3 min", "source": "ASHA" }
+          ]},
+          { "id": "s-2y-3", "text": "Points to at least 2 body parts when asked", "activities": [
+            { "title": "Body Part Song", "emoji": "🎶", "desc": "Sing 'Head, Shoulders, Knees and Toes' — go slowly and touch each part. They'll start pointing along!", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Sticker Body", "emoji": "⭐", "desc": "Put stickers on different body parts and say 'Where's the sticker? On your nose!' Let them find and peel them.", "materials": "Stickers", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-2y-4", "text": "Uses more gestures than just waving (blows a kiss, nods yes)", "activities": [
+            { "title": "Gesture Songs", "emoji": "🎵", "desc": "Sing 'Itsy Bitsy Spider' or 'Wheels on the Bus' with big gestures. Pause and let them fill in the motions!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Blow Kiss Goodnight", "emoji": "😘", "desc": "Make blowing kisses part of bedtime or goodbye routine. They'll learn to do it back. Add thumbs up, high-fives too!", "materials": "Nothing needed!", "time": "2 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-2y-1", "text": "Kicks a ball", "activities": [
+            { "title": "Ball Kickaround", "emoji": "⚽", "desc": "Roll a soft ball to their feet and say 'Kick it!' Start close and move further back as they get the hang of it.", "materials": "Soft ball", "time": "10 min", "source": "APTA" },
+            { "title": "Target Practice", "emoji": "🎯", "desc": "Set up a laundry basket on its side. Show them how to kick the ball into the 'goal.' Cheer every attempt!", "materials": "Ball + laundry basket", "time": "10 min", "source": "APTA" }
+          ]},
+          { "id": "p-2y-2", "text": "Runs", "activities": [
+            { "title": "Chase Game", "emoji": "🏃", "desc": "Say 'I'm gonna get you!' and chase them (slowly!). Then let them chase you. Running with a purpose!", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" },
+            { "title": "Race to the Tree", "emoji": "🌳", "desc": "Pick a landmark (tree, fence, door). Say 'Ready, set, GO!' and run together. Let them win sometimes!", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-2y-3", "text": "Walks up a few stairs with or without help", "activities": [
+            { "title": "One Step at a Time", "emoji": "🪜", "desc": "Hold their hand and practice stairs. Count each step: 'One... two... three!' Celebrate at the top.", "materials": "Stairs + your hand", "time": "5 min", "source": "APTA" },
+            { "title": "Teddy Goes Upstairs", "emoji": "🧸", "desc": "Have them carry a stuffed animal up the stairs: 'Let's help teddy go up!' Adds motivation and purpose.", "materials": "Stuffed animal", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-2y-4", "text": "Eats with a spoon", "activities": [
+            { "title": "Scoop Challenge", "emoji": "🥄", "desc": "Serve thick foods (oatmeal, yogurt, mashed potatoes) that stick to the spoon. Easier to scoop = more success!", "materials": "Spoon + thick food", "time": "10 min", "source": "AOTA" },
+            { "title": "Practice Bowl", "emoji": "🥣", "desc": "Put dry cereal in a bowl and let them practice scooping with a spoon. No mess, all the practice!", "materials": "Bowl + dry cereal + spoon", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-2y-1", "text": "Holds something in one hand while using the other", "activities": [
+            { "title": "Stamp Art", "emoji": "🎨", "desc": "Hold paper with one hand, stamp with the other. Use sponges or cookie cutters dipped in paint!", "materials": "Paper + paint + sponge", "time": "10 min", "source": "AOTA" },
+            { "title": "Banana Peel", "emoji": "🍌", "desc": "Let them hold a banana in one hand while you start the peel. Then let them pull it with the other hand!", "materials": "A banana", "time": "2 min", "source": "AOTA" }
+          ]},
+          { "id": "c-2y-2", "text": "Tries to use switches, knobs, or buttons on a toy", "activities": [
+            { "title": "Light Switch Fun", "emoji": "💡", "desc": "Hold them up to a light switch. Say 'On!' (flip up) 'Off!' (flip down). They'll love the cause and effect!", "materials": "Light switch", "time": "3 min", "source": "AOTA" },
+            { "title": "Button Hunt", "emoji": "🔘", "desc": "Find safe buttons around the house: elevator, microwave timer, doorbell. Let them push and see what happens!", "materials": "Household items with buttons", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-2y-3", "text": "Plays with more than one toy at the same time", "activities": [
+            { "title": "Teddy Tea Party", "emoji": "🫖", "desc": "Set up a pretend tea party with a stuffed animal and play cups. They'll use multiple toys together in one scene!", "materials": "Stuffed animal + play cups", "time": "10 min", "source": "AOTA" },
+            { "title": "Car & Block City", "emoji": "🏙️", "desc": "Build a simple road with blocks, then drive toy cars on it. Combining toys = growing imagination!", "materials": "Blocks + toy cars", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "c-2y-4", "text": "Begins to sort shapes and colors", "activities": [
+            { "title": "Sock Match", "emoji": "🧦", "desc": "Dump a pile of different-colored socks. Help them match pairs by color: 'Find another blue one!'", "materials": "Colorful socks", "time": "5 min", "source": "AOTA" },
+            { "title": "Snack Sort", "emoji": "🍎", "desc": "Put different colored snacks on a plate (berries, crackers, grapes). Sort them by color into groups before eating!", "materials": "Colorful snacks", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-2y-1", "text": "Notices when others are hurt or upset", "activities": [
+            { "title": "Feelings Faces", "emoji": "😊", "desc": "Make different faces (happy, sad, surprised) and name them. Ask 'How does teddy feel?' when playing.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Band-Aid Game", "emoji": "🩹", "desc": "When a toy 'falls down,' say 'Oh no, teddy has a boo-boo!' Give them a pretend band-aid to 'help' the toy.", "materials": "Stuffed animal", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-2y-2", "text": "Looks at your face to see how to react in a new situation", "activities": [
+            { "title": "Model It", "emoji": "🎭", "desc": "When something surprising happens, narrate your reaction: 'Whoa, that was loud! But we're okay!' They learn from watching you.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "New Food Face", "emoji": "😋", "desc": "Try a new food together. Make a big 'Mmm!' face. They'll look at you first, then often try it too!", "materials": "New food to try", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-2y-3", "text": "Shows defiant behavior (doing what they've been told not to)", "activities": [
+            { "title": "Choices Power", "emoji": "🔀", "desc": "Instead of 'Put on shoes,' try 'Red shoes or blue shoes?' Giving choices reduces power struggles.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Yes Jar", "emoji": "✅", "desc": "Find more things to say 'yes' to each day. 'Yes, you CAN help stir!' saves 'no' for the important stuff.", "materials": "Nothing needed!", "time": "All day", "source": "BACB" }
+          ]},
+          { "id": "e-2y-4", "text": "Gets excited when with other children", "activities": [
+            { "title": "Parallel Play Date", "emoji": "👧", "desc": "Play alongside another child with similar toys. They don't need to share yet — just being near each other builds social skills!", "materials": "Duplicate toys", "time": "15 min", "source": "BACB" },
+            { "title": "Park Narration", "emoji": "🏞️", "desc": "At a playground, narrate: 'Look at that kid going down the slide! Want to try?' Help bridge the gap to interaction.", "materials": "Nothing needed!", "time": "10 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "3-years",
+      "label": "3 Years",
+      "shortLabel": "3yr",
+      "order": 9,
+      "milestones": {
+        "speech": [
+          { "id": "s-3y-1", "text": "Talks with you in conversation (at least 2 back-and-forth exchanges)", "activities": [
+            { "title": "Tell Me About It", "emoji": "💬", "desc": "Ask open questions: 'What did you do today?' or 'What happened next?' Keep the conversation going back and forth!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Phone Call", "emoji": "📞", "desc": "Pretend to call them on a toy phone. Have a mini conversation: 'Hello! What are you doing? Oh wow!' They practice chatting.", "materials": "Toy phones (or hands!)", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-3y-2", "text": "Asks 'who,' 'what,' 'where,' or 'why' questions", "activities": [
+            { "title": "Question Box", "emoji": "❓", "desc": "Put mystery objects in a box. Pull one out and model: 'What is this? Where does it go?' Encourage their questions too!", "materials": "Box + household items", "time": "5 min", "source": "ASHA" },
+            { "title": "Curiosity Walk", "emoji": "🤔", "desc": "On a walk, wonder out loud: 'Why is the sky blue? Where do birds sleep?' Let them ask 'why' — it's a sign of growth!", "materials": "Nothing needed!", "time": "10 min", "source": "ASHA" }
+          ]},
+          { "id": "s-3y-3", "text": "Says what action is happening in a picture (running, eating)", "activities": [
+            { "title": "Action Book", "emoji": "📚", "desc": "Look at picture books and ask 'What is she doing?' Model if needed: 'She's running!' Then let them try the next one.", "materials": "Picture book", "time": "5 min", "source": "ASHA" },
+            { "title": "Act It Out", "emoji": "🎭", "desc": "Take turns acting out actions (jumping, sleeping, eating). The other person guesses: 'You're jumping!'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-3y-4", "text": "Says first name", "activities": [
+            { "title": "Name Song", "emoji": "🎵", "desc": "Make up a simple song with their name: 'Emma, Emma, that's my name!' Sing it at bath time or in the car.", "materials": "Nothing needed!", "time": "3 min", "source": "ASHA" },
+            { "title": "Roll Call", "emoji": "📋", "desc": "Play 'school' — call out names of family members, stuffed animals, and them! When you say their name, they say 'Here!'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-3y-5", "text": "Talks well enough for others to understand most of the time", "activities": [
+            { "title": "Slow Down & Repeat", "emoji": "🔄", "desc": "When you don't understand, say 'Tell me again?' calmly. Then repeat back what they said correctly: 'Oh, you want the TRUCK!'", "materials": "Nothing needed!", "time": "All day", "source": "ASHA" },
+            { "title": "Story Time Narrator", "emoji": "📖", "desc": "Let them 'read' a familiar book to you using their own words. Don't correct — just listen and respond!", "materials": "A favorite book", "time": "5 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-3y-1", "text": "Strings items together (beads, macaroni)", "activities": [
+            { "title": "Pasta Necklace", "emoji": "📿", "desc": "String large pasta (penne, rigatoni) onto a shoelace or yarn. Paint them first for extra fun!", "materials": "Pasta + string or yarn", "time": "10 min", "source": "AOTA" },
+            { "title": "Cheerio Bracelet", "emoji": "🥣", "desc": "String Cheerios onto a pipe cleaner to make a bracelet. They can eat it afterward as a snack!", "materials": "Cheerios + pipe cleaner", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-3y-2", "text": "Puts on some clothes by self", "activities": [
+            { "title": "Dress-Up Race", "emoji": "👗", "desc": "Put out easy clothes (big shirts, hats, scarves) and have a silly dress-up race. Speed isn't the point — independence is!", "materials": "Easy-to-wear clothes", "time": "10 min", "source": "AOTA" },
+            { "title": "Backwards Day", "emoji": "🔀", "desc": "Let them pick their own outfit — even if it's mismatched or backwards. Practicing the skill matters more than perfection!", "materials": "Their clothes", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "p-3y-3", "text": "Uses a fork", "activities": [
+            { "title": "Fork Fun Foods", "emoji": "🍴", "desc": "Serve fork-friendly foods: soft cubes of fruit, pasta, or cheese. Show them how to stab and lift.", "materials": "Child fork + soft foods", "time": "10 min", "source": "AOTA" },
+            { "title": "Play-Doh Dinner", "emoji": "🎨", "desc": "Make Play-Doh food and practice stabbing it with a fork. Great practice without the mess of real food!", "materials": "Play-Doh + fork", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-3y-4", "text": "Pedals a tricycle", "activities": [
+            { "title": "Feet on Pedals", "emoji": "🚲", "desc": "Start by placing their feet on the pedals and pushing them gently. Then let them try pushing on their own.", "materials": "Tricycle or ride-on toy", "time": "10 min", "source": "APTA" },
+            { "title": "Destination Ride", "emoji": "🏁", "desc": "Set a 'finish line' (a cone, a tree). Say 'Pedal to the finish!' Having a goal motivates the effort.", "materials": "Tricycle + a marker", "time": "10 min", "source": "APTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-3y-1", "text": "Draws a circle when you show them how", "activities": [
+            { "title": "Circle Hunt", "emoji": "⭕", "desc": "Find circles around the house (plates, clocks, buttons). Then try drawing one together on paper!", "materials": "Paper + crayon", "time": "5 min", "source": "AOTA" },
+            { "title": "Finger Paint Circle", "emoji": "🎨", "desc": "Use pudding or shaving cream on a tray. Draw a circle with your finger and let them trace over it.", "materials": "Tray + pudding or cream", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "c-3y-2", "text": "Avoids touching hot objects when warned", "activities": [
+            { "title": "Hot/Cold Game", "emoji": "🌡️", "desc": "Practice with warm (not hot) and cold items: 'This is warm! We don't touch hot things.' Naming builds understanding.", "materials": "Warm mug + ice cube", "time": "3 min", "source": "AOTA" },
+            { "title": "Kitchen Safety Talk", "emoji": "⚠️", "desc": "While cooking, point: 'The stove is hot — we stay back!' Repeat consistently. They learn through repetition.", "materials": "Nothing needed!", "time": "2 min", "source": "AOTA" }
+          ]},
+          { "id": "c-3y-3", "text": "Does puzzles with 3-4 pieces", "activities": [
+            { "title": "Homemade Puzzle", "emoji": "🧩", "desc": "Cut a photo or drawing into 3-4 pieces. Let them put it back together. Start with 2 pieces and add more!", "materials": "Paper + scissors", "time": "10 min", "source": "AOTA" },
+            { "title": "Shape Match", "emoji": "🔷", "desc": "Cut shapes out of cardboard and trace their outline on paper. They match each shape to its outline!", "materials": "Cardboard + paper", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "c-3y-4", "text": "Turns pages of a book one at a time", "activities": [
+            { "title": "Page Turner", "emoji": "📖", "desc": "During story time, let them turn each page. Say 'Can you turn the page?' and wait. Board books are easier to start.", "materials": "Any book", "time": "5 min", "source": "AOTA" },
+            { "title": "Sticky Note Books", "emoji": "📝", "desc": "Put one sticky note on each page of a book. They peel off the note AND turn the page — double practice!", "materials": "Book + sticky notes", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-3y-1", "text": "Calms down within 10 minutes after you leave", "activities": [
+            { "title": "Goodbye Routine", "emoji": "👋", "desc": "Create a quick, predictable goodbye: hug, wave, 'See you soon!' Keeping it short and cheerful builds confidence.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Comfort Object", "emoji": "🧸", "desc": "Let them bring a favorite toy or blanket when separating. Having something familiar helps them self-soothe.", "materials": "A comfort item", "time": "Ongoing", "source": "BACB" }
+          ]},
+          { "id": "e-3y-2", "text": "Notices other children and joins them to play", "activities": [
+            { "title": "Playground Coach", "emoji": "🏞️", "desc": "At the park, narrate: 'That boy is playing with blocks. Want to play next to him?' Help bridge the gap gently.", "materials": "Nothing needed!", "time": "10 min", "source": "BACB" },
+            { "title": "Playdate Practice", "emoji": "🤝", "desc": "Start with one-on-one playdates. Smaller groups are less overwhelming. Guide simple interactions: 'You could show him your truck!'", "materials": "Nothing needed!", "time": "30 min", "source": "BACB" }
+          ]},
+          { "id": "e-3y-3", "text": "Shows concern for a crying friend", "activities": [
+            { "title": "What Would Teddy Do?", "emoji": "🧸", "desc": "During play, if teddy 'cries,' ask: 'Oh no, teddy's sad. What should we do?' They practice empathy through pretend.", "materials": "Stuffed animal", "time": "5 min", "source": "BACB" },
+            { "title": "Feelings Check-In", "emoji": "❤️", "desc": "When you see someone sad (in real life or a book), say: 'She looks sad. How could we help?' Name the feeling first.", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]},
+          { "id": "e-3y-4", "text": "Takes turns in games", "activities": [
+            { "title": "My Turn, Your Turn", "emoji": "🔄", "desc": "Play a simple game (stacking blocks, rolling a ball). Say 'My turn... your turn!' exaggerating each switch.", "materials": "Simple toy or ball", "time": "5 min", "source": "BACB" },
+            { "title": "Cooking Turns", "emoji": "🥘", "desc": "While cooking together, take turns: 'You stir... now my turn!' Real-life turn-taking is the best practice.", "materials": "Cooking activity", "time": "10 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "4-years",
+      "label": "4 Years",
+      "shortLabel": "4yr",
+      "order": 10,
+      "milestones": {
+        "speech": [
+          { "id": "s-4y-1", "text": "Says sentences with 4 or more words", "activities": [
+            { "title": "Story Starters", "emoji": "📖", "desc": "Start a sentence and let them finish: 'Today I saw a...' Encourage longer answers: 'Tell me more!'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Dinner Chat", "emoji": "🍽️", "desc": "At meals, ask 'What was your favorite part of today?' Model full sentences in your answer too.", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-4y-2", "text": "Says some words from a song, story, or nursery rhyme", "activities": [
+            { "title": "Pause & Fill", "emoji": "🎵", "desc": "Sing a familiar song but pause before the last word of each line. Let them fill it in: 'Twinkle twinkle little...'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Story Recall", "emoji": "📚", "desc": "After reading a familiar book, ask 'What happened next?' Let them retell in their own words.", "materials": "Favorite book", "time": "10 min", "source": "ASHA" }
+          ]},
+          { "id": "s-4y-3", "text": "Talks about at least one thing that happened during the day", "activities": [
+            { "title": "Highs & Lows", "emoji": "⬆️", "desc": "At dinner or bedtime, share your high and low of the day. Then ask: 'What was YOUR favorite part?'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Photo Review", "emoji": "📸", "desc": "Look at photos from the day on your phone together. Ask 'What were we doing here?' helps them narrate events.", "materials": "Phone with photos", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-4y-4", "text": "Answers simple questions like 'What is a coat for?'", "activities": [
+            { "title": "What's It For?", "emoji": "❓", "desc": "Point to everyday objects: 'What's a spoon for? What's a blanket for?' Accept creative answers too!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Silly Wrong Answers", "emoji": "🤪", "desc": "Give funny wrong answers: 'Is a hat for your feet?' They'll laugh and correct you — that's learning!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-4y-1", "text": "Catches a large ball most of the time", "activities": [
+            { "title": "Balloon Catch", "emoji": "🎈", "desc": "Start with a balloon — it moves slowly! Once they catch that, upgrade to a soft ball.", "materials": "Balloon or soft ball", "time": "10 min", "source": "APTA" },
+            { "title": "Roll & Catch", "emoji": "⚽", "desc": "Sit facing each other and roll a ball. Then try gentle underhand throws. 'Ready? Here it comes!'", "materials": "Large soft ball", "time": "10 min", "source": "APTA" }
+          ]},
+          { "id": "p-4y-2", "text": "Serves self food or pours water with supervision", "activities": [
+            { "title": "Pour Practice", "emoji": "🫗", "desc": "Use a small pitcher with a little water. Let them pour into a cup at meals. Spills are part of learning!", "materials": "Small pitcher + cups", "time": "3 min", "source": "AOTA" },
+            { "title": "Scoop Station", "emoji": "🥄", "desc": "At meals, let them use a serving spoon to scoop their own food from a bowl. Independence at the table!", "materials": "Serving spoon + bowl", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "p-4y-3", "text": "Unbuttons some buttons", "activities": [
+            { "title": "Big Button Dress-Up", "emoji": "👔", "desc": "Practice with large-button shirts (like a parent's shirt). Big buttons are easier to start with!", "materials": "Large-button shirt", "time": "5 min", "source": "AOTA" },
+            { "title": "Button Board", "emoji": "🧵", "desc": "Sew large buttons onto felt or fabric. Let them practice buttoning/unbuttoning as a fun activity.", "materials": "Fabric + large buttons", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-4y-4", "text": "Holds crayon or pencil between fingers and thumb (not a fist)", "activities": [
+            { "title": "Short Crayon Trick", "emoji": "🖍️", "desc": "Break crayons in half. Short crayons naturally encourage a finger grip instead of a fist grip!", "materials": "Short crayons + paper", "time": "10 min", "source": "AOTA" },
+            { "title": "Dot-to-Dot", "emoji": "✏️", "desc": "Draw simple dot-to-dot pictures. Connecting dots requires the precision that builds proper pencil grip.", "materials": "Paper + pencil", "time": "10 min", "source": "AOTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-4y-1", "text": "Names a few colors of items", "activities": [
+            { "title": "Color Scavenger Hunt", "emoji": "🌈", "desc": "'Find something blue!' Take turns picking a color and hunting for it around the room or outside.", "materials": "Nothing needed!", "time": "10 min", "source": "AOTA" },
+            { "title": "Color Sort Snack", "emoji": "🍇", "desc": "Sort colored snacks by color before eating: 'All the red ones here, green ones there!' Then eat!", "materials": "Colorful snacks", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-4y-2", "text": "Tells what comes next in a well-known story", "activities": [
+            { "title": "Predictable Pause", "emoji": "📖", "desc": "Read a familiar story and stop before something happens: 'And then the bear...' Let them finish!", "materials": "Favorite book", "time": "10 min", "source": "AOTA" },
+            { "title": "Sequence Cards", "emoji": "🃏", "desc": "Draw or print 3 pictures from a story. Mix them up and let them put them in order.", "materials": "Pictures or drawings", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "c-4y-3", "text": "Draws a person with 3 or more body parts", "activities": [
+            { "title": "Body Drawing", "emoji": "🎨", "desc": "Draw a person together: 'First the head... then the body... arms... legs!' Talk through each part.", "materials": "Paper + crayons", "time": "10 min", "source": "AOTA" },
+            { "title": "Mirror Drawing", "emoji": "🪞", "desc": "Have them look in a mirror and draw what they see. 'What do you see? Eyes! Draw eyes!'", "materials": "Mirror + paper + crayons", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "c-4y-4", "text": "Understands and uses words for counting", "activities": [
+            { "title": "Stair Counting", "emoji": "🔢", "desc": "Count each stair as you go up and down. Count snacks, toys, fingers, toes — make counting a habit!", "materials": "Nothing needed!", "time": "All day", "source": "AOTA" },
+            { "title": "Snack Count", "emoji": "🍪", "desc": "'How many crackers do you want? Let's count: one... two... three!' They learn numbers have meaning.", "materials": "Snacks", "time": "3 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-4y-1", "text": "Pretends to be something else during play (teacher, superhero)", "activities": [
+            { "title": "Dress-Up Box", "emoji": "🦸", "desc": "Keep a box of hats, capes, and scarves. Ask 'Who are you today?' Play along with their character!", "materials": "Dress-up clothes", "time": "15 min", "source": "BACB" },
+            { "title": "Pretend Restaurant", "emoji": "🍕", "desc": "Set up a pretend restaurant. They're the chef/waiter. You order, they 'cook' and serve. Builds imagination!", "materials": "Play food or real snacks", "time": "15 min", "source": "BACB" }
+          ]},
+          { "id": "e-4y-2", "text": "Asks to play with other children", "activities": [
+            { "title": "Practice Words", "emoji": "💬", "desc": "Practice at home: 'Can I play with you?' Role-play the scenario. Having the words ready builds confidence.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Playground Buddy", "emoji": "🤝", "desc": "At the park, stay nearby as they approach other kids. Coach gently: 'Ask them if you can play!'", "materials": "Nothing needed!", "time": "10 min", "source": "BACB" }
+          ]},
+          { "id": "e-4y-3", "text": "Comforts others who are hurt or sad", "activities": [
+            { "title": "Check-In Practice", "emoji": "❤️", "desc": "When someone is upset, model: 'Are you okay? Do you need a hug?' Then let your child try.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Teddy Doctor", "emoji": "🧸", "desc": "Pretend teddy is hurt. 'Oh no, teddy fell! What should we do?' They practice caring and comforting.", "materials": "Stuffed animal", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-4y-4", "text": "Avoids danger (doesn't jump from tall heights)", "activities": [
+            { "title": "Safety Talks", "emoji": "⚠️", "desc": "Casually talk about why: 'We don't climb on that because we could fall and get hurt.' Understanding 'why' helps.", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Safe/Not Safe Game", "emoji": "✅", "desc": "Point to things and ask: 'Is it safe to jump from there?' Let them think through the answer.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" }
+          ]},
+          { "id": "e-4y-5", "text": "Changes behavior based on where they are (library vs playground)", "activities": [
+            { "title": "Where Are We?", "emoji": "🏛️", "desc": "Before entering a new place, ask: 'We're at the library. What voice do we use here?' Prep helps!", "materials": "Nothing needed!", "time": "2 min", "source": "BACB" },
+            { "title": "Inside/Outside Voice", "emoji": "🔊", "desc": "Practice switching between 'inside voice' (quiet) and 'outside voice' (loud). Make it a fun game!", "materials": "Nothing needed!", "time": "3 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "5-years",
+      "label": "5 Years",
+      "shortLabel": "5yr",
+      "order": 11,
+      "milestones": {
+        "speech": [
+          { "id": "s-5y-1", "text": "Tells a story with at least 2 events", "activities": [
+            { "title": "Story Chain", "emoji": "🔗", "desc": "Start a story: 'Once upon a time, a dog ran outside...' Ask: 'Then what happened?' Let them add the next part!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Day Recap", "emoji": "📋", "desc": "At bedtime, ask 'Tell me two things you did today.' Help them connect events: 'First... then...'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-5y-2", "text": "Answers simple questions about a book or story", "activities": [
+            { "title": "Story Questions", "emoji": "📖", "desc": "After reading, ask: 'Who was in the story? What happened? Why was she sad?' Start with 'who' and 'what.'", "materials": "Any book", "time": "5 min", "source": "ASHA" },
+            { "title": "Movie Chat", "emoji": "🎬", "desc": "After watching a show together: 'Who was your favorite character? What happened at the end?'", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]},
+          { "id": "s-5y-3", "text": "Keeps a conversation going with 3 or more back-and-forth exchanges", "activities": [
+            { "title": "Interview Time", "emoji": "🎙️", "desc": "Pretend to interview them: 'What's your favorite food? Why? What do you like about it?' Keep going!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Car Conversations", "emoji": "🚗", "desc": "Use car rides for longer chats. 'What if we could fly? Where would you go?' Open questions keep it going.", "materials": "Nothing needed!", "time": "10 min", "source": "ASHA" }
+          ]},
+          { "id": "s-5y-4", "text": "Uses or recognizes simple rhymes", "activities": [
+            { "title": "Rhyme Time", "emoji": "🎵", "desc": "Say a word and find rhymes: 'Cat... bat... hat...' Take turns adding one. How many can you find?", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" },
+            { "title": "Silly Rhyme Songs", "emoji": "🤪", "desc": "Sing songs with rhymes (Down by the Bay, etc). Pause before the rhyming word and let them fill it in!", "materials": "Nothing needed!", "time": "5 min", "source": "ASHA" }
+          ]}
+        ],
+        "physical": [
+          { "id": "p-5y-1", "text": "Buttons some buttons", "activities": [
+            { "title": "Getting Dressed Race", "emoji": "🏁", "desc": "Time how fast they can button their shirt. Try to beat their own record. No competing — just personal bests!", "materials": "Button-up shirt", "time": "5 min", "source": "AOTA" },
+            { "title": "Doll Dress-Up", "emoji": "👗", "desc": "Practice buttoning on a doll or stuffed animal's clothes. Easier to see and manipulate smaller buttons.", "materials": "Doll with button clothes", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-5y-2", "text": "Hops on one foot", "activities": [
+            { "title": "Hopscotch", "emoji": "🔢", "desc": "Draw a simple hopscotch with chalk. Practice hopping on one foot through the squares!", "materials": "Chalk", "time": "10 min", "source": "APTA" },
+            { "title": "Flamingo Game", "emoji": "🦩", "desc": "'Let's be flamingos!' Stand on one foot and see who can hold it longest. Then try hopping!", "materials": "Nothing needed!", "time": "5 min", "source": "APTA" }
+          ]},
+          { "id": "p-5y-3", "text": "Uses a fork and spoon properly", "activities": [
+            { "title": "Restaurant Night", "emoji": "🍽️", "desc": "Set the table fancy and practice 'restaurant manners' — using fork in one hand, spoon in the other.", "materials": "Fork + spoon + food", "time": "15 min", "source": "AOTA" },
+            { "title": "Utensil Practice", "emoji": "🥄", "desc": "Serve foods that need both utensils: soup needs a spoon, pasta needs a fork. Practice with purpose!", "materials": "Various foods + utensils", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "p-5y-4", "text": "Can dress and undress without much help", "activities": [
+            { "title": "Outfit Picker", "emoji": "👕", "desc": "Let them pick tomorrow's outfit and practice putting it on the night before. Independence + excitement!", "materials": "Their clothes", "time": "10 min", "source": "AOTA" },
+            { "title": "Timer Challenge", "emoji": "⏰", "desc": "Set a gentle timer and see if they can get dressed before it goes off. Make it fun, not stressful!", "materials": "Timer + clothes", "time": "5 min", "source": "AOTA" }
+          ]}
+        ],
+        "cognitive": [
+          { "id": "c-5y-1", "text": "Counts to 10", "activities": [
+            { "title": "Count Everything", "emoji": "🔢", "desc": "Count stairs, snacks, toys, birds outside. The more they count real things, the more numbers make sense.", "materials": "Nothing needed!", "time": "All day", "source": "AOTA" },
+            { "title": "Hide & Count", "emoji": "🙈", "desc": "Play hide and seek — they count to 10 while you hide. Meaningful counting practice with a fun reward!", "materials": "Nothing needed!", "time": "10 min", "source": "AOTA" }
+          ]},
+          { "id": "c-5y-2", "text": "Names some numbers between 1 and 5 when pointed to", "activities": [
+            { "title": "Number Hunt", "emoji": "🔍", "desc": "Find numbers in the real world: on signs, clocks, books, addresses. 'What number is that?'", "materials": "Nothing needed!", "time": "All day", "source": "AOTA" },
+            { "title": "Number Magnets", "emoji": "🧲", "desc": "Put number magnets on the fridge. Point to one: 'What number is this?' Start with 1-5.", "materials": "Number magnets", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-5y-3", "text": "Uses words about time (yesterday, tomorrow, morning)", "activities": [
+            { "title": "Time Talk", "emoji": "🕐", "desc": "Narrate time throughout the day: 'Tomorrow we're going to the park! Yesterday we had pizza.' Model the words.", "materials": "Nothing needed!", "time": "All day", "source": "AOTA" },
+            { "title": "Morning/Night Sort", "emoji": "🌅", "desc": "'Do we eat breakfast in the morning or at night? Do we put on pajamas in the morning or at night?' Quiz them!", "materials": "Nothing needed!", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-5y-4", "text": "Pays attention for 5-10 minutes during activities", "activities": [
+            { "title": "Puzzle Time", "emoji": "🧩", "desc": "Do a 12-24 piece puzzle together. Sit with them and work on it. Your presence helps them focus longer.", "materials": "Age-appropriate puzzle", "time": "10 min", "source": "AOTA" },
+            { "title": "Story Without Pictures", "emoji": "📻", "desc": "Tell a story without a book — just your voice. 'Once upon a time...' builds listening attention.", "materials": "Nothing needed!", "time": "5 min", "source": "AOTA" }
+          ]},
+          { "id": "c-5y-5", "text": "Writes some letters in their name", "activities": [
+            { "title": "Name Tracing", "emoji": "✏️", "desc": "Write their name in large dotted letters. Let them trace over the dots. Start with just the first letter!", "materials": "Paper + markers", "time": "10 min", "source": "AOTA" },
+            { "title": "Sand Writing", "emoji": "🏖️", "desc": "Pour salt or sand in a tray. Let them practice writing letters with their finger. Erase by shaking — try again!", "materials": "Tray + salt or sand", "time": "10 min", "source": "AOTA" }
+          ]}
+        ],
+        "social": [
+          { "id": "e-5y-1", "text": "Follows rules or takes turns in games", "activities": [
+            { "title": "Simple Board Games", "emoji": "🎲", "desc": "Play simple games like Candy Land or Hi-Ho Cherry-O. They practice waiting, rules, and turn-taking.", "materials": "Board game", "time": "15 min", "source": "BACB" },
+            { "title": "Card Games", "emoji": "🃏", "desc": "Play Go Fish or Memory. Simple rules, clear turns. Great for rule-following and patience!", "materials": "Cards", "time": "10 min", "source": "BACB" }
+          ]},
+          { "id": "e-5y-2", "text": "Sings, dances, or acts for you", "activities": [
+            { "title": "Living Room Concert", "emoji": "🎤", "desc": "Set up a 'stage' (a blanket on the floor). Let them perform! Be an enthusiastic audience.", "materials": "Blanket for 'stage'", "time": "10 min", "source": "BACB" },
+            { "title": "Dance Party", "emoji": "💃", "desc": "Put on music and dance together. Take turns showing off your best moves. They love performing!", "materials": "Music", "time": "10 min", "source": "BACB" }
+          ]},
+          { "id": "e-5y-3", "text": "Does simple chores at home", "activities": [
+            { "title": "Chore Chart", "emoji": "📋", "desc": "Make a simple picture chart: put away toys, wipe the table, feed the pet. Sticker for each one done!", "materials": "Paper + stickers", "time": "5 min", "source": "BACB" },
+            { "title": "Helper of the Day", "emoji": "🌟", "desc": "Make them the 'special helper' — setting the table, sorting laundry, watering plants. They love the title!", "materials": "Nothing needed!", "time": "10 min", "source": "BACB" }
+          ]},
+          { "id": "e-5y-4", "text": "Is aware of gender differences", "activities": [
+            { "title": "Family Talk", "emoji": "👨‍👩‍👧‍👦", "desc": "Answer their questions simply and honestly when they notice differences. 'Boys and girls can both do anything!'", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Diverse Books", "emoji": "📚", "desc": "Read books showing all kinds of families and people. Representation builds understanding naturally.", "materials": "Diverse picture books", "time": "10 min", "source": "BACB" }
+          ]},
+          { "id": "e-5y-5", "text": "Can tell what is real and what is make-believe", "activities": [
+            { "title": "Real or Pretend?", "emoji": "🤔", "desc": "While reading or watching TV: 'Is that real or pretend?' Start obvious (dragons = pretend) and get trickier.", "materials": "Nothing needed!", "time": "5 min", "source": "BACB" },
+            { "title": "Imagination Games", "emoji": "🧙", "desc": "Play pretend together and then talk about it: 'That was fun pretending! In real life, can we fly?' They learn the difference.", "materials": "Nothing needed!", "time": "10 min", "source": "BACB" }
+          ]}
+        ]
+      }
+    }
+  ],
+  "levels": [
+    { "level": 1, "name": "Seed", "emoji": "🌰", "xpRequired": 0 },
+    { "level": 2, "name": "Sprout", "emoji": "🌱", "xpRequired": 25 },
+    { "level": 3, "name": "Bloom", "emoji": "🌿", "xpRequired": 75 },
+    { "level": 4, "name": "Blossom", "emoji": "🌸", "xpRequired": 150 },
+    { "level": 5, "name": "Flourish", "emoji": "🌳", "xpRequired": 300 }
+  ],
+  "badges": [
+    { "id": "first-leap", "name": "First Leap", "emoji": "⭐", "description": "Complete your first milestone check", "trigger": "firstCheck" },
+    { "id": "speech-star", "name": "Chatterbox Champion", "emoji": "🗣️", "description": "Check all Speech milestones", "trigger": "allSpeech" },
+    { "id": "movement-master", "name": "Movement Master", "emoji": "🏃", "description": "Check all Movement milestones", "trigger": "allPhysical" },
+    { "id": "thinking-star", "name": "Thinking Star", "emoji": "🧩", "description": "Check all Thinking milestones", "trigger": "allCognitive" },
+    { "id": "social-butterfly", "name": "Social Butterfly", "emoji": "💛", "description": "Check all Social milestones", "trigger": "allSocial" },
+    { "id": "superstar", "name": "Superstar", "emoji": "🌟", "description": "Check ALL milestones across ALL areas", "trigger": "allComplete" },
+    { "id": "growth-tracker", "name": "Growth Tracker", "emoji": "🔄", "description": "Come back for a second check-in", "trigger": "secondCheck" },
+    { "id": "leap-forward", "name": "Leap Forward", "emoji": "📈", "description": "Improve your score from a previous check", "trigger": "scoreImproved" },
+    { "id": "home-hero", "name": "Home Hero", "emoji": "🏠", "description": "Try 5 at-home activities", "trigger": "fiveActivities" },
+    { "id": "sharing-caring", "name": "Sharing is Caring", "emoji": "📱", "description": "Share the tool with someone", "trigger": "shared" },
+    { "id": "goal-getter", "name": "Goal Getter", "emoji": "🎯", "description": "Achieve a milestone goal you set", "trigger": "goalAchieved" },
+    { "id": "flourishing", "name": "Flourishing Family", "emoji": "🌳", "description": "Reach Level 5", "trigger": "level5" }
+  ],
+  "xpActions": {
+    "firstCheck": 25,
+    "allInDiscipline": 10,
+    "fullCheck": 15,
+    "returnCheck": 20,
+    "tryActivity": 5,
+    "share": 10
+  }
+}

@@ -1,33 +1,53 @@
 {
-  "heroTitle": "Applied Behavior Analysis (ABA)",
-  "heroSubtitle": "Personalized, intensive services for children ages 2–12 with autism spectrum disorders",
-  "seoDescription": "Colorado Springs ABA therapy for children ages 2–12 with autism. In-home, center-based & community services. Trauma-informed care. Accepting Medicaid, TRICARE, Aetna, Cigna, and BlueCross BlueShield.",
-  "image": "/images/service-aba.jpg",
-  "content": "Our individualized ABA programs empower children to build essential life skills — including communication, social interaction, and self-care — using proven, evidence-based techniques tailored to each child's unique strengths and goals. With services offered in-home, in-clinic, and in the community, we meet your family wherever you are.\n\n### Trauma-Informed Care\n\nOur ABA team is trained in **trauma-informed practices**, ensuring every session is built on a foundation of safety, trust, and empowerment. We understand that many children have experienced challenging circumstances, and our approach prioritizes:\n\n* **Emotional safety** — creating a calm, predictable environment where your child feels secure\n* **Choice and autonomy** — giving children a voice in their treatment whenever possible\n* **Relationship-first** — building genuine connections before establishing goals\n* **Compassionate redirection** — understanding the \"why\" behind behaviors, not just the behavior itself\n\n### Locations\n\n* 1930 Frequent Flyer Point, Colorado Springs, CO 80915\n* 2105 Academy Circle, Colorado Springs, CO 80909\n\n### Hours\n\n7:00 a.m. to 6:00 p.m., Monday through Friday, by appointment.\n\n### Service Options\n\nWe offer both **in-home** and **in-clinic** ABA services to meet your family's needs and schedule.",
+  "heroTitle": "Applied Behavior Analysis",
+  "heroSubtitle": "Personalized, compassionate support for children with autism — built on trust",
+  "seoDescription": "ABA therapy for children ages 2–12 in Colorado Springs. Trauma-informed, evidence-based behavior analysis for autism spectrum disorders. In-home, center-based, and community services. Accepting Medicaid, TRICARE, Aetna, Cigna, and BlueCross BlueShield.",
+  "image": "/images/content-aba.png",
+  "heroImage": "/images/hero-aba.png",
+  "intro": "Every child with autism has unique strengths, interests, and challenges. Our ABA programs are designed to meet each child where they are — using **evidence-based, trauma-informed techniques** to build communication, social skills, and independence. We focus on the whole child, not just behaviors, and we partner closely with families every step of the way.",
+  "services": [
+    "Communication & language development",
+    "Social skills & peer interaction",
+    "Daily living skills (dressing, feeding, hygiene)",
+    "Emotional regulation & coping strategies",
+    "School readiness & academic support",
+    "Behavior reduction through positive strategies",
+    "Community safety & independence"
+  ],
+  "serviceNote": "Available **in-home**, **in-clinic**, or **in the community** — wherever your child learns best.",
+  "learnMore": [
+    {
+      "icon": "💙",
+      "title": "Trauma-Informed ABA",
+      "content": "Our ABA team is trained in **trauma-informed practices**, ensuring every session is built on a foundation of safety, trust, and empowerment. We understand that many children have experienced challenging circumstances, and our approach prioritizes the child's emotional wellbeing above all else.\n\nWhat this looks like in practice:\n\n- **Emotional safety** — creating a calm, predictable environment where your child feels secure\n- **Choice and autonomy** — giving children a voice in their sessions whenever possible\n- **Relationship-first** — building genuine connections before introducing goals\n- **Compassionate redirection** — understanding the *why* behind behaviors, not just the behavior itself\n\nThis approach is endorsed by leading voices in the field and reflects our belief that effective therapy starts with trust."
+    },
+    {
+      "icon": "🤝",
+      "title": "Social Skills & Communication",
+      "content": "Building meaningful connections with others is one of the most important things ABA therapy can support. We use a blend of structured and natural teaching approaches recommended by the **Behavior Analyst Certification Board (BACB)** to help children develop:\n\n- **Functional communication** — expressing needs, wants, and feelings using words, signs, or AAC devices\n- **Peer interaction** — turn-taking, sharing, cooperative play, and conversation skills\n- **Social awareness** — reading facial expressions, understanding personal space, and responding to social cues\n- **Joint attention** — the ability to share focus on an activity or object with another person\n\nWe practice these skills in real-life settings — at the park, during play dates, and in group activities — so your child can generalize what they learn."
+    },
+    {
+      "icon": "🌟",
+      "title": "Daily Living & Independence",
+      "content": "A core goal of ABA therapy is helping children become more independent in their daily lives. We work on the practical skills that make a real difference for your child and your family:\n\n- **Self-care routines** — brushing teeth, getting dressed, using the bathroom\n- **Mealtime skills** — sitting at the table, using utensils, trying new foods\n- **Safety awareness** — understanding boundaries, following safety rules in the community\n- **Transition skills** — moving between activities, environments, or caregivers with less stress\n- **School readiness** — sitting in a group, following directions, waiting, and raising a hand\n\nWe break complex skills into manageable steps and celebrate every milestone along the way."
+    }
+  ],
   "faqs": [
     {
-      "question": "What is ABA?",
-      "answer": "Applied Behavior Analysis (ABA) is a therapy based on the science of learning and behavior. ABA therapy applies our understanding of how behavior works to real situations. The goal is to increase behaviors that are helpful and decrease behaviors that are harmful or affect learning."
+      "question": "How do I know if my child could benefit from ABA therapy?",
+      "answer": "If your child has been diagnosed with autism spectrum disorder or you have concerns about their behavior, communication, or social skills, ABA may be a great fit. Try our free [Little Leaps Milestone Tool](/milestone-check/) for a quick developmental snapshot, and schedule a free screening or call us for a no-cost consult to discuss your child's needs."
     },
     {
-      "question": "Why ABA?",
-      "answer": "ABA is considered an evidence-based best practice treatment by the US Surgeon General and the American Psychological Association. It has been shown to be effective in improving communication, social skills, and adaptive learning skills while reducing problematic behaviors."
+      "question": "What does a typical ABA session look like?",
+      "answer": "Your child works one-on-one with a trained behavior technician under the supervision of a Board Certified Behavior Analyst (BCBA). Sessions blend structured learning activities with play-based, natural environment teaching — always following your child's interests and pace."
     },
     {
-      "question": "Who benefits from ABA?",
-      "answer": "ABA therapy can benefit children with autism spectrum disorders, developmental delays, and other behavioral challenges. Our programs are tailored for children ages 2–12 and focus on each child's unique strengths and needs."
+      "question": "How will I know my child is making progress?",
+      "answer": "Your BCBA will provide regular progress reports and meet with you to review data and goals. We track specific, measurable objectives so you can see exactly how your child is growing. You'll also notice changes at home — improved communication, smoother routines, and more independence."
     },
     {
-      "question": "What does a typical session look like?",
-      "answer": "During a typical ABA session, your child works one-on-one with a trained behavior technician under the supervision of a Board Certified Behavior Analyst (BCBA). Sessions include structured activities, natural environment teaching, and play-based learning."
-    },
-    {
-      "question": "What should I bring to my child's first ABA session?",
-      "answer": "Bring comfortable clothes for your child, any previous evaluations or diagnoses, a list of your goals and concerns, and your child's favorite snack or comfort item. We'll handle the rest — the first session is all about getting to know your child."
-    },
-    {
-      "question": "How do I know if my child is making progress?",
-      "answer": "Your BCBA will provide regular progress reports and meet with you to review data and goals. We track specific, measurable objectives so you can see exactly how your child is growing. You'll also notice changes at home — improved communication, fewer challenging behaviors, and more independence."
+      "question": "How many hours per week does my child need?",
+      "answer": "ABA intensity varies by child. Some children benefit from a few hours per week focused on specific skills, while others thrive with more intensive programs. Your BCBA will recommend a schedule based on your child's evaluation and adjust as they progress."
     }
   ]
 }

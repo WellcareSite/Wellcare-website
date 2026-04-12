@@ -1,0 +1,131 @@
+---
+layout: base.njk
+title: "Little Leaps — Free Milestone Checker by WellCare & Nurture"
+description: "Is your child on track? Use Little Leaps — a free, fun developmental milestone checker for ages 2 months to 5 years. Covers Speech, Movement, Thinking, and Social skills. No sign-up required."
+permalink: /milestone-check/
+ogImage: /images/little-leaps-og.png
+---
+
+{# Custom hero for Little Leaps — replaces the standard page-hero #}
+<section class="ll-page-hero">
+  <div class="container">
+    <span class="ll-logo-icon">🌱</span>
+    <h1>Little Leaps</h1>
+    <div class="ll-brand">by WellCare & Nurture Pediatric Therapy</div>
+    <p class="ll-tagline">Celebrate every leap forward — it takes just 2 minutes!</p>
+  </div>
+</section>
+
+<!-- Wave: Hero → App -->
+<div class="wave-divider" style="margin-top: -60px; position: relative; z-index: 2;">
+  <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style="height:80px;">
+    <path d="M0,60 C200,20 400,20 600,40 C800,60 1000,60 1200,20 L1200,80 L0,80 Z" fill="#d3dbe5"/>
+  </svg>
+</div>
+
+<section class="section ll-app-section">
+  <div class="ll-app" id="little-leaps-app">
+
+    {# ── View 1: Welcome + Age Selector ── #}
+    <div class="ll-view active" id="ll-welcome">
+
+      <div class="ll-welcome-header">
+        <h2>How old is your little one?</h2>
+        <p>Slide to select your child's age</p>
+      </div>
+
+      {# Slider Age Selector #}
+      <div class="ll-slider-container">
+        <div class="ll-slider-tooltip" id="ll-slider-tooltip">12 Months</div>
+        <input type="range" class="ll-age-slider" id="ll-age-slider"
+               min="0" max="27" value="12" step="1"
+               aria-label="Select your child's age in months">
+        <div class="ll-slider-endpoints">
+          <span>2 Months</span>
+          <span>5 Years</span>
+        </div>
+      </div>
+
+      <button class="ll-btn-primary" id="ll-go-btn" style="margin-top: 1.5rem;">
+        Let's Go! 🎉
+      </button>
+    </div>
+
+    {# ── View 2: Milestone Checklist (one discipline at a time) ── #}
+    <div class="ll-view" id="ll-checklist">
+      {# Step Progress Bar (e.g., Speech → Movement → Thinking → Social) #}
+      <div class="ll-step-bar" id="ll-step-bar">
+        <div class="ll-step" data-step="0"><span class="ll-step-dot">🗣️</span><span class="ll-step-name">Speech</span></div>
+        <div class="ll-step-line"></div>
+        <div class="ll-step" data-step="1"><span class="ll-step-dot">🏃</span><span class="ll-step-name">Movement</span></div>
+        <div class="ll-step-line"></div>
+        <div class="ll-step" data-step="2"><span class="ll-step-dot">🧩</span><span class="ll-step-name">Thinking</span></div>
+        <div class="ll-step-line"></div>
+        <div class="ll-step" data-step="3"><span class="ll-step-dot">💛</span><span class="ll-step-name">Social</span></div>
+      </div>
+
+      {# Current discipline header #}
+      <div class="ll-discipline-header" id="ll-discipline-header">
+        <button class="ll-back-btn" id="ll-back-btn" aria-label="Go back">←</button>
+        <div class="ll-discipline-info">
+          <h3 id="ll-discipline-title"></h3>
+          <span id="ll-discipline-subtitle">Tap each milestone your child can do</span>
+        </div>
+      </div>
+
+      {# Milestones List (populated by JS) #}
+      <div class="ll-milestones-list" id="ll-milestones-list"></div>
+
+      {# Next / See Results button #}
+      <button class="ll-btn-primary" id="ll-next-btn" style="margin-top: 1rem;">
+        Next: Movement 🏃 →
+      </button>
+    </div>
+
+    {# ── View 3: Results (compact, one-screen, animated) ── #}
+    <div class="ll-view" id="ll-results">
+      {# Animated header #}
+      <div class="ll-results-header">
+        <span class="ll-results-emoji" id="ll-results-emoji"></span>
+        <h2 class="ll-results-label" id="ll-results-label"></h2>
+        <p class="ll-results-subtitle" id="ll-results-subtitle"></p>
+      </div>
+
+      {# 2×2 Mini Donut Grid #}
+      <div class="ll-donut-grid" id="ll-donut-grid"></div>
+
+      {# Screening rec banner #}
+      <div class="ll-screening-rec" id="ll-screening-rec"></div>
+
+      {# Action Buttons #}
+      <div class="ll-btn-group" id="ll-results-actions"></div>
+    </div>
+
+    {# ── View 4: Activity Ideas ── #}
+    <div class="ll-view" id="ll-activities">
+      <button class="ll-back-btn" id="ll-activities-back">← Back to Results</button>
+      <div id="ll-activities-content"></div>
+    </div>
+
+  </div>
+</section>
+
+{# Disclaimer — subtle footnote below the tool #}
+<div class="ll-disclaimer-footer">
+  <div class="ll-disclaimer" id="ll-disclaimer">
+    <strong>🌱 A Note for Families</strong> — This is a fun, educational tool — not a medical screening. Every child's journey is unique.
+    <button class="ll-disclaimer-toggle" id="ll-disclaimer-toggle" aria-expanded="false">Read more</button>
+    <div class="ll-disclaimer-full" id="ll-disclaimer-full">
+      <p style="margin:0 0 0.5rem;">{{ milestones.disclaimer }}</p>
+      <p class="ll-source">{{ milestones.disclaimerShort }}</p>
+    </div>
+  </div>
+</div>
+
+{# Milestone data passed to JS #}
+<script>
+  window.LITTLE_LEAPS_DATA = {{ milestones | dump | safe }};
+  window.SCREENING_URL = "{{ settings.screeningUrl }}";
+</script>
+<link rel="stylesheet" href="/css/milestone-screener.css">
+<script src="/js/milestone-screener.js" defer></script>

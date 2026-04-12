@@ -1,33 +1,53 @@
 {
   "heroTitle": "Physical Therapy",
-  "heroSubtitle": "Enhancing movement abilities and helping children reach their developmental milestones",
-  "seoDescription": "Pediatric physical therapy in Colorado Springs. In-home & in-clinic PT for developmental delays, gross motor skills, balance, coordination, and post-surgical rehab. Accepting Medicaid, TRICARE, Aetna, Cigna, and BlueCross BlueShield.",
-  "image": "/images/service-pt.jpg",
-  "content": "Our physical therapists work with children to enhance their **movement abilities** and help them reach their **developmental milestones**. We address developmental delays, genetic disorders, and orthopedic conditions.\n\n### What We Address\n\n- Gross motor development (crawling, walking, running, jumping)\n- Balance and coordination\n- Strength and endurance\n- Developmental delays\n- Genetic and orthopedic conditions\n- Post-surgical rehabilitation\n\n### Service Options\n\nWe offer both **in-home** and **in-clinic** physical therapy services to meet your family's needs and schedule.",
+  "heroSubtitle": "Helping children move with confidence and reach their physical milestones",
+  "seoDescription": "Pediatric physical therapy in Colorado Springs. Developmental delays, gross motor skills, balance, coordination, strength, and post-surgical rehab. Play-based PT with experienced therapists. Accepting Medicaid, TRICARE, Aetna, Cigna, and BlueCross BlueShield.",
+  "image": "/images/content-pt.png",
+  "heroImage": "/images/hero-pt.png",
+  "intro": "Movement is how children explore the world — crawling, walking, climbing, running, and playing. Our physical therapists help children build the **strength, balance, and coordination** they need to move confidently through every stage of development. Whether your child is working toward their first steps or recovering from surgery, we're here to help.",
+  "services": [
+    "Gross motor development (rolling, crawling, walking, running)",
+    "Balance & coordination",
+    "Strength & endurance building",
+    "Developmental milestone delays",
+    "Torticollis & plagiocephaly",
+    "Toe walking",
+    "Post-surgical rehabilitation"
+  ],
+  "serviceNote": "Available **in-home** or **in-clinic** — whatever works best for your family.",
+  "learnMore": [
+    {
+      "icon": "👣",
+      "title": "Gross Motor Development",
+      "content": "Gross motor skills are the big-body movements that form the foundation for everything a child does — sitting, crawling, walking, running, jumping, and climbing. According to the **American Physical Therapy Association (APTA)**, early identification of motor delays gives children the best chance to catch up.\n\nSigns your child may benefit from PT:\n\n- **Not meeting milestones** — not rolling by 6 months, not walking by 18 months\n- **Preferring one side** — always reaching with the same hand, turning the head one direction\n- **Difficulty keeping up** with peers during physical play\n- **Avoiding movement activities** — reluctance to climb, swing, or run\n\nOur therapists make gross motor practice fun through obstacle courses, ball games, and playground-style activities — so your child builds strength and confidence while having a blast."
+    },
+    {
+      "icon": "⚖️",
+      "title": "Balance & Coordination",
+      "content": "Balance and coordination allow children to navigate their environment safely — walking on uneven surfaces, catching a ball, riding a bike, or simply sitting upright at a desk. When these skills are delayed, children may appear clumsy or hesitant.\n\nWe work on:\n\n- **Static balance** — standing on one foot, maintaining posture while sitting\n- **Dynamic balance** — walking on balance beams, navigating stairs, changing direction while running\n- **Bilateral coordination** — using both sides of the body together (catching, jumping jacks, pedaling)\n- **Body awareness** — understanding where their body is in space (proprioception)\n\nSessions include activities like balance boards, yoga poses, scooter games, and trampoline work — all designed to build confidence in movement."
+    },
+    {
+      "icon": "💪",
+      "title": "Strength & Specialized Conditions",
+      "content": "Some children need targeted physical therapy for specific conditions that affect how they move and grow. Our therapists have experience treating:\n\n- **Torticollis** — tightness in the neck muscles that causes a head tilt, often identified in infancy\n- **Toe walking** — walking on tiptoes beyond the typical developmental period\n- **Hypotonia** — low muscle tone that makes it harder to maintain posture and build strength\n- **Post-surgical rehab** — recovery after orthopedic procedures\n- **Genetic & neurological conditions** — Down syndrome, cerebral palsy, spina bifida\n\nWe create individualized plans that combine strengthening exercises, stretching, and functional movement practice — always keeping it playful and age-appropriate."
+    }
+  ],
   "faqs": [
     {
-      "question": "When should my child see a physical therapist?",
-      "answer": "If your child is not meeting movement milestones — like rolling, crawling, walking, or running — a physical therapy evaluation can help identify any delays. Early intervention gives children the best chance to catch up and build confidence in their movement abilities."
+      "question": "How do I know if my child could benefit from physical therapy?",
+      "answer": "Try our free [Little Leaps Milestone Tool](/milestone-check/) — it covers gross motor milestones for every age range. If your child isn't meeting movement milestones or you have concerns about how they move, schedule a free screening or call us for a no-cost phone consult."
     },
     {
       "question": "What happens during a PT session?",
-      "answer": "Sessions are active and fun! Your child might practice crawling through tunnels, climbing on equipment, balancing on beams, or playing ball games. Every activity is designed to build strength, coordination, and motor skills in a way that feels like play."
+      "answer": "Sessions are active and fun. Your child might practice crawling through tunnels, climbing on equipment, balancing on beams, or playing ball games. Every activity is designed to build strength, coordination, and motor skills in a way that feels like play."
     },
     {
-      "question": "Do you offer in-home physical therapy?",
-      "answer": "Yes! We offer both in-home and in-clinic PT services. In-home therapy can be especially helpful for younger children or families who prefer the comfort and convenience of their own environment."
-    },
-    {
-      "question": "Will insurance cover my child's physical therapy?",
-      "answer": "Most insurance plans cover pediatric physical therapy with a referral from your child's pediatrician. We accept Health First Colorado (Medicaid), Colorado Access, TRICARE, Aetna, Cigna Healthcare, and BlueCross BlueShield. Our team can help verify your benefits before starting services."
-    },
-    {
-      "question": "What should my child wear to PT?",
-      "answer": "Comfortable, stretchy clothes that allow your child to move freely — think athletic wear, leggings, or shorts and a t-shirt. Avoid jeans or restrictive clothing. Tennis shoes with good grip are best. We'll be climbing, balancing, and moving!"
+      "question": "Can I be involved in my child's sessions?",
+      "answer": "Yes — and we encourage it. You're welcome to observe or participate, and your PT will teach you exercises and activities to practice at home. Consistent practice between sessions makes a real difference in progress."
     },
     {
       "question": "How long does a typical treatment plan last?",
-      "answer": "Treatment length varies based on your child's needs and goals. Some children make progress in a few months, while others benefit from longer-term therapy. Your therapist will set clear goals and regularly reassess to ensure your child is on track."
+      "answer": "It varies based on your child's needs and goals. Some children make significant progress in a few months, while others benefit from longer-term support. Your therapist will set clear goals and reassess regularly so you always know where things stand."
     }
   ]
 }

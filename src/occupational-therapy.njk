@@ -5,53 +5,97 @@ description: "{{ serviceOt.seoDescription }}"
 permalink: /occupational-therapy/
 ---
 
-<section class="page-hero">
-  <div class="container">
-    <h1>{{ serviceOt.heroTitle }}</h1>
-    <p>{{ serviceOt.heroSubtitle }}</p>
+{# ── Hero: Unified gradient + masked photo + bottom wave ── #}
+<section class="service-hero service-hero--ot">
+  <div class="service-hero-photo" style="background-image: url('{{ serviceOt.heroImage }}');"></div>
+  <div class="service-hero-content">
+    <div class="container">
+      <div class="service-hero-text">
+        <h1>{{ serviceOt.heroTitle }}</h1>
+        <p>{{ serviceOt.heroSubtitle }}</p>
+        <div class="hero-actions">
+          <a href="{{ settings.screeningUrl }}" class="hero-btn-screening">📋 Schedule a Free Screening</a>
+          <a href="/milestone-check/" class="hero-btn-milestone">🌱 Try Our Milestone Tool</a>
+        </div>
+      </div>
+    </div>
   </div>
+  <svg class="hero-bottom-wave" viewBox="0 0 1440 80" preserveAspectRatio="none">
+    <path d="M0,48 C240,80 480,0 720,40 C960,80 1200,10 1440,48 L1440,80 L0,80 Z" fill="white"/>
+  </svg>
 </section>
 
-<!-- Wave: Hero → Content -->
-<div class="wave-divider" style="margin-top: -60px; position: relative; z-index: 2;">
-  <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style="height:80px;">
-    <path d="M0,60 C200,20 400,20 600,40 C800,60 1000,60 1200,20 L1200,80 L0,80 Z" fill="white"/>
-  </svg>
-</div>
-
-<section class="section" style="padding-top: 1.5rem;">
+{# ── Intro + What We Help With ── #}
+<section class="section sp-intro">
   <div class="container">
-    <div class="service-detail">
-      <div>
-        <h2>Our Approach</h2>
-        {{ serviceOt.content | markdownify | safe }}
-        <a href="/team/" class="btn-cta" style="margin-top: 1.5rem;">Meet Our Therapists</a>
-        <a href="{{ settings.screeningUrl }}" class="btn-cta" style="margin-top: 0.5rem; background: var(--dark-blue);">📋 Schedule Your Free Screening</a>
+    <div class="sp-intro-grid">
+      <div class="sp-intro-text">
+        {{ serviceOt.intro | markdownify | safe }}
       </div>
-      <div class="service-detail-img" style="background-image: url('{{ serviceOt.image }}');"></div>
+      <div class="sp-services-card">
+        <h2>What We Help With</h2>
+        <ul class="sp-services-list">
+          {% for item in serviceOt.services %}
+          <li>
+            <span class="sp-check">✓</span>
+            {{ item }}
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="sp-service-note">{{ serviceOt.serviceNote | markdownify | safe }}</p>
+      </div>
     </div>
   </div>
 </section>
 
-{% if serviceOt.faqs.length > 0 %}
-<!-- Wave: Content → FAQ -->
-<div class="wave-divider" style="margin-top: -60px; position: relative; z-index: 2;">
-  <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style="height:80px;">
-    <path d="M0,60 C200,20 400,20 600,40 C800,60 1000,60 1200,20 L1200,80 L0,80 Z" fill="#f0f8ff"/>
-  </svg>
-</div>
+{# ── Our Specialties (Expandable) ── #}
+<section class="section sp-specialties">
+  <div class="container">
+    <div class="sp-specialties-layout">
+      <div class="sp-specialties-text">
+        <h2>Our Specialties</h2>
+        <p>Tap any specialty below to learn how we can help your child.</p>
+        {% for item in serviceOt.learnMore %}
+        <details class="learn-more-item">
+          <summary><span class="lm-icon">{{ item.icon }}</span> {{ item.title }}</summary>
+          <div class="learn-more-content">
+            {{ item.content | markdownify | safe }}
+          </div>
+        </details>
+        {% endfor %}
+      </div>
+      <div class="sp-specialties-img" style="background-image: url('{{ serviceOt.image }}');"></div>
+    </div>
+  </div>
+</section>
 
-<section class="section section-light">
+{# ── Glass Card CTA ── #}
+<section class="section sp-cta-section">
+  <div class="container">
+    <div class="service-glass-card service-glass-card-centered">
+      <p class="service-glass-heading">Not sure if your child could benefit from occupational therapy?</p>
+      <p class="service-glass-subtext">We're here to help — no pressure, no cost</p>
+      <div class="service-glass-buttons">
+        <a href="{{ settings.screeningUrl }}" class="hero-btn-screening">📋 Schedule a Free Screening</a>
+        <a href="/milestone-check/" class="hero-btn-milestone">🌱 Try Our Milestone Tool</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── FAQs ── #}
+{% if serviceOt.faqs.length > 0 %}
+<section class="section sp-faq-section">
   <div class="container">
     <div class="section-header">
-      <h2>Frequently Asked Questions</h2>
+      <h2>Common Questions</h2>
     </div>
     <div class="faq-section">
       {% for faq in serviceOt.faqs %}
       <details class="faq-item">
         <summary>{{ faq.question }}</summary>
         <div class="faq-answer">
-          <p>{{ faq.answer }}</p>
+          {{ faq.answer | markdownify | safe }}
         </div>
       </details>
       {% endfor %}
@@ -60,7 +104,7 @@ permalink: /occupational-therapy/
 </section>
 {% endif %}
 
-<!-- Insurance Section -->
+{# ── Insurance ── #}
 <section class="section">
   <div class="container">
     <div class="section-header">

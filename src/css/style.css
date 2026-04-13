@@ -1845,20 +1845,115 @@ p { margin-bottom: var(--space-md); }
 .content-page .container {
   max-width: 900px;
 }
+
+/* Blog typography & spacing */
+.content-page p {
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+  color: var(--text-body);
+}
 .content-page h2 {
-  margin-top: var(--space-2xl);
-  margin-bottom: var(--space-md);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  color: var(--text-heading);
 }
 .content-page h3 {
-  margin-top: var(--space-xl);
-  margin-bottom: var(--space-sm);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  color: var(--text-heading);
+}
+.content-page h2:first-child,
+.content-page h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
 }
 .content-page ul, .content-page ol {
-  padding-left: var(--space-xl);
-  margin-bottom: var(--space-md);
+  padding-left: 1.75rem;
+  margin-bottom: 1.5rem;
 }
 .content-page li {
-  margin-bottom: var(--space-xs);
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+.content-page li strong {
+  color: var(--text-heading);
+}
+
+/* Blog tables */
+.content-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.content-page thead th {
+  background: var(--navy);
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+.content-page tbody td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+  line-height: 1.6;
+}
+.content-page tbody tr:nth-child(even) {
+  background: #f8f9fa;
+}
+.content-page tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Blog blockquotes */
+.content-page blockquote {
+  border-left: 4px solid var(--sky-blue);
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: #f0f7ff;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #555;
+}
+.content-page blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Blog horizontal rules */
+.content-page hr {
+  border: none;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 2.5rem 0;
+}
+
+/* Blog images within content */
+.content-page img {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Blog strong emphasis styling */
+.content-page strong {
+  font-weight: 600;
+}
+
+/* Blog code/preformatted */
+.content-page code {
+  background: #f0f0f0;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
 }
 
 /* ---------- Service Detail Page ---------- */

@@ -271,24 +271,80 @@
       return { total, checked, pct, tier, perDiscipline, ageId: currentAgeId, ageLabel: ageData.label };
     },
 
-    /** Build URL with results data appended as query params */
-    buildScreeningUrl(results) {
-      if (!SCREENING_URL) return '#';
-      const params = new URLSearchParams();
-      params.set('source', 'little-leaps');
-      params.set('age', results.ageLabel);
-      params.set('score', results.pct + '%');
-
-      // Add per-discipline scores
+    /** Build a human-readable summary for clipboard */
+    buildClipboardSummary(results) {
+      const discLabels = { speech: 'Speech & Language', physical: 'Movement & Motor', cognitive: 'Thinking & Learning', social: 'Social & Emotional' };
+      let summary = '--- Little Leaps Milestone Results ---\n';
+      summary += 'Age Range: ' + results.ageLabel + '\n';
+      summary += 'Overall Score: ' + results.pct + '%\n\n';
       DISCIPLINES.forEach(disc => {
         const d = results.perDiscipline[disc];
         const pct = d.total > 0 ? Math.round((d.checked / d.total) * 100) : 0;
-        params.set(disc, pct + '%');
+        summary += (discLabels[disc] || disc) + ': ' + pct + '% (' + d.checked + '/' + d.total + ')\n';
       });
+      summary += '\nSource: Little Leaps by WellCare & Nurture';
+      return summary;
+    },
 
-      // Determine separator
-      const separator = SCREENING_URL.includes('?') ? '&' : '?';
-      return SCREENING_URL + separator + params.toString();
+    /** Copy text to clipboard with fallback for non-HTTPS */
+    copyToClipboard(text) {
+      // Fallback copy using a hidden textarea (works everywhere)
+      function fallbackCopy(t) {
+        try {
+          var ta = document.createElement('textarea');
+          ta.value = t;
+          ta.style.cssText = 'position:fixed;left:-9999px;top:-9999px;opacity:0';
+          document.body.appendChild(ta);
+          ta.focus();
+          ta.select();
+          var ok = document.execCommand('copy');
+          document.body.removeChild(ta);
+          return ok;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      // Try modern API first, fallback to textarea
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text).then(function() { return true; }).catch(function() { return fallbackCopy(text); });
+      }
+      return Promise.resolve(fallbackCopy(text));
+    },
+
+    /** Show toast notification */
+    showToast(message) {
+      var toast = document.createElement('div');
+      toast.className = 'll-clipboard-toast';
+      toast.innerHTML = message;
+      document.body.appendChild(toast);
+      // Force reflow then animate in
+      void toast.offsetHeight;
+      toast.classList.add('show');
+      setTimeout(function() {
+        toast.classList.remove('show');
+        setTimeout(function() { toast.remove(); }, 400);
+      }, 4000);
+    },
+
+    /** Copy results to clipboard, show toast, then open Weave form */
+    copyAndOpenScreening(results) {
+      var summary = this.buildClipboardSummary(results);
+      var url = SCREENING_URL || '#';
+      var self = this;
+
+      this.copyToClipboard(summary).then(function(ok) {
+        if (ok) {
+          self.showToast('✅ <strong>Results copied!</strong> Paste them into the Notes field on the next page.');
+        } else {
+          self.showToast('📋 Opening screening form — you can manually share your results with us.');
+        }
+        // Open Weave form after a brief delay so toast is visible
+        setTimeout(function() { window.open(url, '_blank', 'noopener'); }, 800);
+      }).catch(function() {
+        // If everything fails, still open the form
+        window.open(url, '_blank', 'noopener');
+      });
     },
 
     show(results) {
@@ -364,7 +420,6 @@
       // Action buttons
       const actionsEl = document.getElementById('ll-results-actions');
       if (actionsEl) {
-        const screeningUrl = this.buildScreeningUrl(results);
         let html = '';
 
         // Activity Ideas button (only if there are unchecked milestones with activities)
@@ -373,14 +428,14 @@
           html += '<button class="ll-btn-primary" id="ll-activity-ideas">🌱 Activity Ideas</button>';
         }
 
-        // Screening CTA
+        // Screening CTA (copies results to clipboard, then opens Weave)
         if (results.pct < 80) {
-          html += '<a href="' + screeningUrl + '" target="_blank" rel="noopener" class="ll-btn-primary ll-btn-screening">' +
+          html += '<button class="ll-btn-primary ll-btn-screening" id="ll-screening-cta">' +
             '📋 Schedule Your Free Screening' +
-            '<span class="ll-btn-subtext">Results included automatically</span></a>';
+            '<span class="ll-btn-subtext">Results copied to clipboard</span></button>';
         } else {
-          html += '<a href="' + screeningUrl + '" target="_blank" rel="noopener" class="ll-btn-secondary">' +
-            '📋 Schedule a Free Screening Anyway</a>';
+          html += '<button class="ll-btn-secondary" id="ll-screening-cta">' +
+            '📋 Schedule a Free Screening Anyway</button>';
         }
         html += '<button class="ll-btn-secondary" id="ll-start-over">🔄 Start Over</button>';
         actionsEl.innerHTML = html;
@@ -388,6 +443,11 @@
         // Activity Ideas click handler
         document.getElementById('ll-activity-ideas')?.addEventListener('click', () => {
           ActivitiesView.render(results);
+        });
+
+        // Screening click handler — copy results to clipboard, then open Weave
+        document.getElementById('ll-screening-cta')?.addEventListener('click', () => {
+          ResultsManager.copyAndOpenScreening(results);
         });
 
         document.getElementById('ll-start-over')?.addEventListener('click', () => {

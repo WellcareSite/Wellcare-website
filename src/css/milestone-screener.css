@@ -1089,3 +1089,27 @@
   font-size: 0.95rem;
   padding: 2rem 0;
 }
+
+/* ── Clipboard Toast Notification ── */
+.ll-clipboard-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: #1a3a5c;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  z-index: 10000;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  max-width: 420px;
+  text-align: center;
+}
+.ll-clipboard-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

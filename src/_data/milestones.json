@@ -864,23 +864,23 @@
           },
           {
             "id": "p-4m-6",
-            "text": "Brings hands to mouth",
+            "text": "Pushes down on legs when feet are on a hard surface",
             "activities": [
               {
-                "title": "Hand Discovery",
-                "emoji": "🤚",
-                "desc": "Let them explore their hands naturally. If they bring hands to their mouth, that's great self-discovery and coordination!",
+                "title": "Standing Bounce",
+                "emoji": "🦶",
+                "desc": "Hold them upright with feet on your lap. They'll push down and bounce — great for leg strength!",
                 "materials": "Nothing needed!",
                 "time": "3 min",
                 "source": "APTA"
               },
               {
-                "title": "Teether Play",
-                "emoji": "🦷",
-                "desc": "Offer a soft teether — bringing it to their mouth is great hand-mouth coordination practice!",
-                "materials": "Soft teether",
-                "time": "5 min",
-                "source": "AOTA"
+                "title": "Surface Stand",
+                "emoji": "🧍",
+                "desc": "Hold them with feet on a firm surface and let them feel their weight. Smile when they push!",
+                "materials": "Nothing needed!",
+                "time": "3 min",
+                "source": "APTA"
               }
             ]
           }
@@ -1386,21 +1386,21 @@
           },
           {
             "id": "p-6m-5",
-            "text": "Pushes up with straight arms during tummy time",
+            "text": "Rolls from tummy to back and back to tummy",
             "activities": [
               {
-                "title": "Airplane Tummy",
-                "emoji": "✈️",
-                "desc": "During tummy time, hold a toy higher so they need to push up more to see it. This builds arm strength!",
-                "materials": "Bright toy",
+                "title": "Roll Practice",
+                "emoji": "🔄",
+                "desc": "Place a toy to one side during tummy time so they're motivated to roll toward it. Cheer every roll!",
+                "materials": "Favorite toy",
                 "time": "3 min",
                 "source": "APTA"
               },
               {
-                "title": "Mirror Push-Up",
-                "emoji": "🪞",
-                "desc": "Place a baby-safe mirror in front during tummy time. They'll push up higher to see that fascinating baby!",
-                "materials": "Baby-safe mirror",
+                "title": "Log Roll Fun",
+                "emoji": "🪵",
+                "desc": "Gently help them practice rolling both directions on a soft surface. Make it playful — 'wheee!'",
+                "materials": "Soft blanket",
                 "time": "3 min",
                 "source": "APTA"
               }
@@ -1408,21 +1408,21 @@
           },
           {
             "id": "p-6m-6",
-            "text": "Rocks back and forth on hands and knees",
+            "text": "Begins to sit without support for short periods",
             "activities": [
               {
-                "title": "Rock & Roll",
-                "emoji": "🎸",
-                "desc": "If they get on hands and knees, gently rock them back and forth. Sing a rocking song to make it fun!",
-                "materials": "Soft surface",
+                "title": "Tripod Sit",
+                "emoji": "🧘",
+                "desc": "Help them sit and lean on their hands in front (tripod position). Place toys between their legs to encourage sitting up.",
+                "materials": "Toys",
                 "time": "3 min",
                 "source": "APTA"
               },
               {
-                "title": "Crawl Motivation",
-                "emoji": "🧸",
-                "desc": "Place a favorite toy just ahead of them while on hands and knees. The rocking motion is pre-crawling practice!",
-                "materials": "Favorite toy",
+                "title": "Boppy Support",
+                "emoji": "🛋️",
+                "desc": "Sit them with a Boppy or rolled towel behind for light backup. Practice short bursts and build up.",
+                "materials": "Boppy or rolled towel",
                 "time": "5 min",
                 "source": "APTA"
               }
@@ -1520,29 +1520,29 @@
           },
           {
             "id": "c-6m-5",
-            "text": "Puts things in their mouth to explore",
+            "text": "Passes objects from one hand to the other",
             "activities": [
               {
-                "title": "Safe Texture Box",
-                "emoji": "📦",
-                "desc": "Offer safe items with different textures — smooth teether, bumpy ball, soft fabric. Mouthing is how they learn!",
-                "materials": "Various safe textured items",
-                "time": "5 min",
+                "title": "Hand Transfer",
+                "emoji": "🤝",
+                "desc": "Offer a toy to one hand, then gently tap the other hand with a second toy. They'll shift to grab both!",
+                "materials": "Two small toys",
+                "time": "3 min",
                 "source": "AOTA"
               },
               {
-                "title": "Taste-Safe Play",
-                "emoji": "🍎",
-                "desc": "During supervised play, let them mouth safe toys of different shapes. They're gathering information!",
-                "materials": "Clean, safe toys",
-                "time": "5 min",
+                "title": "Swap Game",
+                "emoji": "🔀",
+                "desc": "Give them a toy in one hand, then offer something interesting to that same hand. Watch them transfer the first toy!",
+                "materials": "Two different toys",
+                "time": "3 min",
                 "source": "AOTA"
               }
             ]
           },
           {
             "id": "c-6m-6",
-            "text": "Shows curiosity about things and tries to get at out-of-reach objects",
+            "text": "Tries to get things that are out of reach",
             "activities": [
               {
                 "title": "Reach Challenge",
@@ -1676,21 +1676,21 @@
           },
           {
             "id": "e-6m-6",
-            "text": "Likes to look at self in a mirror",
+            "text": "Responds to other people's emotions (smiles, cries)",
             "activities": [
               {
-                "title": "Mirror Play",
+                "title": "Emotion Mirroring",
                 "emoji": "🪞",
-                "desc": "Sit with baby in front of a mirror. Point to their reflection: 'Who's that baby?' Watch for smiles and reaching.",
-                "materials": "Mirror",
+                "desc": "When you laugh, see if they laugh too. When you make a sad face, do they look concerned? They're reading emotions!",
+                "materials": "Nothing needed!",
                 "time": "3 min",
                 "source": "BACB"
               },
               {
-                "title": "Mirror Faces",
-                "emoji": "😜",
-                "desc": "Make funny faces together in front of a mirror. They'll love watching both your face and their own!",
-                "materials": "Mirror",
+                "title": "Happy Sad Game",
+                "emoji": "😊",
+                "desc": "Show different expressions — big smile, surprised face, gentle sadness — and watch their reaction to each one.",
+                "materials": "Nothing needed!",
                 "time": "3 min",
                 "source": "BACB"
               }
@@ -1796,22 +1796,22 @@
           },
           {
             "id": "s-9m-5",
-            "text": "Makes a lot of different sounds like 'mamamama' and 'babababa'",
+            "text": "Understands 'no' (may not always obey but pauses or stops briefly)",
             "activities": [
               {
-                "title": "Babble Conversation",
-                "emoji": "🗣️",
-                "desc": "When they say 'mamama,' respond like they said something meaningful: 'Mama? Yes, I'm here!' This motivates more babbling.",
+                "title": "Gentle No",
+                "emoji": "🚫",
+                "desc": "When they reach for something unsafe, say 'no' calmly and redirect. If they pause, they understand!",
                 "materials": "Nothing needed!",
-                "time": "3 min",
+                "time": "Ongoing",
                 "source": "ASHA"
               },
               {
-                "title": "New Sounds",
-                "emoji": "🆕",
-                "desc": "Introduce new consonant sounds — 'da da da,' 'na na na,' 'ga ga ga.' Mix them in during play and see if they try!",
-                "materials": "Nothing needed!",
-                "time": "3 min",
+                "title": "Positive Redirect",
+                "emoji": "✅",
+                "desc": "Follow every 'no' with a 'yes': 'Not the phone, but here's your toy!' They learn limits AND alternatives.",
+                "materials": "Redirect toy",
+                "time": "Ongoing",
                 "source": "ASHA"
               }
             ]
@@ -2086,22 +2086,22 @@
           },
           {
             "id": "c-9m-6",
-            "text": "Bangs two things together",
+            "text": "Watches the path of something as it falls (like a dropped spoon)",
             "activities": [
               {
-                "title": "Kitchen Band",
-                "emoji": "🥁",
-                "desc": "Give them two wooden spoons or blocks. Let them bang away! They're learning about cause and effect — and making music!",
-                "materials": "Wooden spoons or blocks",
-                "time": "5 min",
+                "title": "Drop Watch",
+                "emoji": "👀",
+                "desc": "Drop a toy from your hand and watch their eyes follow it down. That's visual tracking and understanding of gravity!",
+                "materials": "Soft toy",
+                "time": "2 min",
                 "source": "AOTA"
               },
               {
-                "title": "Clap Blocks",
-                "emoji": "🧱",
-                "desc": "Show them how to bang two blocks together, then let them try. Celebrate the noise — it's a cognitive milestone!",
-                "materials": "Two soft blocks",
-                "time": "3 min",
+                "title": "Highchair Drop",
+                "emoji": "🥄",
+                "desc": "Yes, they drop things on purpose from the highchair! It's actually a science experiment about cause and effect.",
+                "materials": "Safe objects",
+                "time": "5 min",
                 "source": "AOTA"
               }
             ]
@@ -2742,22 +2742,22 @@
           },
           {
             "id": "e-12m-5",
-            "text": "Plays games with you, like pat-a-cake or peek-a-boo",
+            "text": "Hands you a book when they want to hear a story",
             "activities": [
               {
-                "title": "Pat-a-Cake Pro",
-                "emoji": "👏",
-                "desc": "Sing pat-a-cake and do the clapping motions. They'll start learning the pattern and joining in!",
-                "materials": "Nothing needed!",
-                "time": "3 min",
+                "title": "Book Choice",
+                "emoji": "📚",
+                "desc": "Keep books within reach and wait for them to bring one to you. When they do, read it enthusiastically!",
+                "materials": "Board books",
+                "time": "5 min",
                 "source": "BACB"
               },
               {
-                "title": "Peek-a-Boo Variations",
-                "emoji": "🙈",
-                "desc": "Try different versions — hide behind a blanket, around a corner, under a hat. Each variation is a new game!",
-                "materials": "Blanket or hat",
-                "time": "3 min",
+                "title": "Reading Routine",
+                "emoji": "📖",
+                "desc": "Build a consistent reading time. Soon they'll grab a book and bring it to signal 'read to me!'",
+                "materials": "Board books",
+                "time": "10 min",
                 "source": "BACB"
               }
             ]
@@ -2884,44 +2884,44 @@
           },
           {
             "id": "s-15m-5",
-            "text": "Tries to say 3 or more words besides 'mama' and 'dada'",
+            "text": "Uses gestures like waving bye-bye or shaking head no",
             "activities": [
               {
-                "title": "Word Catching",
-                "emoji": "🎣",
-                "desc": "Keep a mental list of words they attempt. 'Ba' for ball, 'mo' for more — any consistent sound for an object counts!",
+                "title": "Gesture Practice",
+                "emoji": "👋",
+                "desc": "Wave bye-bye every time you leave a room or someone leaves. They'll start waving back!",
                 "materials": "Nothing needed!",
                 "time": "Ongoing",
                 "source": "ASHA"
               },
               {
-                "title": "Choice Words",
-                "emoji": "🤔",
-                "desc": "Offer two things and name each one: 'Banana or apple?' When they respond with any sound, repeat the word clearly.",
-                "materials": "Two snack options",
-                "time": "2 min",
+                "title": "Action Words",
+                "emoji": "🤝",
+                "desc": "Pair gestures with words: wave and say 'bye-bye,' nod and say 'yes,' shake head and say 'no.'",
+                "materials": "Nothing needed!",
+                "time": "Ongoing",
                 "source": "ASHA"
               }
             ]
           },
           {
             "id": "s-15m-6",
-            "text": "Looks at a familiar object when you name it",
+            "text": "Responds to their own name by looking at you",
             "activities": [
               {
-                "title": "Where's the...?",
-                "emoji": "🔍",
-                "desc": "Ask 'Where's the doggy?' or 'Where's your cup?' See if they look at or point to the right thing!",
-                "materials": "Familiar objects around the room",
-                "time": "3 min",
+                "title": "Name Call",
+                "emoji": "👋",
+                "desc": "Say their name from across the room. If they turn to look at you, that's great name recognition!",
+                "materials": "Nothing needed!",
+                "time": "1 min",
                 "source": "ASHA"
               },
               {
-                "title": "Book Pointing",
-                "emoji": "📖",
-                "desc": "Read a book and ask 'Where's the cat?' See if they point to it. This shows they understand the word-object connection.",
-                "materials": "Picture book",
-                "time": "5 min",
+                "title": "Name Song",
+                "emoji": "🎵",
+                "desc": "Sing a simple song with their name in it. They'll perk up when they hear it — they know it's theirs!",
+                "materials": "Nothing needed!",
+                "time": "3 min",
                 "source": "ASHA"
               }
             ]
@@ -3018,21 +3018,21 @@
           },
           {
             "id": "p-15m-5",
-            "text": "Takes a few steps on their own",
+            "text": "Climbs on and off furniture without help",
             "activities": [
               {
-                "title": "Step to Me",
-                "emoji": "🚶",
-                "desc": "Sit a few feet away and hold out your arms: 'Walk to me!' Even 2-3 wobbly steps is amazing. Celebrate every one!",
-                "materials": "Nothing needed!",
+                "title": "Safe Climbing",
+                "emoji": "🧗",
+                "desc": "Let them practice climbing on and off low furniture — couch cushions on the floor are perfect for this!",
+                "materials": "Couch cushions",
                 "time": "5 min",
                 "source": "APTA"
               },
               {
-                "title": "Push Toy Walking",
-                "emoji": "🛒",
-                "desc": "Offer a push toy or small shopping cart. Walking behind something sturdy builds confidence for solo steps.",
-                "materials": "Push toy",
+                "title": "Step Practice",
+                "emoji": "🪜",
+                "desc": "Find a low step or curb and practice stepping up and down. Hold their hand at first, then gradually let go.",
+                "materials": "Low step",
                 "time": "5 min",
                 "source": "APTA"
               }
@@ -3152,21 +3152,21 @@
           },
           {
             "id": "c-15m-5",
-            "text": "Stacks at least 2 small objects, like blocks",
+            "text": "Tries to use things the right way (like a phone, cup, or book)",
             "activities": [
               {
-                "title": "Block Tower",
-                "emoji": "🧱",
-                "desc": "Stack 2 blocks and say 'Look, a tower!' Then knock it down (they love that part). Let them try stacking!",
-                "materials": "Soft blocks",
+                "title": "Object Exploration",
+                "emoji": "📱",
+                "desc": "Give them real objects (not toys) like a cup, brush, or phone. Watch if they use them correctly — that's understanding!",
+                "materials": "Safe household items",
                 "time": "5 min",
                 "source": "AOTA"
               },
               {
-                "title": "Cup Stack",
-                "emoji": "🥤",
-                "desc": "Use stacking cups or small containers. Show them how to stack 2 and celebrate when they try!",
-                "materials": "Stacking cups",
+                "title": "Copy Me",
+                "emoji": "🪞",
+                "desc": "Brush your hair, then hand them the brush. Drink from a cup, then hand it to them. They'll imitate the function!",
+                "materials": "Brush, cup",
                 "time": "5 min",
                 "source": "AOTA"
               }
@@ -3450,22 +3450,22 @@
           },
           {
             "id": "s-18m-6",
-            "text": "Points to show you something interesting",
+            "text": "Says at least 10 words",
             "activities": [
               {
-                "title": "Point & Discover",
-                "emoji": "👆",
-                "desc": "When they point at something, name it with excitement: 'You see the airplane! Wow!' This builds vocabulary fast.",
-                "materials": "Nothing needed!",
+                "title": "Word Count",
+                "emoji": "🔢",
+                "desc": "Keep a list of every word they say — animal sounds, names, and consistent sounds all count! You may have more than you think.",
+                "materials": "Notes app or paper",
                 "time": "Ongoing",
                 "source": "ASHA"
               },
               {
-                "title": "Walk & Point",
-                "emoji": "🚶",
-                "desc": "Go on a walk and point out things together. 'Look, a dog!' Soon they'll be pointing at everything!",
+                "title": "Daily Narration",
+                "emoji": "🗣️",
+                "desc": "Narrate everything you do: 'I'm POURING your MILK in your CUP.' Rich input leads to more output!",
                 "materials": "Nothing needed!",
-                "time": "10 min",
+                "time": "Throughout the day",
                 "source": "ASHA"
               }
             ]
@@ -4106,21 +4106,21 @@
           },
           {
             "id": "p-2y-5",
-            "text": "Kicks a ball",
+            "text": "Throws a ball overhand",
             "activities": [
               {
-                "title": "Ball Kick",
-                "emoji": "⚽",
-                "desc": "Place a ball in front of them and show them how to kick. Start with a big, lightweight ball that's easy to connect with!",
+                "title": "Overhand Toss",
+                "emoji": "🫧",
+                "desc": "Show them how to throw overhand with a soft ball. Start close to a target and cheer every throw!",
                 "materials": "Soft ball",
                 "time": "5 min",
                 "source": "APTA"
               },
               {
-                "title": "Target Kick",
-                "emoji": "🥅",
-                "desc": "Set up two cones or shoes as a 'goal.' Stand behind and cheer when they kick toward it!",
-                "materials": "Ball and two markers",
+                "title": "Target Practice",
+                "emoji": "🎯",
+                "desc": "Set up a laundry basket and have them toss soft balls into it. Great for coordination and overhand motion.",
+                "materials": "Soft balls, basket",
                 "time": "5 min",
                 "source": "APTA"
               }
@@ -4128,21 +4128,21 @@
           },
           {
             "id": "p-2y-6",
-            "text": "Runs short distances",
+            "text": "Jumps off the ground with both feet",
             "activities": [
               {
-                "title": "Chase Me!",
-                "emoji": "🏃",
-                "desc": "Play a gentle game of chase. Let them run ahead and 'catch' them with a hug. Running builds balance and coordination.",
-                "materials": "Open space",
+                "title": "Jump Together",
+                "emoji": "🤸",
+                "desc": "Hold hands and jump together! Count 1-2-3 JUMP! Getting both feet off the ground is a big skill.",
+                "materials": "Nothing needed!",
                 "time": "5 min",
                 "source": "APTA"
               },
               {
-                "title": "Race to the...",
-                "emoji": "🏁",
-                "desc": "'Let's run to the tree!' Pick short distances and race together. Let them win sometimes!",
-                "materials": "Open space",
+                "title": "Puddle Jump",
+                "emoji": "💧",
+                "desc": "Find small puddles (or pretend ones with paper) and jump over them. Two-foot takeoff builds leg power!",
+                "materials": "Nothing needed!",
                 "time": "5 min",
                 "source": "APTA"
               }
@@ -4240,22 +4240,22 @@
           },
           {
             "id": "c-2y-5",
-            "text": "Plays with more than one toy at the same time (puts toy food on a toy plate)",
+            "text": "Follows two-step instructions (like 'pick up the ball and put it on the table')",
             "activities": [
               {
-                "title": "Tea Party",
-                "emoji": "🫖",
-                "desc": "Set up a pretend tea party. Show them how to put food on plates and pour 'tea.' Combining toys shows advanced thinking!",
-                "materials": "Play food and dishes",
-                "time": "10 min",
+                "title": "Two-Step Treasure",
+                "emoji": "🗺️",
+                "desc": "Give fun two-step directions: 'Get the teddy AND put him on the chair.' Celebrate when they follow both steps!",
+                "materials": "Toys",
+                "time": "3 min",
                 "source": "AOTA"
               },
               {
-                "title": "Build & Play",
-                "emoji": "🏗️",
-                "desc": "Build a road with blocks and drive cars on it. Using toys together shows cognitive connections!",
-                "materials": "Blocks and cars",
-                "time": "10 min",
+                "title": "Helper Chain",
+                "emoji": "🔗",
+                "desc": "During cleanup: 'Pick up the block AND put it in the box.' Chains of tasks build working memory.",
+                "materials": "Toys and container",
+                "time": "5 min",
                 "source": "AOTA"
               }
             ]
@@ -4374,21 +4374,21 @@
           },
           {
             "id": "e-2y-5",
-            "text": "Looks at your face to see how to react in a new situation",
+            "text": "Shows defiant behavior (does what they've been told not to do)",
             "activities": [
               {
-                "title": "Calm Model",
-                "emoji": "😌",
-                "desc": "In new situations, show calm confidence. They'll look at your face to decide if something is scary or safe.",
+                "title": "Calm Boundaries",
+                "emoji": "🛑",
+                "desc": "When they test limits, stay calm: 'I know you want to, but we don't throw food.' Consistency is key.",
                 "materials": "Nothing needed!",
                 "time": "Ongoing",
                 "source": "BACB"
               },
               {
-                "title": "Narrate Reactions",
-                "emoji": "💬",
-                "desc": "When something surprising happens, narrate: 'Oh! That was loud but it's okay!' They learn emotional regulation from you.",
-                "materials": "Nothing needed!",
+                "title": "Choice Power",
+                "emoji": "🤔",
+                "desc": "Give them acceptable choices: 'Do you want the blue cup or red cup?' This reduces defiance by giving them control.",
+                "materials": "Two options",
                 "time": "Ongoing",
                 "source": "BACB"
               }
@@ -4538,22 +4538,22 @@
           },
           {
             "id": "s-3y-6",
-            "text": "Talks well enough for most people outside the family to understand",
+            "text": "Can tell you their age",
             "activities": [
               {
-                "title": "Restaurant Order",
-                "emoji": "🍽️",
-                "desc": "Let them order their own food at a restaurant. It's great practice speaking to unfamiliar adults!",
+                "title": "Age Practice",
+                "emoji": "🎂",
+                "desc": "Ask 'How old are you?' and teach them to hold up fingers. Practice makes it automatic!",
                 "materials": "Nothing needed!",
-                "time": "2 min",
+                "time": "1 min",
                 "source": "ASHA"
               },
               {
-                "title": "Story Retell",
-                "emoji": "📖",
-                "desc": "After reading a story, ask them to tell it back to you. Listen for clear pronunciation and gently model any tricky words.",
-                "materials": "Picture book",
-                "time": "5 min",
+                "title": "Birthday Chat",
+                "emoji": "🎈",
+                "desc": "Talk about birthdays: 'You turned 3! You are THREE years old!' Connect age to their birthday experience.",
+                "materials": "Nothing needed!",
+                "time": "2 min",
                 "source": "ASHA"
               }
             ]
@@ -4672,22 +4672,22 @@
           },
           {
             "id": "p-3y-6",
-            "text": "Pedals a tricycle",
+            "text": "Runs and climbs well without falling often",
             "activities": [
               {
-                "title": "Pedal Practice",
-                "emoji": "🚲",
-                "desc": "Show them the push-push motion on the pedals. Start on flat ground and let them go short distances.",
-                "materials": "Tricycle or balance bike",
+                "title": "Obstacle Course",
+                "emoji": "🏋️",
+                "desc": "Set up a simple course — climb over pillows, run to the door, crawl under a table. Builds confidence!",
+                "materials": "Pillows, chairs",
                 "time": "10 min",
                 "source": "APTA"
               },
               {
-                "title": "Path Riding",
-                "emoji": "🛤️",
-                "desc": "Draw a chalk path on the sidewalk and have them ride along it. This adds a fun challenge to pedaling!",
-                "materials": "Tricycle and chalk",
-                "time": "10 min",
+                "title": "Playground Skills",
+                "emoji": "🛝",
+                "desc": "Let them explore playground equipment — climbing ladders, running across bridges. Supervision builds confidence.",
+                "materials": "Playground",
+                "time": "15 min",
                 "source": "APTA"
               }
             ]
@@ -4784,43 +4784,43 @@
           },
           {
             "id": "c-3y-5",
-            "text": "Draws a circle when you show them how",
+            "text": "Plays make-believe with dolls, animals, or people",
             "activities": [
               {
-                "title": "Circle Drawing",
-                "emoji": "⭕",
-                "desc": "Draw a big circle and say 'round and round!' Let them try. Any closed roundish shape counts!",
-                "materials": "Paper and crayons",
-                "time": "3 min",
+                "title": "Pretend Play",
+                "emoji": "🧸",
+                "desc": "Set up pretend scenarios — feeding a baby doll, making animals talk, playing house. Join in their world!",
+                "materials": "Dolls or stuffed animals",
+                "time": "10 min",
                 "source": "AOTA"
               },
               {
-                "title": "Trace & Draw",
-                "emoji": "✏️",
-                "desc": "Draw circles on a page and let them trace over yours first, then try their own. Celebrate every attempt!",
-                "materials": "Paper and markers",
-                "time": "5 min",
+                "title": "Role Play",
+                "emoji": "🎭",
+                "desc": "Let them be the doctor, teacher, or parent. Provide simple props (stethoscope, wooden spoon) and follow their lead.",
+                "materials": "Play props",
+                "time": "10 min",
                 "source": "AOTA"
               }
             ]
           },
           {
             "id": "c-3y-6",
-            "text": "Turns pages in a book one at a time",
+            "text": "Does puzzles with 3 or 4 pieces",
             "activities": [
               {
-                "title": "Page Turner",
-                "emoji": "📚",
-                "desc": "Let them be in charge of turning pages during reading time. Board books are easiest; paper books are the next challenge.",
-                "materials": "Books",
-                "time": "During reading",
+                "title": "Puzzle Time",
+                "emoji": "🧩",
+                "desc": "Start with simple 3-4 piece puzzles. Show how to turn pieces and match shapes. Celebrate each fit!",
+                "materials": "Simple puzzles",
+                "time": "5 min",
                 "source": "AOTA"
               },
               {
-                "title": "Find the Picture",
-                "emoji": "🔎",
-                "desc": "Ask them to turn to find a specific picture: 'Where's the cat? Keep turning!' This practices page-turning with purpose.",
-                "materials": "Picture book",
+                "title": "Shape Match",
+                "emoji": "🔷",
+                "desc": "Use shape sorters or simple form boards. Matching shapes to holes builds the same skills as puzzles.",
+                "materials": "Shape sorter",
                 "time": "5 min",
                 "source": "AOTA"
               }
@@ -4918,43 +4918,43 @@
           },
           {
             "id": "e-3y-5",
-            "text": "Notices other children and joins them to play",
+            "text": "Takes turns in simple games and activities",
             "activities": [
               {
-                "title": "Playground Practice",
-                "emoji": "🛝",
-                "desc": "Visit playgrounds and encourage them to approach other kids: 'Do you want to play with them?' Stay nearby for support.",
-                "materials": "Playground",
-                "time": "15 min",
+                "title": "Turn Cards",
+                "emoji": "🃏",
+                "desc": "Play simple card games like Go Fish or matching. Focus on 'your turn, my turn' — the concept matters more than the game.",
+                "materials": "Simple card game",
+                "time": "10 min",
                 "source": "BACB"
               },
               {
-                "title": "Play Date Host",
-                "emoji": "🏠",
-                "desc": "Invite a friend over. Having a peer in their own space makes social interaction more comfortable.",
-                "materials": "Shared toys",
-                "time": "30 min",
+                "title": "Ball Turns",
+                "emoji": "⚽",
+                "desc": "Roll or toss a ball back and forth. Say 'your turn!' and 'my turn!' This is turn-taking in its purest form.",
+                "materials": "Ball",
+                "time": "5 min",
                 "source": "BACB"
               }
             ]
           },
           {
             "id": "e-3y-6",
-            "text": "Shows concern for a crying friend",
+            "text": "Comforts a friend who is upset without being told to",
             "activities": [
               {
-                "title": "Empathy Coaching",
+                "title": "Empathy Building",
                 "emoji": "💛",
-                "desc": "When they see someone upset, narrate: 'They're sad. What could we do to help?' This builds empathy skills.",
+                "desc": "When they comfort someone naturally, praise it: 'That was so kind! You made them feel better.' Reinforce the behavior.",
                 "materials": "Nothing needed!",
                 "time": "Ongoing",
                 "source": "BACB"
               },
               {
-                "title": "Feelings Books",
-                "emoji": "📖",
-                "desc": "Read books about feelings. Ask 'How does the bear feel?' and 'What would you do?' This builds emotional vocabulary.",
-                "materials": "Feelings-themed books",
+                "title": "Caring Practice",
+                "emoji": "🤗",
+                "desc": "Use stuffed animals in role-play: 'Bear is sad. What can we do?' Practice comforting in safe pretend scenarios.",
+                "materials": "Stuffed animals",
                 "time": "5 min",
                 "source": "BACB"
               }
@@ -5060,21 +5060,21 @@
           },
           {
             "id": "s-4y-5",
-            "text": "Says sentences with 4 or more words",
+            "text": "Knows some basic rules of grammar (uses 'he' and 'she' correctly)",
             "activities": [
               {
-                "title": "Sentence Building",
-                "emoji": "🏗️",
-                "desc": "When they say 2-3 words, expand: 'Big truck!' → 'Yes, I see a BIG RED truck!' They'll start building longer sentences.",
+                "title": "Pronoun Practice",
+                "emoji": "👫",
+                "desc": "While reading or people-watching, use pronouns: 'She is running. He is eating.' They'll pick up the pattern.",
                 "materials": "Nothing needed!",
                 "time": "Ongoing",
                 "source": "ASHA"
               },
               {
-                "title": "Story Starters",
-                "emoji": "📖",
-                "desc": "Start a sentence and let them finish: 'Once upon a time, there was a...' They practice building longer thoughts!",
-                "materials": "Nothing needed!",
+                "title": "Photo Talk",
+                "emoji": "📸",
+                "desc": "Look at family photos and practice: 'There's Grandma — she's smiling!' This connects pronouns to real people.",
+                "materials": "Photos",
                 "time": "5 min",
                 "source": "ASHA"
               }
@@ -5194,21 +5194,21 @@
           },
           {
             "id": "p-4y-5",
-            "text": "Catches a large ball most of the time",
+            "text": "Hops on one foot",
             "activities": [
               {
-                "title": "Balloon Catch",
-                "emoji": "🎈",
-                "desc": "Start with a balloon — it moves slowly and is easy to catch. Then work up to a soft, large ball.",
-                "materials": "Balloon or soft ball",
-                "time": "5 min",
+                "title": "Hop Scotch",
+                "emoji": "🦘",
+                "desc": "Draw hopscotch with chalk outside. Hopping on one foot builds balance, strength, and coordination!",
+                "materials": "Chalk",
+                "time": "10 min",
                 "source": "APTA"
               },
               {
-                "title": "Roll & Catch",
-                "emoji": "⚾",
-                "desc": "Start by rolling the ball, then progress to gentle underhand tosses. Get close and back up as they get better!",
-                "materials": "Large soft ball",
+                "title": "Flamingo Stand",
+                "emoji": "🦩",
+                "desc": "Play 'flamingo' — who can stand on one foot the longest? Then try hopping. Count each hop together!",
+                "materials": "Nothing needed!",
                 "time": "5 min",
                 "source": "APTA"
               }
@@ -5328,22 +5328,22 @@
           },
           {
             "id": "c-4y-5",
-            "text": "Names a few colors of items",
+            "text": "Understands the idea of counting and may know a few numbers",
             "activities": [
               {
-                "title": "Color Hunt",
-                "emoji": "🌈",
-                "desc": "Go on a color hunt: 'Can you find something RED?' Visit each room and find that color. Great for learning color names!",
-                "materials": "Nothing needed!",
-                "time": "5 min",
+                "title": "Snack Counting",
+                "emoji": "🍪",
+                "desc": "Count out snacks together: 'Let's have 5 crackers. One, two, three...' Real objects make numbers meaningful.",
+                "materials": "Snack items",
+                "time": "3 min",
                 "source": "AOTA"
               },
               {
-                "title": "Sorting Colors",
-                "emoji": "🎨",
-                "desc": "Sort toys, snacks, or crayons by color. Name each color as you sort: 'All the blue ones go here!'",
-                "materials": "Colored items",
-                "time": "5 min",
+                "title": "Body Counting",
+                "emoji": "🖐️",
+                "desc": "Count body parts: 'How many fingers? 1, 2, 3...' Then toes, ears, eyes — numbers become personal.",
+                "materials": "Nothing needed!",
+                "time": "3 min",
                 "source": "AOTA"
               }
             ]
@@ -5894,22 +5894,22 @@
           },
           {
             "id": "c-5y-6",
-            "text": "Writes some letters from their name",
+            "text": "Knows their full name, age, and maybe their address",
             "activities": [
               {
-                "title": "Name Writing",
-                "emoji": "✍️",
-                "desc": "Write their name in dots and let them trace over it. Then try without dots. Start with just the first letter!",
-                "materials": "Paper and markers",
-                "time": "5 min",
+                "title": "Identity Song",
+                "emoji": "🎵",
+                "desc": "Make up a song with their name, age, and address. Singing is a great way to memorize important info!",
+                "materials": "Nothing needed!",
+                "time": "3 min",
                 "source": "AOTA"
               },
               {
-                "title": "Sensory Letters",
-                "emoji": "🏖️",
-                "desc": "Write letters in sand, shaving cream, or finger paint. Multi-sensory practice helps letter formation stick!",
-                "materials": "Sand, cream, or paint",
-                "time": "5 min",
+                "title": "All About Me",
+                "emoji": "📋",
+                "desc": "Practice in everyday moments: 'What's your full name? How old are you?' Make it a fun quiz game.",
+                "materials": "Nothing needed!",
+                "time": "3 min",
                 "source": "AOTA"
               }
             ]
@@ -6028,22 +6028,22 @@
           },
           {
             "id": "e-5y-6",
-            "text": "Follows rules in simple board games or card games",
+            "text": "Wants to please friends and be like them",
             "activities": [
               {
-                "title": "Game Night",
-                "emoji": "🎲",
-                "desc": "Play simple games like Candy Land, Go Fish, or Memory. Focus on taking turns, following rules, and being a good sport.",
-                "materials": "Board or card game",
-                "time": "15 min",
+                "title": "Friend Talk",
+                "emoji": "💬",
+                "desc": "Ask about their friends: 'What does Maya like to do?' Understanding others' interests builds social skills.",
+                "materials": "Nothing needed!",
+                "time": "5 min",
                 "source": "BACB"
               },
               {
-                "title": "Win & Lose Practice",
-                "emoji": "🏆",
-                "desc": "Let them win sometimes and lose sometimes. Practice saying 'good game' either way. This builds emotional regulation.",
-                "materials": "Simple game",
-                "time": "10 min",
+                "title": "Friendship Skills",
+                "emoji": "🤝",
+                "desc": "Practice friendship phrases: 'Can I play too?' 'Do you want to share?' These scripts help in social situations.",
+                "materials": "Nothing needed!",
+                "time": "5 min",
                 "source": "BACB"
               }
             ]

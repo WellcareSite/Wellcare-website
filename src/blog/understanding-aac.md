@@ -5,7 +5,7 @@ author: WellCare & Nurture Team
 excerpt: Augmentative and Alternative Communication (AAC) can be life-changing
   for children who are non-verbal or have limited speech. Let's bust some common
   myths.
-image: /images/blog-placeholder.jpg
+image: /images/blog-aac-device.png
 tags: post
 layout: post.njk
 ---

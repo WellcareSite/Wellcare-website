@@ -3,7 +3,7 @@ title: "Sensory Processing: Understanding Your Child's Unique Sensory World"
 date: 2025-02-07
 author: WellCare & Nurture Team
 excerpt: "Does your child cover their ears at loud sounds or avoid certain textures? Sensory processing differences are more common than you think — and understanding them is the first step to helping your child thrive."
-image: /images/blog-sensory.png
+image: /images/blog-sensory-diverse.png
 layout: post.njk
 tags: post
 ---

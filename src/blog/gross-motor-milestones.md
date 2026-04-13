@@ -3,7 +3,7 @@ title: "Gross Motor Milestones: What to Expect in Your Child's First 3 Years"
 date: 2025-11-19
 author: WellCare & Nurture Team
 excerpt: "From rolling to running, your child's gross motor journey is incredible. Here's a physical therapist's guide to what to expect — and when a little extra support might help."
-image: /images/blog-gross-motor.png
+image: /images/blog-gross-motor-diverse.png
 layout: post.njk
 tags: post
 ---

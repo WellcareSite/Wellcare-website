@@ -3,7 +3,7 @@ title: "Late Talker or Language Delay? What Every Parent Should Know"
 date: 2025-04-18
 author: WellCare & Nurture Team
 excerpt: "If your toddler isn't talking as much as other kids their age, it's easy to worry. Here's how to tell the difference between a 'late bloomer' and a language delay — and when to seek help."
-image: /images/blog-late-talker.png
+image: /images/blog-late-talker-diverse.png
 layout: post.njk
 tags: post
 ---

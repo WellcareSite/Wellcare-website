@@ -3,7 +3,7 @@ title: "Picky Eating and OT: How Occupational Therapy Can Help Your Child Try Ne
 date: 2025-10-08
 author: WellCare & Nurture Team
 excerpt: "If mealtimes have become a battle, you're not alone. Picky eating is incredibly common — and occupational therapy offers gentle, effective approaches that go far beyond 'just try one bite.'"
-image: /images/blog-picky-eating.png
+image: /images/blog-picky-eating-diverse.png
 layout: post.njk
 tags: post
 ---

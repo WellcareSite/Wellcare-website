@@ -3,7 +3,7 @@ title: "Toe Walking: When to Be Concerned and How Physical Therapy Can Help"
 date: 2025-07-03
 author: WellCare & Nurture Team
 excerpt: "Is your child walking on their toes? While common in early walkers, persistent toe walking could signal a need for physical therapy. Here's what to know."
-image: /images/blog-toe-walking.png
+image: /images/blog-toe-walking-diverse.png
 layout: post.njk
 tags: post
 ---

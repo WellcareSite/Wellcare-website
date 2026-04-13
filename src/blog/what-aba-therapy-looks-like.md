@@ -3,7 +3,7 @@ title: "What Does ABA Therapy Actually Look Like? A Parent's Guide"
 date: 2025-05-09
 author: WellCare & Nurture Team
 excerpt: "ABA therapy has evolved dramatically from its origins. Today's best practices are compassionate, play-based, and focused on the whole child. Here's what modern ABA really looks like."
-image: /images/blog-aba-therapy.png
+image: /images/blog-aba-therapy-diverse.png
 layout: post.njk
 tags: post
 ---

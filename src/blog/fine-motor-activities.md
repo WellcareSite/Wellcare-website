@@ -90,7 +90,7 @@ A pediatric OT can evaluate your child's hand strength, coordination, and motor 
 
 Make it fun. If an activity feels like work or causes frustration, take a break. The goal is to build positive experiences around using their hands. Confidence comes before skill — and skill follows confidence.
 
-[Contact us](/contact/) for a free OT screening, or explore your child's development with our [Little Leaps Milestone Tool](/milestone-check/).
+[Contact us](/contact/) for a free OT screening, or explore your child's development with our [Little Leaps Milestone Checker](/milestone-check/).
 
 ---
 

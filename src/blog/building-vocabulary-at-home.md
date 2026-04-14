@@ -61,7 +61,7 @@ Many parents feel uncomfortable with silence, but those pauses communicate somet
 
 Every child develops at their own pace, and variation is completely normal. However, if you're noticing that your child isn't meeting expected milestones — or if your instincts are telling you something feels off — trust yourself. You know your child best.
 
-Try our free [Little Leaps Milestone Tool](/milestone-check/) for a quick developmental snapshot, or [contact us](/contact/) to schedule a free screening. There's never any pressure — just a friendly conversation about how your child is growing.
+Try our free [Little Leaps Milestone Checker](/milestone-check/) for a quick developmental snapshot, or [contact us](/contact/) to schedule a free screening. There's never any pressure — just a friendly conversation about how your child is growing.
 
 ---
 

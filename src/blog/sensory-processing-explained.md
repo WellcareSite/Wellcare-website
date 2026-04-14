@@ -70,7 +70,7 @@ A trained occupational therapist can:
 
 If any of this resonates, know that you're not alone — and there's nothing wrong with your child. Sensory differences are a part of neurodiversity, and with the right support, sensory-sensitive children can absolutely thrive.
 
-[Contact us](/contact/) for a free OT screening, or try our [Little Leaps Milestone Tool](/milestone-check/) to explore your child's developmental strengths.
+[Contact us](/contact/) for a free OT screening, or try our [Little Leaps Milestone Checker](/milestone-check/) to explore your child's developmental strengths.
 
 ---
 

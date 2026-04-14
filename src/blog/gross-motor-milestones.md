@@ -112,7 +112,7 @@ Every new movement your child masters is worth celebrating. That first roll, tha
 
 Your child is doing exactly what they're supposed to do: growing at their own beautiful pace.
 
-Check in on your child's development with our free [Little Leaps Milestone Tool](/milestone-check/), or [contact us](/contact/) for a free physical therapy screening.
+Check in on your child's development with our free [Little Leaps Milestone Checker](/milestone-check/), or [contact us](/contact/) for a free physical therapy screening.
 
 ---
 

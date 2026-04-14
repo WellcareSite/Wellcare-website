@@ -87,7 +87,7 @@ At WellCare & Nurture, we believe that if a child doesn't want to come to therap
 
 The best part about play-based language building? You can start right now, with whatever toy, book, or snack is in front of you. No special equipment needed. Just your presence, your patience, and your words.
 
-If you'd like personalized strategies for your child, [contact us](/contact/) for a free speech screening. Or check in on your child's development with our [Little Leaps Milestone Tool](/milestone-check/).
+If you'd like personalized strategies for your child, [contact us](/contact/) for a free speech screening. Or check in on your child's development with our [Little Leaps Milestone Checker](/milestone-check/).
 
 ---
 

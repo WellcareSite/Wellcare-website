@@ -83,7 +83,7 @@ There's no one-size-fits-all answer. Some families are with us for a few months 
 
 The best way to understand our ABA program is to visit. We welcome families to tour our clinic, meet our team, and see sessions in action. No pressure — just a chance to see if it feels like the right fit for your family.
 
-[Schedule a free consultation](/contact/) or try our [Little Leaps Milestone Tool](/milestone-check/) to explore your child's developmental strengths.
+[Schedule a free consultation](/contact/) or try our [Little Leaps Milestone Checker](/milestone-check/) to explore your child's developmental strengths.
 
 ---
 

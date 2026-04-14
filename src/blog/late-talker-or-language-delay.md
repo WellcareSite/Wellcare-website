@@ -75,7 +75,7 @@ There's no obligation, no hard sell. Just information to help you make the best 
 
 If something feels off, it probably is — even if everyone around you says, "Just wait." Parents are remarkably accurate in identifying developmental concerns. Your instincts are valid.
 
-Try our [Little Leaps Milestone Tool](/milestone-check/) for a quick check, or [schedule a free screening](/contact/) today. We're always here.
+Try our [Little Leaps Milestone Checker](/milestone-check/) for a quick check, or [schedule a free screening](/contact/) today. We're always here.
 
 ---
 

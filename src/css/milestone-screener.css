@@ -385,6 +385,19 @@
   font-weight: 600;
 }
 
+.ll-checklist-hint {
+  text-align: center;
+  font-size: 0.82rem;
+  color: #7a8ea8;
+  font-weight: 500;
+  margin: 0 auto 0.75rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(94, 182, 217, 0.08);
+  border-radius: 20px;
+  max-width: fit-content;
+  letter-spacing: 0.01em;
+}
+
 /* ---------- Screening Recommendation Box ---------- */
 .ll-screening-rec {
   border-radius: 12px;

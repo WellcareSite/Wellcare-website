@@ -525,6 +525,22 @@ p { margin-bottom: var(--space-md); }
   flex-wrap: wrap;
 }
 
+/* Trust Line */
+.trust-line {
+  background: linear-gradient(135deg, #1a3a5c 0%, #1e4d6e 100%);
+  text-align: center;
+  padding: 10px 1rem;
+  position: relative;
+  z-index: 3;
+}
+.trust-line p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
 .hero-btn-screening {
   display: inline-flex;
   flex-direction: column;

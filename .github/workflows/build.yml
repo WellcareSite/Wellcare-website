@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build:
       runs-on: ubuntu-latest
-          steps:
+        steps:
                 - uses: actions/checkout@v4
                       - run: npm install && npx @11ty/eleventy
                       

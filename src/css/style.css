@@ -629,6 +629,17 @@ p { margin-bottom: var(--space-md); }
   }
 }
 
+/* Getting Started - mobile stack */
+@media (max-width: 768px) {
+  #getting-started .container > div:first-of-type {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+  }
+  #getting-started .container > div:first-of-type > div:first-child {
+    display: none !important; /* hide connector line on mobile */
+  }
+}
+
 /* ---------- Service Page Glass Card ---------- */
 .service-glass-card {
   background: linear-gradient(135deg, rgba(26, 82, 118, 0.9) 0%, rgba(46, 134, 193, 0.85) 50%, rgba(93, 173, 226, 0.8) 100%);

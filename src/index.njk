@@ -69,29 +69,292 @@ description: "Pediatric therapy clinic in Colorado Springs — ABA therapy, occu
     </div>
   </div>
 </section>
-<!-- Awards Section -->
-<section style="padding: 2.5rem 0 5rem; background: white;">
-  <div class="container" style="text-align: center;">
-    <div style="max-width: 700px; margin: 0 auto; background: linear-gradient(135deg, #fdf6e3 0%, #f5e6b8 100%); border: 2px solid #c9a84c; border-radius: 16px; padding: 2rem 2.5rem; box-shadow: 0 4px 20px rgba(201,168,76,0.2);">
-      <div style="display: flex; align-items: center; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1.25rem;">
-        <img src="/images/partners/BOTS-2025-Logo-blk.png" alt="Best of Colorado Springs 2025" style="height: 80px; width: auto;">
-        <div style="text-align: left;">
-          <h3 style="margin: 0; font-size: 1.4rem; color: var(--dark-blue);">Best of Colorado Springs 2025</h3>
-          <p style="margin: 0.25rem 0 0; color: var(--text-secondary); font-size: 0.95rem;">Voted by our community — <strong>8 categories</strong></p>
+<!-- Awards Section (Glassmorphism) -->
+<section style="padding: 2.5rem 0 3.5rem; background: radial-gradient(circle at center, #fefdf9 0%, #f4ead1 100%); position: relative; overflow: hidden;">
+    <!-- Bridge Text / Intro with BOTS Logo -->
+    <div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin: 0 auto 2.5rem; max-width: 1000px; padding: 0 1rem;">
+      
+      <!-- Exact bounding box for visible logo (removes transparent padding influence) -->
+      <div style="flex: 0 0 200px; height: 195px; position: relative;">
+        <!-- Image is absolute, centered, scaled up so transparent edges overflow without breaking layout -->
+        <img src="/images/partners/BOTS-2026-Logo-Gold-Crown-Black.png" alt="Best of Colorado Springs 2026" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 842px; height: 253px; max-width: none; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.06)); pointer-events: none;">
+      </div>
+
+      <!-- Text container with explicit width to guarantee perfect 50/50 page centering -->
+      <div style="flex: 0 1 550px; text-align: left; padding-top: 0.5rem; min-width: 320px;">
+        <p style="color: #b8860b; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-bottom: 0.2rem;">Voted By Our Community</p>
+        <h2 style="font-size: 2.0rem; color: #112a46; font-family: 'Playfair Display', Georgia, serif; margin-bottom: 0.5rem; line-height: 1.1;" id="awards-dynamic-heading">When values are more than a slogan.</h2>
+        <p style="font-size: 1.05rem; color: #555; line-height: 1.5; margin-bottom: 0;">At WellCare & Nurture Pediatric Therapy, our core values guide every interaction. When you put children and families first, the community notices. We are deeply honored to be recognized across 8 different categories for our commitment to pediatric excellence.</p>
+      </div>
+    </div>
+
+    <!-- Glassmorphism Gallery -->
+    <style>
+      .gallery-wrapper {
+        position: relative;
+        max-width: 1400px; /* Wider gallery */
+        margin: 0 auto;
+        padding: 0 2rem; /* Symmetrical clipping boundary */
+      }
+      .glass-gallery {
+        display: flex;
+        gap: 1.5rem;
+        overflow-x: auto;
+        padding: 2rem 0 3rem 0; /* Zero horizontal padding so first card aligns exactly with the clip boundary */
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none; /* Firefox */
+        scroll-behavior: smooth;
+      }
+      /* Spacer pseudo-element ensures the last card has space when fully scrolled to the right */
+      .glass-gallery::after {
+        content: "";
+        flex: 0 0 1px;
+      }
+      .glass-gallery::-webkit-scrollbar {
+        display: none; /* Safari/Chrome */
+      }
+      .gallery-nav-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 48px;
+        height: 48px;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(220, 220, 220, 0.5);
+        border-radius: 50%;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.2s ease;
+        z-index: 10;
+        color: #555;
+      }
+      .gallery-wrapper:hover .gallery-nav-btn {
+        opacity: 1;
+      }
+      .gallery-nav-btn:hover {
+        background: #fff;
+        transform: translateY(-50%) scale(1.05);
+        color: #112a46;
+      }
+      .gallery-nav-btn.left {
+        left: -15px;
+      }
+      .gallery-nav-btn.right {
+        right: -15px;
+      }
+
+      .glass-card {
+        flex: 0 0 auto;
+        width: 270px;
+        height: 380px; /* Fixed height guarantees uniform text alignment */
+        scroll-snap-align: center;
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        border-radius: 24px;
+        padding: 3rem 1.5rem 2rem; /* Extra top padding for the banner */
+        text-align: center;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.05), inset 0 0 0 1px rgba(255,255,255,0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .glass-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 25px 45px rgba(0,0,0,0.1), inset 0 0 0 1px rgba(255,255,255,0.8);
+        background: rgba(255, 255, 255, 0.6);
+      }
+      
+      /* Top Banners */
+      .glass-banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(90deg, rgba(212,175,55,0.9), rgba(184,134,11,0.95));
+        color: white;
+        padding: 0.6rem;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        border-radius: 24px 24px 0 0;
+        text-transform: uppercase;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      }
+      .glass-banner.silver {
+        background: linear-gradient(90deg, rgba(160,165,171,0.9), rgba(125,132,140,0.95));
+      }
+
+      /* Highlight the Gold cards slightly more */
+      .glass-card.gold-card {
+        background: rgba(255, 252, 245, 0.6);
+        border: 1px solid rgba(212, 175, 55, 0.3);
+      }
+      .glass-card.gold-card:hover {
+        background: rgba(255, 252, 245, 0.8);
+        box-shadow: 0 25px 45px rgba(212, 175, 55, 0.15), inset 0 0 0 1px rgba(255,255,255,0.8);
+      }
+      
+      .glass-trophy {
+        height: 140px;
+        width: auto;
+        display: block;
+        margin: auto auto 1rem auto; /* Perfectly centers trophy vertically in available space */
+        filter: drop-shadow(0 10px 15px rgba(0,0,0,0.15));
+        transition: transform 0.3s ease;
+      }
+      .glass-card:hover .glass-trophy {
+        transform: scale(1.05);
+      }
+      
+      /* Fixed Text Container for perfect alignment */
+      .glass-text-container {
+        height: 80px; /* Forces exact alignment across all cards */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+      }
+      
+      .glass-card h3 {
+        font-size: 1.15rem;
+        color: #112a46;
+        margin-bottom: 0.3rem;
+        line-height: 1.3;
+      }
+      
+      .glass-card p {
+        font-size: 0.85rem;
+        color: #666;
+        margin: 0;
+      }
+      
+
+      
+      /* Fade edges for gallery */
+      .gallery-wrapper {
+        position: relative;
+      }
+      .gallery-wrapper::before, .gallery-wrapper::after {
+        content: '';
+        position: absolute;
+        top: 0; bottom: 0;
+        width: 60px;
+        pointer-events: none;
+        z-index: 2;
+      }
+      .gallery-wrapper::before {
+        left: 0;
+        background: linear-gradient(to right, #f4ead1, transparent);
+      }
+      .gallery-wrapper::after {
+        right: 0;
+        background: linear-gradient(to left, #f4ead1, transparent);
+      }
+      
+      /* Mobile adjustment for header */
+      @media (max-width: 768px) {
+        .glass-card { width: 250px; }
+      }
+    </style>
+
+    <div class="gallery-wrapper">
+      <button class="gallery-nav-btn left" aria-label="Scroll left" onclick="document.getElementById('awards-gallery').scrollBy({left: -300, behavior: 'smooth'})">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button class="gallery-nav-btn right" aria-label="Scroll right" onclick="document.getElementById('awards-gallery').scrollBy({left: 300, behavior: 'smooth'})">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+
+      <div class="glass-gallery" id="awards-gallery">
+        
+        <!-- Gold Card 1 -->
+        <div class="glass-card gold-card">
+          <div class="glass-banner">Gold Winner</div>
+          <img src="/images/partners/gold-trophy-3d.png" alt="Gold Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best Speech Therapy</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
         </div>
-      </div>
-      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 0.75rem;">
-        <span style="display: inline-flex; align-items: center; gap: 0.35rem; background: linear-gradient(135deg, #f9e547 0%, #d4a017 100%); color: #5a3e00; font-weight: 600; font-size: 0.85rem; padding: 0.35rem 0.85rem; border-radius: 20px;">🥇 Best Speech Therapy</span>
-        <span style="display: inline-flex; align-items: center; gap: 0.35rem; background: linear-gradient(135deg, #f9e547 0%, #d4a017 100%); color: #5a3e00; font-weight: 600; font-size: 0.85rem; padding: 0.35rem 0.85rem; border-radius: 20px;">🥇 Best Occupational Therapy</span>
-      </div>
-      <div style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;">
-        <span style="display: inline-flex; align-items: center; gap: 0.3rem; background: linear-gradient(135deg, #e8e8e8 0%, #b0b0b0 100%); color: #3a3a3a; font-weight: 500; font-size: 0.78rem; padding: 0.3rem 0.7rem; border-radius: 20px;">🥈 Home Health</span>
-        <span style="display: inline-flex; align-items: center; gap: 0.3rem; background: linear-gradient(135deg, #e8e8e8 0%, #b0b0b0 100%); color: #3a3a3a; font-weight: 500; font-size: 0.78rem; padding: 0.3rem 0.7rem; border-radius: 20px;">🥈 In-Home Care</span>
-        <span style="display: inline-flex; align-items: center; gap: 0.3rem; background: linear-gradient(135deg, #e8e8e8 0%, #b0b0b0 100%); color: #3a3a3a; font-weight: 500; font-size: 0.78rem; padding: 0.3rem 0.7rem; border-radius: 20px;">🥈 Pediatric Practice</span>
-        <span style="display: inline-flex; align-items: center; gap: 0.3rem; background: linear-gradient(135deg, #e8e8e8 0%, #b0b0b0 100%); color: #3a3a3a; font-weight: 500; font-size: 0.78rem; padding: 0.3rem 0.7rem; border-radius: 20px;">🥈 Physical Therapy</span>
-        <span style="display: inline-flex; align-items: center; gap: 0.3rem; background: linear-gradient(135deg, #e8e8e8 0%, #b0b0b0 100%); color: #3a3a3a; font-weight: 500; font-size: 0.78rem; padding: 0.3rem 0.7rem; border-radius: 20px;">🥈 ABA Therapy</span>
-        <span style="display: inline-flex; align-items: center; gap: 0.3rem; background: linear-gradient(135deg, #e8e8e8 0%, #b0b0b0 100%); color: #3a3a3a; font-weight: 500; font-size: 0.78rem; padding: 0.3rem 0.7rem; border-radius: 20px;">🥈 Pediatric Rehab</span>
-      </div>
+        
+        <!-- Gold Card 2 -->
+        <div class="glass-card gold-card">
+          <div class="glass-banner">Gold Winner</div>
+          <img src="/images/partners/gold-trophy-3d.png" alt="Gold Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best Occupational Therapy</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
+        </div>
+
+        <!-- Silver Card 1 (ABA First) -->
+        <div class="glass-card">
+          <div class="glass-banner silver">Silver Winner</div>
+          <img src="/images/partners/silver-trophy-3d.png" alt="Silver Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best ABA Therapy</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
+        </div>
+
+        <!-- Silver Card 2 (PT Second) -->
+        <div class="glass-card">
+          <div class="glass-banner silver">Silver Winner</div>
+          <img src="/images/partners/silver-trophy-3d.png" alt="Silver Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best Physical Therapy</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
+        </div>
+        
+        <!-- Silver Card 3 -->
+        <div class="glass-card">
+          <div class="glass-banner silver">Silver Winner</div>
+          <img src="/images/partners/silver-trophy-3d.png" alt="Silver Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best Home Health</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
+        </div>
+        
+        <!-- Silver Card 4 -->
+        <div class="glass-card">
+          <div class="glass-banner silver">Silver Winner</div>
+          <img src="/images/partners/silver-trophy-3d.png" alt="Silver Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best In-Home Care</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
+        </div>
+        
+        <!-- Silver Card 5 -->
+        <div class="glass-card">
+          <div class="glass-banner silver">Silver Winner</div>
+          <img src="/images/partners/silver-trophy-3d.png" alt="Silver Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best Pediatric Practice</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
+        </div>
+        
+        <!-- Silver Card 6 -->
+        <div class="glass-card">
+          <div class="glass-banner silver">Silver Winner</div>
+          <img src="/images/partners/silver-trophy-3d.png" alt="Silver Trophy" class="glass-trophy">
+          <div class="glass-text-container">
+            <h3>Best Pediatric Rehab</h3>
+            <p>Best of Colorado Springs 2026</p>
+          </div>
+        </div>
+
     </div>
   </div>
 </section>

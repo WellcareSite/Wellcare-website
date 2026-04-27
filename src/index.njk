@@ -259,12 +259,31 @@ description: "Pediatric therapy clinic in Colorado Springs — ABA therapy, occu
         .glass-card { flex: 0 0 250px; }
       }
     </style>
-
+    <script>
+      let galleryScrollTarget = 0;
+      function scrollAwards(direction) {
+        const gallery = document.getElementById('awards-gallery');
+        const maxScroll = gallery.scrollWidth - gallery.clientWidth;
+        
+        // Sync target if user manually swiped recently
+        if (Math.abs(gallery.scrollLeft - galleryScrollTarget) > 350) {
+          galleryScrollTarget = gallery.scrollLeft;
+        }
+        
+        galleryScrollTarget += (300 * direction);
+        
+        // Clamp the target to prevent scrolling past limits
+        if (galleryScrollTarget < 0) galleryScrollTarget = 0;
+        if (galleryScrollTarget > maxScroll) galleryScrollTarget = maxScroll;
+        
+        gallery.scrollTo({ left: galleryScrollTarget, behavior: 'smooth' });
+      }
+    </script>
     <div class="gallery-wrapper">
-      <button class="gallery-nav-btn left" aria-label="Scroll left" onclick="document.getElementById('awards-gallery').scrollBy({left: -300, behavior: 'smooth'})">
+      <button class="gallery-nav-btn left" aria-label="Scroll left" onclick="scrollAwards(-1)">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
       </button>
-      <button class="gallery-nav-btn right" aria-label="Scroll right" onclick="document.getElementById('awards-gallery').scrollBy({left: 300, behavior: 'smooth'})">
+      <button class="gallery-nav-btn right" aria-label="Scroll right" onclick="scrollAwards(1)">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
       </button>
 

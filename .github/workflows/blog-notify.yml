@@ -6,6 +6,9 @@ on:
     paths:
       - 'src/blog/**.md'
 
+permissions:
+  issues: write
+
 jobs:
   notify:
     runs-on: ubuntu-latest
@@ -15,41 +18,39 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Check for new blog posts
-        id: check
+      - name: Check for new blog posts and notify
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           # Get list of new blog post files added in this commit
           NEW_POSTS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'src/blog/*.md' || true)
           
           if [ -z "$NEW_POSTS" ]; then
-            echo "No new blog posts found"
-            echo "has_new=false" >> $GITHUB_OUTPUT
-          else
-            echo "New blog posts found:"
-            echo "$NEW_POSTS"
-            echo "has_new=true" >> $GITHUB_OUTPUT
-            
-            # Extract titles from the new posts
-            TITLES=""
-            for file in $NEW_POSTS; do
-              TITLE=$(grep -m1 '^title:' "$file" | sed 's/title: *//;s/"//g')
-              SLUG=$(basename "$file" .md)
-              TITLES="$TITLES• $TITLE (https://www.wellcareco.com/blog/$SLUG/)\n"
-            done
-            
-            echo "titles<<EOF" >> $GITHUB_OUTPUT
-            echo -e "$TITLES" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+            echo "No new blog posts found — skipping notification"
+            exit 0
           fi
-
-      - name: Send email notification
-        if: steps.check.outputs.has_new == 'true'
-        run: |
-          curl -s https://formsubmit.co/ajax/info@wellcareco.com \
-            -H "Content-Type: application/json" \
-            -H "Accept: application/json" \
-            -d '{
-              "_subject": "📝 New Blog Post Published on WellCare Website",
-              "message": "A new blog post has been published on your website:\n\n${{ steps.check.outputs.titles }}\nThe post is now live and visible to visitors.",
-              "_template": "box"
-            }'
+          
+          echo "New blog posts found:"
+          echo "$NEW_POSTS"
+          
+          # Build the issue body
+          BODY="A new blog post has been published on the WellCare website! 🎉"
+          BODY="${BODY}\n\n### Published Posts\n"
+          
+          FIRST_TITLE=""
+          for file in $NEW_POSTS; do
+            TITLE=$(grep -m1 '^title:' "$file" | sed 's/title: *//;s/"//g')
+            SLUG=$(basename "$file" .md)
+            BODY="${BODY}\n- **${TITLE}** — [View Post](https://www.wellcareco.com/blog/${SLUG}/)"
+            if [ -z "$FIRST_TITLE" ]; then
+              FIRST_TITLE="$TITLE"
+            fi
+          done
+          
+          BODY="${BODY}\n\n---\n*This issue was automatically created by the blog notification workflow.*"
+          
+          # Create the GitHub Issue
+          echo -e "$BODY" | gh issue create \
+            --title "📝 New Blog Post: ${FIRST_TITLE}" \
+            --body-file - \
+            --label "blog-notification"

@@ -1,7 +1,7 @@
 ---
-name: Stephanie MS, OTR/L
+name: Stephanie OTD, MS, OTR/L
 role: Occupational Therapy Team Coordinator
-credentials: MS, OTR/L
+credentials: OTD, MS, OTR/L
 bio: >-
   Steph earned her bachelor’s degree from the University of Illinois at
   Urbana-Champaign in 2018 and her master's degree in occupational therapy from

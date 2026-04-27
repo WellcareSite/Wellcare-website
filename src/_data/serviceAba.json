@@ -1,10 +1,10 @@
 {
   "heroTitle": "ABA Therapy in Colorado Springs",
-  "heroSubtitle": "Personalized, compassionate support for children with autism — built on trust",
-  "seoDescription": "ABA therapy for children ages 2–12 in Colorado Springs. Trauma-assumed, evidence-based behavior analysis for autism spectrum disorders. In-home, center-based, and community services. Accepting Medicaid, TRICARE, Aetna, Cigna, and BlueCross BlueShield.",
+  "heroSubtitle": "Personalized, compassionate support for children with diverse developmental and behavioral needs",
+  "seoDescription": "ABA therapy for children ages 2–12 in Colorado Springs. Trauma-assumed, evidence-based behavior analysis for developmental delays and behavioral challenges. In-home, center-based, and community services. Accepting Medicaid, TRICARE, Aetna, Cigna, and BlueCross BlueShield.",
   "image": "/images/content-aba.png",
   "heroImage": "/images/hero-aba.png",
-  "intro": "Every child with autism has unique strengths, interests, and challenges. Our ABA programs are designed to meet each child where they are — using **evidence-based, trauma-assumed techniques** to build communication, social skills, and independence. We focus on the whole child, not just behaviors, and we partner closely with families every step of the way. Additionally, all of our clinical staff are certified by the **Behavior Analyst Certification Board (BACB)**, ensuring the highest standard of care.",
+  "intro": "Every child has unique strengths, interests, and challenges. Our ABA programs are designed to meet each child where they are — using **evidence-based, trauma-assumed techniques** to build communication, social skills, and independence. We focus on the whole child, not just behaviors, and we partner closely with families every step of the way. Additionally, all of our clinical staff are certified by the **Behavior Analyst Certification Board (BACB)**, ensuring the highest standard of care.",
   "services": [
     "Communication & language development",
     "Social skills & peer interaction",
@@ -40,7 +40,7 @@
   "faqs": [
     {
       "question": "How do I know if my child could benefit from ABA therapy?",
-      "answer": "If your child has been diagnosed with autism spectrum disorder or you have concerns about their behavior, communication, or social skills, ABA may be a great fit. Try our free [Little Leaps Milestone Tool](/milestone-check/) for a quick developmental snapshot, and schedule a free screening or call us for a no-cost consult to discuss your child's needs."
+      "answer": "If you have concerns about your child's behavior, communication, or social skills, ABA may be a great fit. It is highly effective for children with developmental delays, behavioral challenges, or an autism diagnosis. Try our free [Little Leaps Milestone Tool](/milestone-check/) for a quick developmental snapshot, and schedule a free screening or call us for a no-cost consult to discuss your child's needs."
     },
     {
       "question": "What does a typical ABA session look like?",

@@ -37,7 +37,7 @@ Every child is unique. Sensory differences exist on a spectrum, and what bothers
 ### Mixed Patterns
 Many children show both seeking and avoiding behaviors — sensitive to some things and seeking others. This is completely normal and doesn't mean anything is "wrong" with your child.
 
-## A Trauma-Informed Perspective on Sensory Differences
+## A Trauma-Assumed Perspective on Sensory Differences
 
 At WellCare & Nurture, we believe that **behaviors are communication**. When a child melts down in a noisy restaurant or refuses to wear jeans, they're not being "difficult" — they're telling us their nervous system is overwhelmed.
 

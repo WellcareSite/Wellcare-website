@@ -84,7 +84,7 @@ A **Board Certified Behavior Analyst (BCBA)** can:
 - Train caregivers and school staff on consistent implementation
 - Monitor progress and adjust the plan as your child grows
 
-## A Trauma-Informed Perspective
+## A Trauma-Assumed Perspective
 
 At WellCare & Nurture, we never use transitions as punishment ("If you don't stop that, we're leaving!") and we never use surprise removal ("Time's up!" without warning).
 

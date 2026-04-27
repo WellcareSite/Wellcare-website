@@ -71,7 +71,7 @@ Try: *"Yes! The doggy is running fast!"*
 
 Expansion models correct grammar while validating their communication. Correction shuts it down.
 
-## Why This Matters for Trauma-Informed Care
+## Why This Matters for Trauma-Assumed Care
 
 Play-based therapy isn't just more effective — it's more compassionate. Children who have experienced stress, transitions, medical procedures, or difficult experiences need to feel safe before they can learn.
 

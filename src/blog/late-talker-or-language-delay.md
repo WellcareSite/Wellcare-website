@@ -58,7 +58,7 @@ Early speech therapy isn't about drilling vocabulary into your child. At WellCar
 - **Play-based** — we follow your child's interests and build language into what they already love
 - **Family-centered** — we coach you on strategies you can use every day
 - **Strengths-focused** — we celebrate what your child CAN do while gently building new skills
-- **Trauma-informed** — we never force, rush, or pressure. Communication grows best in safe relationships
+- **Trauma-assumed** — we never force, rush, or pressure. Communication grows best in safe relationships
 
 ## What Does a Speech Screening Involve?
 

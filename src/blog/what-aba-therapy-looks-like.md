@@ -38,11 +38,11 @@ What we don't do:
 - We don't force compliance
 - We don't try to make autistic children appear "less autistic"
 
-## Our Trauma-Informed Approach
+## Our Trauma-Assumed Approach
 
 Every child who walks through our doors may have experienced frustration, sensory overload, social exclusion, or anxiety related to their diagnosis. We take that seriously.
 
-Our trauma-informed ABA means:
+Our trauma-assumed ABA means:
 
 - **Safety first** — we create calm, predictable environments and respect when a child says "no" or needs space
 - **Relationship before goals** — we don't start teaching until trust is established

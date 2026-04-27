@@ -91,7 +91,7 @@ If your child is identified as autistic or showing early signs, our team provide
 - **Occupational Therapy** — sensory processing, self-care skills, and emotional regulation
 - **Family Coaching** — helping you understand and support your child's unique needs
 
-We take a **trauma-informed, strengths-based approach** — meaning we focus on what your child CAN do and build from there. We never force compliance or use punitive methods.
+We take a **trauma-assumed, strengths-based approach** — meaning we focus on what your child CAN do and build from there. We never force compliance or use punitive methods.
 
 📋 [Schedule a free screening](/contact/) | 📞 Call **(719) 598-5555**
 

@@ -27,7 +27,7 @@ You're not quizzing them — you're showing them how language works in real life
 
 Instead of directing play, let your child choose what to focus on. When they're interested in something, they're primed to learn. If they pick up a truck, talk about trucks. If they're watching a dog, narrate the dog.
 
-Research from ASHA shows that **child-led interactions** lead to stronger vocabulary growth than adult-directed teaching. This approach also respects your child's autonomy — a core principle of trauma-informed care.
+Research from ASHA shows that **child-led interactions** lead to stronger vocabulary growth than adult-directed teaching. This approach also respects your child's autonomy — a core principle of trauma-assumed care.
 
 ## 3. Expand What They Say
 

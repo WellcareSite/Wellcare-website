@@ -82,9 +82,9 @@ We teach families strategies that transform mealtimes from stressful to sustaina
 - **Remove pressure** — no "clean your plate," no "just one bite," no rewards for eating
 - **Stay calm** — your energy at the table matters more than you think
 
-## A Note on Trauma-Informed Feeding
+## A Note on Trauma-Assumed Feeding
 
-Some children have experienced food insecurity, tube feeding, medical interventions, or other experiences that make eating emotionally loaded. Our trauma-informed approach means:
+Some children have experienced food insecurity, tube feeding, medical interventions, or other experiences that make eating emotionally loaded. Our trauma-assumed approach means:
 
 - We **never force, trick, or pressure** a child to eat
 - We **validate their experience** — if a food feels scary, that's real to them

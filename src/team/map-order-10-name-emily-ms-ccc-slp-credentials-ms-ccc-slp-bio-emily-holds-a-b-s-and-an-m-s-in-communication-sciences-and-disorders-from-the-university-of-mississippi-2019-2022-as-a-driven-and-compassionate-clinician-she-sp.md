@@ -12,5 +12,6 @@ bio: Emily holds a B.S. and an M.S. in Communication Sciences and Disorders from
   swallowing, and higher-level literacy and language.  Outside of work, Emily
   enjoys reading, crafts/DIY, and spending time with friends and family. Emily
   also enjoys traveling and experiencing new places.
+photo: /images/chatgpt-image-apr-27-2026-at-12_10_08-pm.png
 order: 10
 ---

@@ -12,6 +12,6 @@ bio: Jenn is a Registered Nurse who has worked in the field for almost 10 years.
   oversees the intake and patient relations departments allowing her to ensure
   that all families and clients receive the highest quality care from intake to
   discharge.
-photo: /images/dsc_3563.jpg
+photo: /images/chatgpt-image-apr-27-2026-at-12_27_23-pm.png
 order: 10
 ---

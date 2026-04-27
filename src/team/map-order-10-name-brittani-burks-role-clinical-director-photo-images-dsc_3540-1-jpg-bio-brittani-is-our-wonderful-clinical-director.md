@@ -1,5 +1,5 @@
 ---
-name: Brittani M.Ed., BCBA
+name: Brittani M.Ed, BCBA
 role: Director of Clinical Operations
 credentials: BCBA
 bio: "Brittani is a Board Certified Behavior Analyst and Director of Clinical

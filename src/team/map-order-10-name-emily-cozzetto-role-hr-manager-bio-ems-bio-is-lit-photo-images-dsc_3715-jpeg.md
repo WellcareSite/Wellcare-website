@@ -11,6 +11,6 @@ bio: Emily is an HR Manager bringing nearly 30 years of experience in hiring,
   inclusive workplaces where employees thrive. Emily's interpersonal skills,
   integrity, and commitment to people first leadership make her a trusted
   partner in driving employee success.
-photo: /images/dsc_3715.jpeg
+photo: /images/chatgpt-image-apr-27-2026-at-12_08_56-pm.png
 order: 2
 ---

@@ -2210,9 +2210,6 @@ p { margin-bottom: var(--space-md); }
 
 /* ---------- Weave Chat Widget Override ---------- */
 #iframe-weave-widget-button {
-  transform: scale(0.7) !important;
+  transform: scale(0.85) !important;
   transform-origin: bottom right !important;
-}
-#iframe-weave-widget-container {
-  display: none !important;
 }

@@ -105,11 +105,6 @@ description: "Pediatric therapy clinic in Colorado Springs — ABA therapy, occu
         scrollbar-width: none; /* Firefox */
         scroll-behavior: smooth;
       }
-      /* Spacer pseudo-element ensures the last card has space when fully scrolled to the right */
-      .glass-gallery::after {
-        content: "";
-        flex: 0 0 1px;
-      }
       .glass-gallery::-webkit-scrollbar {
         display: none; /* Safari/Chrome */
       }
@@ -261,7 +256,7 @@ description: "Pediatric therapy clinic in Colorado Springs — ABA therapy, occu
       
       /* Mobile adjustment for header */
       @media (max-width: 768px) {
-        .glass-card { width: 250px; }
+        .glass-card { flex: 0 0 250px; }
       }
     </style>
 
@@ -467,7 +462,25 @@ description: "Pediatric therapy clinic in Colorado Springs — ABA therapy, occu
 
     <script src="https://elfsightcdn.com/platform.js" async></script>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 900px; margin: 0 auto; transform: scale(0.85); transform-origin: top center;">
+    <style>
+      .reviews-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+        transform: scale(0.85);
+        transform-origin: top center;
+      }
+      @media (max-width: 768px) {
+        .reviews-grid {
+          grid-template-columns: 1fr;
+          transform: scale(1);
+        }
+      }
+    </style>
+
+    <div class="reviews-grid">
       <div>
         <h3 style="color: white; text-align: center; margin-bottom: 1rem;">⭐ Powers Clinic</h3>
         <div class="elfsight-app-60aa8037-a149-42c7-b119-32f483218f35" data-elfsight-app-lazy></div>

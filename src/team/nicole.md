@@ -10,6 +10,6 @@ bio: Nicole brings over a decade of experience in applied behavior analysis,
   closely with families and multidisciplinary teams to ensure high-quality
   outcomes. Outside of work, she stays active with her three children, enjoying
   outdoor adventures and keeping up with their busy sports schedules.
-photo: /images/nicole.png
+photo: /images/chatgpt-image-apr-27-2026-at-12_41_27-pm.png
 order: 3
 ---

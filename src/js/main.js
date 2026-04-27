@@ -40,14 +40,5 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(el);
   });
 
-  // Newsletter form
-  const newsletterForm = document.getElementById('newsletter-form');
-  if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const email = this.querySelector('input[type="email"]').value;
-      alert('Thank you for subscribing! We\'ll keep you updated at ' + email);
-      this.reset();
-    });
-  }
+
 });

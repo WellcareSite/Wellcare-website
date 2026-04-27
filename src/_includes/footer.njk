@@ -35,16 +35,9 @@
         </ul>
       </div>
 
-      <!-- Column 2: Contact & Newsletter -->
+      <!-- Column 2: Contact -->
       <div class="footer-col">
-        <h4>Join Our Community!</h4>
-        <p>Sign up for parenting tips, program offers, events and more!</p>
-        <form class="newsletter-form" id="newsletter-form">
-          <input type="email" placeholder="Email Address" required aria-label="Email Address">
-          <button type="submit">Subscribe</button>
-        </form>
-
-        <h4 style="margin-top: 1.5rem;">Contact</h4>
+        <h4>Contact</h4>
         <p>
           📞 <a href="tel:{{ settings.phone | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}">{{ settings.phone }}</a><br>
           ✉ <a href="mailto:{{ settings.email }}">{{ settings.email }}</a><br>

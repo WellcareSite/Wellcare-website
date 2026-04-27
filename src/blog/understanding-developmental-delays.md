@@ -5,7 +5,7 @@ date: 2026-04-26
 author: "WellCare & Nurture Clinical Team"
 tags: ["blog", "occupational therapy", "speech therapy", "physical therapy"]
 description: "A comprehensive guide for parents on identifying developmental delays in children and understanding how early intervention therapy can help."
-image: "/images/blog/milestones.jpg"
+image: /images/blog-gross-motor-diverse.png
 ---
 
 As a parent, you naturally keep a close eye on your child’s growth. You celebrate every milestone—the first smile, the first steps, the first words. But when your child seems to be taking a little longer than expected to reach these milestones, it’s normal to feel anxious or wonder if you should be concerned. 

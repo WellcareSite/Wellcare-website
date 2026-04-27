@@ -5,7 +5,7 @@ date: 2026-04-26
 author: "WellCare & Nurture Clinical Team"
 tags: ["blog", "aba", "occupational therapy", "speech therapy"]
 description: "Learn what autism is, early signs to look for, and how a collaborative approach to pediatric therapy can support your child's unique development."
-image: "/images/blog/sensory-processing.jpg"
+image: /images/blog-aba-therapy.png
 ---
 
 Hearing the word "autism" can bring up a lot of questions for parents. You might be wondering what it means for your child’s future, how to best support them, or what steps to take next. The most important thing to know is that autism is simply a different way of experiencing the world, and with the right support, your child can absolutely thrive.

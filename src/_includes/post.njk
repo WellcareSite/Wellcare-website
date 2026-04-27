@@ -19,25 +19,35 @@ title: Blog Post
 
 <section class="content-page">
   <div class="container">
-    {# Auto-image system: use explicit image if provided, otherwise pick one based on tags #}
+    {# Auto-image system: use explicit image if provided, otherwise rotate through a pool based on tags #}
+    {# Uses title length as a simple hash to vary the image selection per post #}
+    {% set titleHash = title | length %}
     {% if image %}
       {% set blogImage = image %}
     {% elif "aba" in tags %}
-      {% set blogImage = "/images/blog-aba-therapy-diverse.png" %}
+      {% set abaImages = ["/images/blog-aba-therapy-diverse.png", "/images/blog-aba-therapy.png", "/images/blog-reinforcement.png"] %}
+      {% set blogImage = abaImages[titleHash % 3] %}
     {% elif "speech therapy" in tags %}
-      {% set blogImage = "/images/blog-late-talker-diverse.png" %}
+      {% set speechImages = ["/images/blog-late-talker-diverse.png", "/images/blog-late-talker.png", "/images/blog-vocabulary.png", "/images/blog-play-language.png"] %}
+      {% set blogImage = speechImages[titleHash % 4] %}
     {% elif "occupational therapy" in tags %}
-      {% set blogImage = "/images/blog-sensory-diverse.png" %}
+      {% set otImages = ["/images/blog-sensory-diverse.png", "/images/blog-sensory.png", "/images/blog-fine-motor.png", "/images/blog-picky-eating-diverse.png"] %}
+      {% set blogImage = otImages[titleHash % 4] %}
     {% elif "physical therapy" in tags %}
-      {% set blogImage = "/images/blog-gross-motor-diverse.png" %}
+      {% set ptImages = ["/images/blog-gross-motor-diverse.png", "/images/blog-gross-motor.png", "/images/blog-tummy-time.png", "/images/blog-toe-walking-diverse.png"] %}
+      {% set blogImage = ptImages[titleHash % 4] %}
     {% elif "sensory" in tags %}
-      {% set blogImage = "/images/blog-sensory-diverse.png" %}
+      {% set sensoryImages = ["/images/blog-sensory-diverse.png", "/images/blog-sensory.png", "/images/blog-picky-eating-diverse.png"] %}
+      {% set blogImage = sensoryImages[titleHash % 3] %}
     {% elif "milestones" in tags %}
-      {% set blogImage = "/images/blog-tummy-time.png" %}
+      {% set milestoneImages = ["/images/blog-tummy-time.png", "/images/blog-gross-motor-diverse.png", "/images/blog-transitions.png"] %}
+      {% set blogImage = milestoneImages[titleHash % 3] %}
     {% elif "feeding" in tags %}
-      {% set blogImage = "/images/blog-picky-eating-diverse.png" %}
+      {% set feedingImages = ["/images/blog-picky-eating-diverse.png", "/images/blog-picky-eating.png"] %}
+      {% set blogImage = feedingImages[titleHash % 2] %}
     {% else %}
-      {% set blogImage = "/images/blog-play-language.png" %}
+      {% set defaultImages = ["/images/blog-play-language.png", "/images/blog-transitions.png", "/images/blog-aac-device.png", "/images/blog-vocabulary.png"] %}
+      {% set blogImage = defaultImages[titleHash % 4] %}
     {% endif %}
     <img src="{{ blogImage }}" alt="{{ title }}" style="border-radius: 12px; margin-bottom: 2rem; width: 100%; max-height: 400px; object-fit: cover;">
     {{ content | safe }}

@@ -25,29 +25,29 @@ title: Blog Post
     {% if image %}
       {% set blogImage = image %}
     {% elif "aba" in tags %}
-      {% set abaImages = ["/images/blog-aba-therapy-diverse.png", "/images/blog-aba-therapy.png", "/images/blog-reinforcement.png"] %}
-      {% set blogImage = abaImages[titleHash % 3] %}
+      {% set abaImages = ["/images/blog-aba-therapy-diverse.png", "/images/blog-aba-therapy.png", "/images/blog-reinforcement.png", "/images/blog-child-puzzle.png", "/images/blog-child-painting.png"] %}
+      {% set blogImage = abaImages[titleHash % 5] %}
     {% elif "speech therapy" in tags %}
-      {% set speechImages = ["/images/blog-late-talker-diverse.png", "/images/blog-late-talker.png", "/images/blog-vocabulary.png", "/images/blog-play-language.png"] %}
-      {% set blogImage = speechImages[titleHash % 4] %}
+      {% set speechImages = ["/images/blog-late-talker-diverse.png", "/images/blog-late-talker.png", "/images/blog-vocabulary.png", "/images/blog-play-language.png", "/images/blog-child-bubbles.png", "/images/blog-child-reading.png"] %}
+      {% set blogImage = speechImages[titleHash % 6] %}
     {% elif "occupational therapy" in tags %}
-      {% set otImages = ["/images/blog-sensory-diverse.png", "/images/blog-sensory.png", "/images/blog-fine-motor.png", "/images/blog-picky-eating-diverse.png"] %}
-      {% set blogImage = otImages[titleHash % 4] %}
+      {% set otImages = ["/images/blog-sensory-diverse.png", "/images/blog-sensory.png", "/images/blog-fine-motor.png", "/images/blog-picky-eating-diverse.png", "/images/blog-child-playdough.png", "/images/blog-child-swing.png", "/images/blog-child-painting.png"] %}
+      {% set blogImage = otImages[titleHash % 7] %}
     {% elif "physical therapy" in tags %}
-      {% set ptImages = ["/images/blog-gross-motor-diverse.png", "/images/blog-gross-motor.png", "/images/blog-tummy-time.png", "/images/blog-toe-walking-diverse.png"] %}
-      {% set blogImage = ptImages[titleHash % 4] %}
+      {% set ptImages = ["/images/blog-gross-motor-diverse.png", "/images/blog-gross-motor.png", "/images/blog-tummy-time.png", "/images/blog-toe-walking-diverse.png", "/images/blog-child-climbing.png", "/images/blog-child-balance.png", "/images/blog-child-ball.png"] %}
+      {% set blogImage = ptImages[titleHash % 7] %}
     {% elif "sensory" in tags %}
-      {% set sensoryImages = ["/images/blog-sensory-diverse.png", "/images/blog-sensory.png", "/images/blog-picky-eating-diverse.png"] %}
-      {% set blogImage = sensoryImages[titleHash % 3] %}
+      {% set sensoryImages = ["/images/blog-sensory-diverse.png", "/images/blog-sensory.png", "/images/blog-picky-eating-diverse.png", "/images/blog-child-swing.png"] %}
+      {% set blogImage = sensoryImages[titleHash % 4] %}
     {% elif "milestones" in tags %}
-      {% set milestoneImages = ["/images/blog-tummy-time.png", "/images/blog-gross-motor-diverse.png", "/images/blog-transitions.png"] %}
-      {% set blogImage = milestoneImages[titleHash % 3] %}
+      {% set milestoneImages = ["/images/blog-tummy-time.png", "/images/blog-gross-motor-diverse.png", "/images/blog-transitions.png", "/images/blog-parent-walking.png"] %}
+      {% set blogImage = milestoneImages[titleHash % 4] %}
     {% elif "feeding" in tags %}
       {% set feedingImages = ["/images/blog-picky-eating-diverse.png", "/images/blog-picky-eating.png"] %}
       {% set blogImage = feedingImages[titleHash % 2] %}
     {% else %}
-      {% set defaultImages = ["/images/blog-play-language.png", "/images/blog-transitions.png", "/images/blog-aac-device.png", "/images/blog-vocabulary.png"] %}
-      {% set blogImage = defaultImages[titleHash % 4] %}
+      {% set defaultImages = ["/images/blog-play-language.png", "/images/blog-transitions.png", "/images/blog-aac-device.png", "/images/blog-vocabulary.png", "/images/blog-family-park.png", "/images/blog-child-coloring.png", "/images/blog-child-reading.png"] %}
+      {% set blogImage = defaultImages[titleHash % 7] %}
     {% endif %}
     <img src="{{ blogImage }}" alt="{{ title }}" style="border-radius: 12px; margin-bottom: 2rem; width: 100%; max-height: 400px; object-fit: cover;">
     {{ content | safe }}

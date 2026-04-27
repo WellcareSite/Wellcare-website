@@ -8,24 +8,8 @@ module.exports = function(eleventyConfig) {
     return md.render(content);
   });
 
-  // GitHub Pages path prefix rewriting
-  const prefix = process.env.GITHUB_PAGES ? "/Wellcare-website" : "";
-  if (prefix) {
-    eleventyConfig.addTransform("ghpages-paths", function(content) {
-      if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
-        // Rewrite href, src, action attributes
-        content = content.replace(/(href|src|action)="\/(?!\/)/g, '$1="' + prefix + '/');
-        // Rewrite url('/path') in inline styles (single quotes)
-        content = content.replace(/url\('\/(?!\/)/g, "url('" + prefix + '/');
-        // Rewrite url("/path") in inline styles (double quotes)
-        content = content.replace(/url\("\/(?!\/)/g, 'url("' + prefix + '/');
-        // Rewrite url(/path) without quotes
-        content = content.replace(/url\(\/(?!\/)/g, 'url(' + prefix + '/');
-        return content;
-      }
-      return content;
-    });
-  }
+  // CNAME for custom domain
+  eleventyConfig.addPassthroughCopy("src/CNAME");
 
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/css");
@@ -65,7 +49,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
-    pathPrefix: process.env.GITHUB_PAGES ? "/Wellcare-website/" : "/",
+    pathPrefix: "/",
     dir: {
       input: "src",
       output: "_site",

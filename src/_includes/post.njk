@@ -19,9 +19,27 @@ title: Blog Post
 
 <section class="content-page">
   <div class="container">
+    {# Auto-image system: use explicit image if provided, otherwise pick one based on tags #}
     {% if image %}
-    <img src="{{ image }}" alt="{{ title }}" style="border-radius: 12px; margin-bottom: 2rem; width: 100%; max-height: 400px; object-fit: cover;">
+      {% set blogImage = image %}
+    {% elif "aba" in tags %}
+      {% set blogImage = "/images/blog-aba-therapy-diverse.png" %}
+    {% elif "speech therapy" in tags %}
+      {% set blogImage = "/images/blog-late-talker-diverse.png" %}
+    {% elif "occupational therapy" in tags %}
+      {% set blogImage = "/images/blog-sensory-diverse.png" %}
+    {% elif "physical therapy" in tags %}
+      {% set blogImage = "/images/blog-gross-motor-diverse.png" %}
+    {% elif "sensory" in tags %}
+      {% set blogImage = "/images/blog-sensory-diverse.png" %}
+    {% elif "milestones" in tags %}
+      {% set blogImage = "/images/blog-tummy-time.png" %}
+    {% elif "feeding" in tags %}
+      {% set blogImage = "/images/blog-picky-eating-diverse.png" %}
+    {% else %}
+      {% set blogImage = "/images/blog-play-language.png" %}
     {% endif %}
+    <img src="{{ blogImage }}" alt="{{ title }}" style="border-radius: 12px; margin-bottom: 2rem; width: 100%; max-height: 400px; object-fit: cover;">
     {{ content | safe }}
     
     <!-- Global Blog CTA -->

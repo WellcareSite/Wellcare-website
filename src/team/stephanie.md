@@ -15,5 +15,5 @@ bio: >-
 
   In her free time, Steph enjoys spending time outdoors with her dogs and her fiancé, traveling, and crafting.
 photo: /images/chatgpt-image-apr-27-2026-at-11_51_17-am.png
-order: 2
+order: 5
 ---

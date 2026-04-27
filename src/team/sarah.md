@@ -12,6 +12,6 @@ bio: Sarah obtained her undergraduate degree in Developmental Psychological
   as she understands how difficult it can be to navigate resources and how
   important access to adaptive recreational activities can be for client success
   in physical therapy.
-photo: /images/dsc_3611.jpg
+photo: /images/chatgpt-image-apr-27-2026-at-12_28_42-pm.png
 order: 3
 ---

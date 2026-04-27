@@ -14,6 +14,6 @@ bio: >-
   Since beginning her career in occupational therapy, Steph has primarily worked in pediatrics, with additional experience in hand therapy and early intervention services. Steph is passionate about addressing executive dysfunction, providing culturally responsive care, and incorporating a DIR/Floortime approach into her treatment.
 
   In her free time, Steph enjoys spending time outdoors with her dogs and her fiancé, traveling, and crafting.
-photo: /images/dsc_3623.jpg
+photo: /images/chatgpt-image-apr-27-2026-at-11_51_17-am.png
 order: 2
 ---

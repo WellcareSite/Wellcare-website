@@ -11,6 +11,6 @@ bio: Alison holds a B.S. in Communication Sciences and Disorders from the
   multi-modal communication, voice disorders, and gender-affirming voice care.
   Outside of work, she enjoys home improvement, gardening, and spending time
   with her dogs, Raleigh and Moose.
-photo: /images/dsc_3553.jpg
+photo: /images/chatgpt-image-apr-27-2026-at-12_25_38-pm.png
 order: 1
 ---

@@ -1,7 +1,7 @@
 ---
-name: Emily, HR Manager
+name: Emily BS, FSHS
 role: HR Manager
-credentials: ""
+credentials: BS, FSHS
 bio: Emily is an HR Manager bringing nearly 30 years of experience in hiring,
   training, and team development across multiple industries. With a Bachelor's
   in Family Studies and Human Services and certifications in Conflict and Trauma

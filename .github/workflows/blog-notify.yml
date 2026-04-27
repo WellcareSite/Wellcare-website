@@ -1,0 +1,55 @@
+name: Blog Post Notification
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/blog/**.md'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check for new blog posts
+        id: check
+        run: |
+          # Get list of new blog post files added in this commit
+          NEW_POSTS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'src/blog/*.md' || true)
+          
+          if [ -z "$NEW_POSTS" ]; then
+            echo "No new blog posts found"
+            echo "has_new=false" >> $GITHUB_OUTPUT
+          else
+            echo "New blog posts found:"
+            echo "$NEW_POSTS"
+            echo "has_new=true" >> $GITHUB_OUTPUT
+            
+            # Extract titles from the new posts
+            TITLES=""
+            for file in $NEW_POSTS; do
+              TITLE=$(grep -m1 '^title:' "$file" | sed 's/title: *//;s/"//g')
+              SLUG=$(basename "$file" .md)
+              TITLES="$TITLES• $TITLE (https://www.wellcareco.com/blog/$SLUG/)\n"
+            done
+            
+            echo "titles<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$TITLES" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send email notification
+        if: steps.check.outputs.has_new == 'true'
+        run: |
+          curl -s https://formsubmit.co/ajax/info@wellcareco.com \
+            -H "Content-Type: application/json" \
+            -H "Accept: application/json" \
+            -d '{
+              "_subject": "📝 New Blog Post Published on WellCare Website",
+              "message": "A new blog post has been published on your website:\n\n${{ steps.check.outputs.titles }}\nThe post is now live and visible to visitors.",
+              "_template": "box"
+            }'

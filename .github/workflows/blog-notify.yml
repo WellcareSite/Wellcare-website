@@ -52,5 +52,4 @@ jobs:
           # Create the GitHub Issue
           echo -e "$BODY" | gh issue create \
             --title "📝 New Blog Post: ${FIRST_TITLE}" \
-            --body-file - \
-            --label "blog-notification"
+            --body-file -

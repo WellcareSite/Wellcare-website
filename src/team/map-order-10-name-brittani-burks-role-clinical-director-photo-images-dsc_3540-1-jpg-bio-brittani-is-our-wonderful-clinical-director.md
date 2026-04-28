@@ -9,6 +9,6 @@ bio: "Brittani is a Board Certified Behavior Analyst and Director of Clinical
   across direct care, supervision, and leadership roles. Brittani is committed
   to fostering collaboration, integrity, and growth within the teams she leads
   and the families she serves.  "
-photo: /images/chatgpt-image-apr-27-2026-at-12_06_22-pm.png
+photo: /images/chatgpt-image-apr-28-2026-at-12_23_26-pm.png
 order: 1
 ---

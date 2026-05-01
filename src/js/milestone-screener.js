@@ -341,8 +341,9 @@
       const discColors = { speech: '#5eb6d9', physical: '#e8735a', cognitive: '#9b6fcf', social: '#e8b84d' };
       const ageData = DATA.ageRanges.find(a => a.id === results.ageId);
       const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+      const contentEl = document.getElementById('ll-printable-content');
+      if (!contentEl) return;
 
-      // Build donut SVGs
       const DONUT_R = 30;
       const DONUT_C = 2 * Math.PI * DONUT_R;
 
@@ -362,11 +363,9 @@
           '</div>';
       });
 
-      // Build overall donut
       const overallOffset = DONUT_C * (1 - results.pct / 100);
       const overallColor = results.tier.color;
 
-      // Build activities HTML
       let activitiesHtml = '';
       if (ageData && results.pct < 100) {
         DISCIPLINES.forEach(disc => {
@@ -382,12 +381,12 @@
 
           withActivities.forEach(m => {
             activitiesHtml += '<div class="pr-milestone">';
-            activitiesHtml += '<p class="pr-milestone-text">○ ' + m.text + '</p>';
+            activitiesHtml += '<p class="pr-milestone-text">\u25CB ' + m.text + '</p>';
             m.activities.forEach(act => {
               activitiesHtml += '<div class="pr-activity-card">';
               activitiesHtml += '<div class="pr-activity-header">' + act.emoji + ' <strong>' + act.title + '</strong></div>';
               activitiesHtml += '<p class="pr-activity-desc">' + act.desc + '</p>';
-              activitiesHtml += '<div class="pr-activity-meta"><span>📦 ' + act.materials + '</span><span>⏱️ ' + act.time + '</span></div>';
+              activitiesHtml += '<div class="pr-activity-meta"><span>\uD83D\uDCE6 ' + act.materials + '</span><span>\u23F1\uFE0F ' + act.time + '</span></div>';
               activitiesHtml += '</div>';
             });
             activitiesHtml += '</div>';
@@ -396,95 +395,31 @@
         });
       }
 
-      // Build the screening recommendation text
       let recHtml = '';
       if (results.pct < 50) {
-        recHtml = '<div class="pr-rec strongly"><p class="pr-rec-title">🌻 We Recommend a Free Screening</p><p>Early support can make a big difference. Our free screening is friendly and no-pressure!</p></div>';
+        recHtml = '<div class="pr-rec strongly"><p class="pr-rec-title">\uD83C\uDF3B We Recommend a Free Screening</p><p>Early support can make a big difference. Our free screening is friendly and no-pressure!</p></div>';
       } else if (results.pct < 80) {
-        recHtml = '<div class="pr-rec recommend"><p class="pr-rec-title">🌱 A Free Check-In Could Be Helpful</p><p>Some milestones are still on their way — a quick check-in can help!</p></div>';
+        recHtml = '<div class="pr-rec recommend"><p class="pr-rec-title">\uD83C\uDF31 A Free Check-In Could Be Helpful</p><p>Some milestones are still on their way \u2014 a quick check-in can help!</p></div>';
       } else {
-        recHtml = '<div class="pr-rec great"><p class="pr-rec-title">🌟 Looking Great!</p><p>No screening needed right now — but we\'re always here for you.</p></div>';
+        recHtml = '<div class="pr-rec great"><p class="pr-rec-title">\uD83C\uDF1F Looking Great!</p><p>No screening needed right now \u2014 but we\'re always here for you.</p></div>';
       }
 
-      const html = '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
-        '<title>Little Leaps Results — ' + results.ageLabel + '</title>' +
-        '<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">' +
-        '<style>' +
-        '*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }' +
-        'body { font-family: "Nunito", sans-serif; background: #f8fafb; color: #1a2e44; line-height: 1.6; }' +
-        '.pr-page { max-width: 640px; margin: 0 auto; background: white; }' +
-        '.pr-header { background: linear-gradient(135deg, #1a3a5c 0%, #2a5a8c 50%, #3a7ab0 100%); color: white; padding: 2rem 2rem 1.5rem; text-align: center; }' +
-        '.pr-logo { font-size: 2rem; margin-bottom: 0.25rem; }' +
-        '.pr-title { font-size: 1.8rem; font-weight: 900; margin: 0; }' +
-        '.pr-subtitle { opacity: 0.7; font-size: 0.9rem; font-weight: 600; }' +
-        '.pr-age-bar { background: rgba(255,255,255,0.15); border-radius: 8px; padding: 0.5rem 1rem; margin-top: 1rem; font-weight: 700; font-size: 1rem; display: inline-block; }' +
-        '.pr-date { opacity: 0.5; font-size: 0.75rem; margin-top: 0.5rem; }' +
-        '.pr-body { padding: 1.5rem 2rem 2rem; }' +
-        '.pr-section-title { font-size: 1.1rem; font-weight: 800; color: #1a3a5c; margin: 1.5rem 0 0.75rem; padding-bottom: 0.4rem; border-bottom: 2px solid #edf2f7; }' +
-        '.pr-section-title:first-child { margin-top: 0; }' +
-        '.pr-scores { display: flex; align-items: center; gap: 2rem; margin: 1rem 0; flex-wrap: wrap; justify-content: center; }' +
-        '.pr-overall { text-align: center; flex-shrink: 0; }' +
-        '.pr-overall-wrap { position: relative; width: 100px; height: 100px; margin: 0 auto 0.4rem; }' +
-        '.pr-overall svg { width: 100px; height: 100px; }' +
-        '.pr-overall-pct { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 1.5rem; font-weight: 900; }' +
-        '.pr-overall-label { font-size: 0.85rem; font-weight: 700; color: #5a7a8a; }' +
-        '.pr-overall-tier { font-size: 1rem; font-weight: 800; margin-top: 0.2rem; }' +
-        '.pr-donuts { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; flex: 1; min-width: 240px; }' +
-        '.pr-donut-item { display: flex; align-items: center; gap: 0.6rem; background: #f7f9fb; border-radius: 10px; padding: 0.6rem 0.8rem; }' +
-        '.pr-donut { width: 50px; height: 50px; flex-shrink: 0; }' +
-        '.pr-donut-pct { font-size: 1.1rem; font-weight: 900; min-width: 40px; }' +
-        '.pr-donut-label { font-size: 0.78rem; font-weight: 700; color: #5a7a8a; }' +
-        '.pr-rec { border-radius: 10px; padding: 1rem; margin: 1rem 0; text-align: center; }' +
-        '.pr-rec.strongly { background: linear-gradient(135deg, #fffaf0, #fefcbf); border: 2px solid #d69e2e; }' +
-        '.pr-rec.recommend { background: linear-gradient(135deg, #ebf8ff, #e6fffa); border: 2px solid #5eb6d9; }' +
-        '.pr-rec.great { background: linear-gradient(135deg, #f0fff4, #e6fffa); border: 2px solid #38a169; }' +
-        '.pr-rec-title { font-weight: 800; font-size: 1rem; margin-bottom: 0.3rem; }' +
-        '.pr-rec p { font-size: 0.88rem; color: #4a6a7a; }' +
-        '.pr-disc-section { margin-bottom: 1.25rem; }' +
-        '.pr-disc-title { font-size: 0.95rem; font-weight: 800; color: #1a3a5c; border-left: 4px solid #ccc; padding-left: 0.75rem; margin-bottom: 0.6rem; }' +
-        '.pr-milestone { margin-bottom: 0.75rem; }' +
-        '.pr-milestone-text { font-size: 0.88rem; font-weight: 700; color: #2d3748; margin-bottom: 0.4rem; }' +
-        '.pr-activity-card { background: #f7f9fb; border-radius: 10px; padding: 0.75rem 1rem; margin: 0.3rem 0 0.5rem 1rem; border-left: 3px solid #e2e8f0; }' +
-        '.pr-activity-header { font-size: 0.88rem; margin-bottom: 0.25rem; }' +
-        '.pr-activity-desc { font-size: 0.82rem; color: #4a6a7a; margin-bottom: 0.35rem; }' +
-        '.pr-activity-meta { display: flex; gap: 1rem; font-size: 0.75rem; color: #8a9bb5; flex-wrap: wrap; }' +
-        '.pr-footer { background: #1a3a5c; color: white; padding: 1.5rem 2rem; text-align: center; }' +
-        '.pr-footer-logo { font-size: 1.3rem; font-weight: 900; margin-bottom: 0.25rem; }' +
-        '.pr-footer-tagline { opacity: 0.7; font-size: 0.82rem; font-style: italic; margin-bottom: 0.75rem; }' +
-        '.pr-footer-contact { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; font-size: 0.85rem; margin-bottom: 0.75rem; }' +
-        '.pr-footer-contact a { color: #7ec8e3; text-decoration: none; }' +
-        '.pr-footer-cta { display: inline-block; background: #5eb6d9; color: white; padding: 0.5rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 0.88rem; text-decoration: none; margin: 0.5rem 0; }' +
-        '.pr-footer-cta:hover { background: #4da6c9; }' +
-        '.pr-disclaimer { font-size: 0.7rem; opacity: 0.5; margin-top: 0.75rem; line-height: 1.5; }' +
-        '.pr-actions { display: flex; gap: 0.5rem; padding: 1.25rem 2rem; background: #f8fafb; justify-content: center; flex-wrap: wrap; }' +
-        '.pr-actions button { font-family: "Nunito", sans-serif; padding: 0.7rem 0.5rem; border: none; border-radius: 25px; font-weight: 700; font-size: 0.85rem; cursor: pointer; flex: 1; min-width: 140px; max-width: 200px; }' +
-        '.pr-btn-print { background: #1a3a5c; color: white; }' +
-        '.pr-btn-print:hover { background: #2a5a8c; }' +
-        '.pr-btn-screening { background: #5eb6d9; color: white; }' +
-        '.pr-btn-screening:hover { background: #4da6c9; }' +
-        '.pr-btn-back { background: transparent; color: #5a7a8a; border: 2px solid #e2e8f0 !important; }' +
-        '.pr-btn-back:hover { background: #f7f9fb; color: #1a3a5c; }' +
-        '@media print { .pr-actions { display: none !important; } body { background: white; } .pr-page { box-shadow: none; } }' +
-        '@media (max-width: 500px) { .pr-scores { flex-direction: column; } .pr-donuts { min-width: auto; } .pr-body { padding: 1rem 1.25rem 1.5rem; } .pr-header { padding: 1.5rem 1.25rem 1.25rem; } }' +
-        '</style></head><body>' +
-
+      contentEl.innerHTML =
         '<div class="pr-page">' +
         '<div class="pr-header">' +
-          '<div class="pr-logo">🌱</div>' +
+          '<div class="pr-logo">\uD83C\uDF31</div>' +
           '<h1 class="pr-title">Little Leaps</h1>' +
           '<p class="pr-subtitle">by WellCare & Nurture Pediatric Therapy</p>' +
           '<div class="pr-age-bar">Milestone Results for ' + results.ageLabel + '</div>' +
           '<p class="pr-date">' + today + '</p>' +
         '</div>' +
-
         '<div class="pr-actions">' +
-          '<button class="pr-btn-print" onclick="window.print()">🖨️ Print / Save as PDF</button>' +
-          '<button class="pr-btn-screening" onclick="window.open(\'' + (SCREENING_URL || '#') + '\', \'_blank\', \'noopener\')">📋 Schedule Free Screening</button>' +
-          '<button class="pr-btn-back" onclick="window.close(); setTimeout(function(){ window.location.href=\'https://www.wellcareco.com/milestone-check/\'; }, 100);">← Back to Results</button>' +
+          '<button class="pr-btn-print" id="ll-pr-print">\uD83D\uDDA8\uFE0F Print / Save PDF</button>' +
+          '<button class="pr-btn-screening" id="ll-pr-screening">\uD83D\uDCCB Schedule Screening</button>' +
+          '<button class="pr-btn-back" id="ll-pr-back">\u2190 Back to Results</button>' +
         '</div>' +
-
         '<div class="pr-body">' +
-          '<h2 class="pr-section-title">📊 Score Summary</h2>' +
+          '<h2 class="pr-section-title">\uD83D\uDCCA Score Summary</h2>' +
           '<div class="pr-scores">' +
             '<div class="pr-overall">' +
               '<div class="pr-overall-wrap">' +
@@ -497,28 +432,39 @@
             '</div>' +
             '<div class="pr-donuts">' + donutsHtml + '</div>' +
           '</div>' +
-
           recHtml +
-
-          (activitiesHtml ? '<h2 class="pr-section-title">🌱 Activity Ideas to Try at Home</h2>' + activitiesHtml : '') +
-
+          (activitiesHtml ? '<h2 class="pr-section-title">\uD83C\uDF31 Activity Ideas to Try at Home</h2>' + activitiesHtml : '') +
         '</div>' +
-
         '<div class="pr-footer">' +
-          '<div class="pr-footer-logo">🌱 WellCare & Nurture</div>' +
+          '<div class="pr-footer-logo">\uD83C\uDF31 WellCare & Nurture</div>' +
           '<div class="pr-footer-tagline">Empowering kids, supporting families, changing lives</div>' +
           '<div class="pr-footer-contact">' +
-            '<span>📞 (719) 598-5555</span>' +
-            '<a href="https://www.wellcareco.com">🌐 wellcareco.com</a>' +
+            '<span>\uD83D\uDCDE (719) 598-5555</span>' +
+            '<a href="https://www.wellcareco.com">\uD83C\uDF10 wellcareco.com</a>' +
           '</div>' +
           '<a href="https://www.wellcareco.com/milestone-check/" class="pr-footer-cta">Try Little Leaps</a>' +
-          '<p class="pr-disclaimer">This is a fun, educational tool — not a medical screening. Every child\'s journey is unique. If you have concerns about your child\'s development, please consult with a healthcare professional.</p>' +
+          '<p class="pr-disclaimer">This is a fun, educational tool \u2014 not a medical screening. Every child\'s journey is unique. If you have concerns about your child\'s development, please consult with a healthcare professional.</p>' +
         '</div>' +
-        '</div></body></html>';
+        '</div>';
 
-      var blob = new Blob([html], { type: 'text/html' });
-      var url = URL.createObjectURL(blob);
-      window.open(url, '_blank');
+      // Wire up buttons
+      document.getElementById('ll-pr-print').addEventListener('click', function() { window.print(); });
+      document.getElementById('ll-pr-screening').addEventListener('click', function() {
+        ResultsManager.copyAndOpenScreening(results);
+      });
+      document.getElementById('ll-pr-back').addEventListener('click', function() {
+        ViewManager.show('ll-results');
+        var btnGroup = document.getElementById('ll-results-actions');
+        var recEl = document.getElementById('ll-screening-rec');
+        if (btnGroup) btnGroup.classList.add('returned');
+        if (recEl) recEl.classList.add('returned');
+        var app = document.getElementById('little-leaps-app');
+        if (app) app.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      ViewManager.show('ll-printable');
+      var app = document.getElementById('little-leaps-app');
+      if (app) app.scrollIntoView({ behavior: 'smooth', block: 'start' });
     },
 
     /** Copy text to clipboard with fallback for non-HTTPS */

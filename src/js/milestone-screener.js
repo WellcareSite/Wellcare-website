@@ -460,6 +460,10 @@
         '.pr-actions button { font-family: "Nunito", sans-serif; padding: 0.7rem 2rem; border: none; border-radius: 25px; font-weight: 700; font-size: 0.95rem; cursor: pointer; margin: 0 0.4rem; }' +
         '.pr-btn-print { background: #1a3a5c; color: white; }' +
         '.pr-btn-print:hover { background: #2a5a8c; }' +
+        '.pr-btn-screening { background: #5eb6d9; color: white; }' +
+        '.pr-btn-screening:hover { background: #4da6c9; }' +
+        '.pr-btn-back { background: transparent; color: #5a7a8a; border: 2px solid #e2e8f0 !important; }' +
+        '.pr-btn-back:hover { background: #f7f9fb; color: #1a3a5c; }' +
         '@media print { .pr-actions { display: none !important; } body { background: white; } .pr-page { box-shadow: none; } }' +
         '@media (max-width: 500px) { .pr-scores { flex-direction: column; } .pr-donuts { min-width: auto; } .pr-body { padding: 1rem 1.25rem 1.5rem; } .pr-header { padding: 1.5rem 1.25rem 1.25rem; } }' +
         '</style></head><body>' +
@@ -475,6 +479,8 @@
 
         '<div class="pr-actions">' +
           '<button class="pr-btn-print" onclick="window.print()">🖨️ Print / Save as PDF</button>' +
+          '<button class="pr-btn-screening" onclick="window.open(\'' + (SCREENING_URL || '#') + '\', \'_blank\', \'noopener\')">📋 Schedule Free Screening</button>' +
+          '<button class="pr-btn-back" onclick="window.close()">← Back to Results</button>' +
         '</div>' +
 
         '<div class="pr-body">' +

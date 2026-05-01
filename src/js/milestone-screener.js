@@ -636,6 +636,7 @@
           currentAgeId = null;
           currentStep = 0;
           checkedMilestones = {};
+          try { localStorage.removeItem('ll_state'); } catch(e) {}
           ViewManager.show('ll-welcome');
         });
 
@@ -651,6 +652,14 @@
       }
 
       ViewManager.show('ll-results');
+
+      // Save state to localStorage so refresh preserves results
+      try {
+        localStorage.setItem('ll_state', JSON.stringify({
+          ageId: currentAgeId,
+          checked: checkedMilestones
+        }));
+      } catch(e) {}
     },
 
     /** Animate number counting up: 0% → 75% */
@@ -861,6 +870,24 @@
   // =========================================================================
   function init() {
     initEvents();
+
+    // Restore saved state on page load (protects against accidental refresh)
+    try {
+      var saved = localStorage.getItem('ll_state');
+      if (saved) {
+        var state = JSON.parse(saved);
+        if (state.ageId && state.checked) {
+          currentAgeId = state.ageId;
+          checkedMilestones = state.checked;
+          currentStep = 3; // set to last step so computeResults works
+          var results = ResultsManager.computeResults();
+          if (results) {
+            ResultsManager.show(results);
+            return; // skip welcome screen
+          }
+        }
+      }
+    } catch(e) {}
   }
 
   if (document.readyState === 'loading') {

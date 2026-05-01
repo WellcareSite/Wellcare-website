@@ -456,8 +456,8 @@
         '.pr-footer-cta { display: inline-block; background: #5eb6d9; color: white; padding: 0.5rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 0.88rem; text-decoration: none; margin: 0.5rem 0; }' +
         '.pr-footer-cta:hover { background: #4da6c9; }' +
         '.pr-disclaimer { font-size: 0.7rem; opacity: 0.5; margin-top: 0.75rem; line-height: 1.5; }' +
-        '.pr-actions { text-align: center; padding: 1.25rem; background: #f8fafb; }' +
-        '.pr-actions button { font-family: "Nunito", sans-serif; padding: 0.7rem 2rem; border: none; border-radius: 25px; font-weight: 700; font-size: 0.95rem; cursor: pointer; margin: 0 0.4rem; }' +
+        '.pr-actions { display: flex; gap: 0.5rem; padding: 1.25rem 2rem; background: #f8fafb; justify-content: center; flex-wrap: wrap; }' +
+        '.pr-actions button { font-family: "Nunito", sans-serif; padding: 0.7rem 0.5rem; border: none; border-radius: 25px; font-weight: 700; font-size: 0.85rem; cursor: pointer; flex: 1; min-width: 140px; max-width: 200px; }' +
         '.pr-btn-print { background: #1a3a5c; color: white; }' +
         '.pr-btn-print:hover { background: #2a5a8c; }' +
         '.pr-btn-screening { background: #5eb6d9; color: white; }' +

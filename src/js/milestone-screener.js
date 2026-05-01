@@ -480,7 +480,7 @@
         '<div class="pr-actions">' +
           '<button class="pr-btn-print" onclick="window.print()">🖨️ Print / Save as PDF</button>' +
           '<button class="pr-btn-screening" onclick="window.open(\'' + (SCREENING_URL || '#') + '\', \'_blank\', \'noopener\')">📋 Schedule Free Screening</button>' +
-          '<button class="pr-btn-back" onclick="window.close()">← Back to Results</button>' +
+          '<button class="pr-btn-back" onclick="window.close(); setTimeout(function(){ window.location.href=\'https://www.wellcareco.com/milestone-check/\'; }, 100);">← Back to Results</button>' +
         '</div>' +
 
         '<div class="pr-body">' +
@@ -516,11 +516,9 @@
         '</div>' +
         '</div></body></html>';
 
-      const printWindow = window.open('', '_blank');
-      if (printWindow) {
-        printWindow.document.write(html);
-        printWindow.document.close();
-      }
+      var blob = new Blob([html], { type: 'text/html' });
+      var url = URL.createObjectURL(blob);
+      window.open(url, '_blank');
     },
 
     /** Copy text to clipboard with fallback for non-HTTPS */

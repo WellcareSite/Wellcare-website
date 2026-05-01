@@ -283,7 +283,56 @@
         summary += (discLabels[disc] || disc) + ': ' + pct + '% (' + d.checked + '/' + d.total + ')\n';
       });
       summary += '\nSource: Little Leaps by WellCare & Nurture';
+      summary += '\nhttps://www.wellcareco.com/milestone-check/';
       return summary;
+    },
+
+    /** Build a formatted email body with results and activities */
+    buildEmailBody(results) {
+      const discLabels = { speech: 'Speech & Language', physical: 'Movement & Motor', cognitive: 'Thinking & Learning', social: 'Social & Emotional' };
+      const ageData = DATA.ageRanges.find(a => a.id === results.ageId);
+      let body = '🌱 Little Leaps Milestone Results\n';
+      body += '================================\n\n';
+      body += 'Age Range: ' + results.ageLabel + '\n';
+      body += 'Overall Score: ' + results.pct + '% (' + results.checked + ' of ' + results.total + ' milestones)\n';
+      body += 'Level: ' + results.tier.emoji + ' ' + results.tier.label + '\n\n';
+
+      body += '--- Scores by Area ---\n';
+      DISCIPLINES.forEach(disc => {
+        const d = results.perDiscipline[disc];
+        const pct = d.total > 0 ? Math.round((d.checked / d.total) * 100) : 0;
+        body += (discLabels[disc] || disc) + ': ' + pct + '% (' + d.checked + '/' + d.total + ')\n';
+      });
+
+      // Add activity suggestions for unchecked milestones
+      if (ageData && results.pct < 100) {
+        body += '\n--- Activity Ideas to Try at Home ---\n';
+        DISCIPLINES.forEach(disc => {
+          const milestones = ageData.milestones[disc] || [];
+          const unchecked = milestones.filter(m => !checkedMilestones[m.id]);
+          const withActivities = unchecked.filter(m => m.activities && m.activities.length > 0);
+          if (withActivities.length === 0) return;
+
+          body += '\n' + (discLabels[disc] || disc) + ':\n';
+          withActivities.forEach(m => {
+            body += '  • ' + m.text + '\n';
+            m.activities.forEach(act => {
+              body += '    → ' + act.emoji + ' ' + act.title + ': ' + act.desc + '\n';
+              body += '      Materials: ' + act.materials + ' | Time: ' + act.time + '\n';
+            });
+          });
+        });
+      }
+
+      body += '\n================================\n';
+      body += '🌱 Little Leaps by WellCare & Nurture Pediatric Therapy\n';
+      body += 'Empowering kids, supporting families, changing lives\n\n';
+      body += 'Located in Colorado Springs, CO\n';
+      body += 'Phone: (719) 598-5555\n';
+      body += 'Website: https://www.wellcareco.com\n';
+      body += 'Free Screening: https://www.wellcareco.com/milestone-check/\n\n';
+      body += 'Note: This is a fun, educational tool — not a medical screening. Every child\'s journey is unique.';
+      return body;
     },
 
     /** Copy text to clipboard with fallback for non-HTTPS */
@@ -438,6 +487,7 @@
             '📋 Schedule a Free Screening Anyway</button>';
         }
         html += '<button class="ll-btn-secondary" id="ll-start-over">🔄 Start Over</button>';
+        html += '<button class="ll-btn-secondary" id="ll-email-results">📧 Email My Results</button>';
         actionsEl.innerHTML = html;
 
         // Activity Ideas click handler
@@ -455,6 +505,13 @@
           currentStep = 0;
           checkedMilestones = {};
           ViewManager.show('ll-welcome');
+        });
+
+        // Email results handler
+        document.getElementById('ll-email-results')?.addEventListener('click', () => {
+          const subject = encodeURIComponent('🌱 Little Leaps Results — ' + results.ageLabel);
+          const body = encodeURIComponent(ResultsManager.buildEmailBody(results));
+          window.location.href = 'mailto:?subject=' + subject + '&body=' + body;
         });
       }
 
@@ -558,6 +615,11 @@
     if (activitiesBackBtn) {
       activitiesBackBtn.addEventListener('click', () => {
         ViewManager.show('ll-results');
+        // Add 'returned' class so buttons/rec don't re-animate to invisible
+        const btnGroup = document.getElementById('ll-results-actions');
+        const recEl = document.getElementById('ll-screening-rec');
+        if (btnGroup) btnGroup.classList.add('returned');
+        if (recEl) recEl.classList.add('returned');
         const app = document.getElementById('little-leaps-app');
         if (app) app.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });

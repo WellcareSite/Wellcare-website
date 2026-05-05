@@ -36,4 +36,4 @@ Augmentative and Alternative Communication (AAC) includes all forms of communica
 
 At WellCare & Nurture, we're proud to have funded many **AAC devices** in the last 6 years. Our speech-language pathologists have specialized training in evaluating, selecting, and implementing AAC systems tailored to each child's unique needs.
 
-If you have questions about whether AAC might benefit your child, [contact us](/contact/) for a consultation.
+If you have questions about whether AAC might benefit your child, [contact us](/contact/) for a consultation, or [learn more about our speech therapy services](/speech-therapy/).

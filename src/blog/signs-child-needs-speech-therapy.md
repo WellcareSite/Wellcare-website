@@ -114,7 +114,7 @@ Many parents hesitate because they think a screening means committing to therapy
 Sometimes the answer is, "Your child is developing beautifully. Keep doing what you're doing." And that peace of mind is worth the visit.
 
 - 🌱 Try our [Little Leaps Milestone Checker](/milestone-check/) for a quick at-home check
-- 📋 [Schedule a free screening](/contact/) with our speech-language team
+- 📋 [Learn about our speech therapy program](/speech-therapy/) or [schedule a free screening](/contact/)
 - 📞 Questions? Call **(719) 598-5555**
 
 ---

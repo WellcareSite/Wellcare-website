@@ -85,7 +85,7 @@ If your child is a toe walker, please know there's nothing "wrong" with them. Mo
 
 We approach toe walking with curiosity and compassion — never correction or criticism.
 
-[Contact us](/contact/) for a free physical therapy screening, or explore your child's motor development with our [Little Leaps Milestone Checker](/milestone-check/).
+[Learn about our physical therapy program](/physical-therapy/) or [contact us](/contact/) for a free screening, or explore your child's motor development with our [Little Leaps Milestone Checker](/milestone-check/).
 
 ---
 

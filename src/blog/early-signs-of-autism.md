@@ -93,7 +93,7 @@ If your child is identified as autistic or showing early signs, our team provide
 
 We take a **trauma-assumed, strengths-based approach** — meaning we focus on what your child CAN do and build from there. We never force compliance or use punitive methods.
 
-📋 [Schedule a free screening](/contact/) | 📞 Call **(719) 598-5555**
+📋 [Learn about our ABA program](/aba/) | [Schedule a free screening](/contact/) | 📞 Call **(719) 598-5555**
 
 ---
 

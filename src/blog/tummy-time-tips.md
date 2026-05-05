@@ -77,7 +77,7 @@ These can all be addressed early with gentle, play-based physical therapy — an
 
 Every baby develops at their own pace. Some love tummy time from day one; others take their time warming up. Both are normal. What matters most is that you're showing up, trying, and connecting with your baby through the process.
 
-[Contact us](/contact/) for a free physical therapy screening, or try our [Little Leaps Milestone Checker](/milestone-check/) to check in on your baby's motor development.
+[Learn about our physical therapy program](/physical-therapy/) or [contact us](/contact/) for a free screening, or try our [Little Leaps Milestone Checker](/milestone-check/) to check in on your baby's motor development.
 
 ---
 

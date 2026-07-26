@@ -3,7 +3,7 @@ title: "Signs Your Child May Need Speech Therapy — By Age"
 date: 2026-05-01
 author: WellCare & Nurture Team
 excerpt: "Every child develops at their own pace, but certain communication milestones are important markers. Here's a practical age-by-age guide to help you know when to seek a speech evaluation."
-image: /images/blog-late-talker-diverse.png
+image: /images/blog-speech-therapy-signs.png
 layout: post.njk
 tags: post
 ---

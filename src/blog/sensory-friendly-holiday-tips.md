@@ -3,7 +3,7 @@ title: "Sensory-Friendly Holiday Tips for Families"
 date: 2026-11-06
 author: WellCare & Nurture Team
 excerpt: "The holidays should be joyful — but for children with sensory sensitivities, they can be overwhelming. Here's how to create celebrations that work for your whole family."
-image: /images/blog-picky-eating-diverse.png
+image: /images/blog-sensory-holidays.png
 layout: post.njk
 tags: post
 ---

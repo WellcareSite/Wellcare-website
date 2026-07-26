@@ -3,7 +3,7 @@ title: "Early Signs of Autism: What Parents Should Look For"
 date: 2026-05-08
 author: WellCare & Nurture Team
 excerpt: "Recognizing autism early can make a tremendous difference in your child's development. Here's what to look for at every age — and why early support matters."
-image: /images/blog-aba-therapy.png
+image: /images/blog-early-autism.png
 layout: post.njk
 tags: post
 ---

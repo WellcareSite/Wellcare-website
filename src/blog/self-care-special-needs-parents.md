@@ -3,7 +3,7 @@ title: "Self-Care for Parents of Children with Special Needs"
 date: 2026-11-27
 author: WellCare & Nurture Team
 excerpt: "You can't pour from an empty cup. If you're a parent navigating therapy appointments, IEP meetings, and daily challenges — this one is for you."
-image: /images/blog-aba-therapy.png
+image: /images/blog-parent-self-care.png
 layout: post.njk
 tags: post
 ---

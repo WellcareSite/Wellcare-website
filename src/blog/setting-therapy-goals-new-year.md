@@ -3,7 +3,7 @@ title: "New Year, New Goals: Setting Therapy Goals for 2027"
 date: 2026-12-18
 author: WellCare & Nurture Team
 excerpt: "The new year is a natural time to reflect on your child's progress and set meaningful goals for the year ahead. Here's how to make therapy goals that actually work."
-image: /images/blog-reinforcement.png
+image: /images/blog-therapy-goals.png
 layout: post.njk
 tags: post
 ---

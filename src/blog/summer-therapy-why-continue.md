@@ -3,7 +3,7 @@ title: "Summer Therapy: Why Continuing Services Over Break Matters"
 date: 2026-05-29
 author: WellCare & Nurture Team
 excerpt: "School's out — but should therapy stop too? Here's why summer is actually one of the best times to make progress, and how to prevent the 'summer slide.'"
-image: /images/blog-play-language.png
+image: /images/blog-summer-therapy.png
 layout: post.njk
 tags: post
 ---

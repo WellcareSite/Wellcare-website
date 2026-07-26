@@ -3,7 +3,7 @@ title: "Does Medicaid Cover Pediatric Therapy in Colorado?"
 date: 2026-04-24
 author: WellCare & Nurture Team
 excerpt: "One of the most common questions we hear from families: 'Will Medicaid pay for my child's therapy?' Here's what Health First Colorado covers — and how to get started."
-image: /images/blog-play-language.png
+image: /images/blog-medicaid-coverage.png
 layout: post.njk
 tags: post
 ---

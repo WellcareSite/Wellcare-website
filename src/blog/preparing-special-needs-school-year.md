@@ -3,7 +3,7 @@ title: "Preparing Your Child with Special Needs for a New School Year"
 date: 2026-07-10
 author: WellCare & Nurture Team
 excerpt: "Back-to-school season can be stressful for any family — but especially for children with developmental differences. Here's how to prepare, advocate, and set your child up for success."
-image: /images/blog-fine-motor.png
+image: /images/blog-back-to-school.png
 layout: post.njk
 tags: post
 ---

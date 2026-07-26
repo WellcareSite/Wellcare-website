@@ -3,7 +3,7 @@ title: "Helping Your Child Make Friends: Social Skills at Every Age"
 date: 2026-08-21
 author: WellCare & Nurture Team
 excerpt: "Friendships are crucial for child development, but for kids with social communication challenges, making friends can feel impossible. Here's how to help — at every stage."
-image: /images/blog-play-language.png
+image: /images/blog-making-friends.png
 layout: post.njk
 tags: post
 ---

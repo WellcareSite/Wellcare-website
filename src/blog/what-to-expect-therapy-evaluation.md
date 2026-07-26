@@ -3,7 +3,7 @@ title: "What to Expect at Your Child's First Therapy Evaluation"
 date: 2026-05-15
 author: WellCare & Nurture Team
 excerpt: "The first therapy visit can feel overwhelming for parents. Here's exactly what happens during a pediatric therapy evaluation — so you and your child can feel prepared and at ease."
-image: /images/blog-sensory-diverse.png
+image: /images/blog-first-evaluation.png
 layout: post.njk
 tags: post
 ---

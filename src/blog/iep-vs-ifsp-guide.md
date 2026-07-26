@@ -3,7 +3,7 @@ title: "IEP vs. IFSP: Understanding Your Child's Education Plan"
 date: 2026-05-22
 author: WellCare & Nurture Team
 excerpt: "If your child has a developmental delay or disability, you'll likely encounter an IFSP or IEP. Here's a clear breakdown of what each one is, how they differ, and how to make the most of them."
-image: /images/blog-fine-motor.png
+image: /images/blog-iep-ifsp.png
 layout: post.njk
 tags: post
 ---

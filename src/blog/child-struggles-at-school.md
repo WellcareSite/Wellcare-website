@@ -3,7 +3,7 @@ title: "When Your Child Struggles at School: Warning Signs and What to Do"
 date: 2026-09-11
 author: WellCare & Nurture Team
 excerpt: "The first weeks of school are revealing. If your child is struggling academically, socially, or behaviorally, here's how to identify the root cause and get the right support."
-image: /images/blog-fine-motor.png
+image: /images/blog-school-struggles.png
 layout: post.njk
 tags: post
 ---

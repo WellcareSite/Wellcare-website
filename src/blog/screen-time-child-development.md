@@ -3,7 +3,7 @@ title: "Screen Time and Your Child's Development: Finding the Right Balance"
 date: 2026-06-12
 author: WellCare & Nurture Team
 excerpt: "With summer break and more free time, screen use often increases. Here's what the research says about screens and child development — and practical tips for healthy media habits."
-image: /images/blog-sensory-diverse.png
+image: /images/blog-screen-time.png
 layout: post.njk
 tags: post
 ---

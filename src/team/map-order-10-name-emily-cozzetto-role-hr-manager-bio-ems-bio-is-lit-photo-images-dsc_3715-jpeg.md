@@ -1,5 +1,5 @@
 ---
-name: Emily BS, FSHS
+name: Emily SHRM-CP
 role: HR Manager
 credentials: BS, FSHS
 bio: Emily is an HR Manager bringing nearly 30 years of experience in hiring,

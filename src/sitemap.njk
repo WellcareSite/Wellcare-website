@@ -64,4 +64,12 @@ eleventyExcludeFromCollections: true
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  {%- for post in collections.posts %}
+  <url>
+    <loc>https://www.wellcareco.com{{ post.url }}</loc>
+    <lastmod>{{ post.date | date("yyyy-MM-dd") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
 </urlset>

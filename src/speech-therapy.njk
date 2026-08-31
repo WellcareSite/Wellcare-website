@@ -123,3 +123,25 @@ permalink: /speech-therapy/
     </div>
   </div>
 </section>
+
+{# ── FAQPage Structured Data (JSON-LD) ── #}
+{% if serviceSpeech.faqs.length > 0 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in serviceSpeech.faqs %}
+    {
+      "@type": "Question",
+      "name": "{{ faq.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ faq.answer | striptags }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

@@ -3,6 +3,36 @@ layout: base.njk
 title: Blog Post
 ---
 
+<!-- BlogPosting Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "datePublished": "{{ date | date('yyyy-MM-dd') }}",
+  "dateModified": "{{ date | date('yyyy-MM-dd') }}",
+  "author": {
+    "@type": "Organization",
+    "name": "WellCare & Nurture Pediatric Therapy",
+    "url": "https://www.wellcareco.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "WellCare & Nurture Pediatric Therapy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.wellcareco.com/images/logo.png"
+    }
+  },
+  "description": "{{ description or excerpt or 'Pediatric therapy tips and resources from WellCare & Nurture in Colorado Springs.' }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.wellcareco.com{{ page.url }}"
+  },
+  "image": "https://www.wellcareco.com{{ image or '/images/og-preview.png' }}"
+}
+</script>
+
 <section class="page-hero">
   <div class="container">
     <h1>{{ title }}</h1>

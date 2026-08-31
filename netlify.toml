@@ -5,3 +5,124 @@
 [dev]
   command = "npx @11ty/eleventy --serve"
   port = 8080
+
+# ============================================
+# 301 Redirects — Fix Google Search Console 404s
+# ============================================
+
+# Old site pages → new clean URLs
+[[redirects]]
+  from = "/staff-bios.html"
+  to = "/team/"
+  status = 301
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to = "/privacy/"
+  status = 301
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/ask-a-therapist.html"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/practice-page.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/our-leadership-team1.html"
+  to = "/team/"
+  status = 301
+
+[[redirects]]
+  from = "/concerned-about-a-loved-one.html"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/speechtherapy.html"
+  to = "/speech-therapy/"
+  status = 301
+
+[[redirects]]
+  from = "/components/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/internships--apprenticeships.html"
+  to = "/careers/"
+  status = 301
+
+# Old /page/ routes from previous site platform
+[[redirects]]
+  from = "/page/events"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/page/testimonials"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/page/subscribe-newsletter"
+  to = "/contact/"
+  status = 301
+
+# Old blog post URLs → correct destinations
+[[redirects]]
+  from = "/blog/giving-every-voice-a-chance-celebrating-aac-awareness-month"
+  to = "/blog/understanding-aac/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/pediatric-speech-therapy-in-colorado-springs"
+  to = "/speech-therapy/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/wellcare-pediatric-therapy-specialists-expanding-clinic"
+  to = "/careers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/test-notification-v3/"
+  to = "/blog/"
+  status = 301
+
+# ============================================
+# Cache & Security Headers
+# ============================================
+
+# Cache static assets for 1 year
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Security headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

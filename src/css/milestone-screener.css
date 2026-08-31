@@ -15,7 +15,7 @@
    - Bloom Amber: #d69e2e
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+/* Nunito font loaded via <link> tag in base.njk for better performance */
 
 /* ---------- App Container — Neumorphic Card ---------- */
 .ll-app {

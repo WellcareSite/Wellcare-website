@@ -20,7 +20,7 @@ permalink: /team/
     <div class="team-grid">
       {% for member in collections.team %}
       <div class="team-card">
-        <div class="team-card-photo" style="background-image: url('{{ member.data.photo or '/images/team-placeholder.jpg' }}');"></div>
+        <div class="team-card-photo" role="img" aria-label="{{ member.data.name }}, {{ member.data.role }}" style="background-image: url('{{ member.data.photo or '/images/team-placeholder.jpg' }}');"></div>
         <div class="team-card-body">
           <h3>{{ member.data.name }}</h3>
           <div class="title">{{ member.data.role }}</div>

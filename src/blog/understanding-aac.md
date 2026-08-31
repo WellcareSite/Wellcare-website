@@ -5,8 +5,9 @@ author: WellCare & Nurture Team
 excerpt: Augmentative and Alternative Communication (AAC) can be life-changing
   for children who are non-verbal or have limited speech. Let's bust some common
   myths.
+description: "Debunking AAC myths — learn how augmentative communication helps non-verbal children build language skills. Speech therapy in Colorado Springs."
 image: /images/blog-aac-device.png
-tags: post
+tags: ["blog", "speech therapy", "autism"]
 layout: post.njk
 ---
 ## What is AAC?

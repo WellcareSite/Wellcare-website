@@ -3,9 +3,10 @@ title: "Potty Training a Child with Developmental Delays: A Compassionate Guide"
 date: 2026-07-31
 author: WellCare & Nurture Team
 excerpt: "Potty training can be one of the most stressful milestones for families of children with developmental delays. Here's a patient, evidence-based approach that works with your child — not against them."
+description: "A compassionate guide to potty training children with autism and developmental delays. Evidence-based strategies from Colorado Springs therapists."
 image: /images/blog-potty-training.png
 layout: post.njk
-tags: post
+tags: ["blog", "milestones", "autism", "sensory", "parent support"]
 ---
 
 ## Throw Out the Timeline

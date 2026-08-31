@@ -3,9 +3,10 @@ title: "Helping Your Child with Transitions: ABA Strategies for Everyday Life"
 date: 2025-12-05
 author: WellCare & Nurture Team
 excerpt: "Does your child melt down when it's time to leave the park, stop a video, or switch activities? Transitions are hard for many kids — especially those with autism. Here are evidence-based strategies that actually work."
+description: "ABA-based strategies to help your child handle transitions without meltdowns. Evidence-based tips from behavior analysts in Colorado Springs."
 image: /images/blog-transitions.png
 layout: post.njk
-tags: post
+tags: ["blog", "aba", "autism", "parent support"]
 ---
 
 ## Why Transitions Are So Hard

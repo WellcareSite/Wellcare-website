@@ -3,9 +3,10 @@ title: 5 Simple Ways to Build Your Child's Vocabulary at Home
 date: 2025-01-14
 author: WellCare & Nurture Team
 excerpt: You don't need flashcards or special equipment to help your child's language bloom. Here are five evidence-based strategies speech-language pathologists recommend for everyday vocabulary building.
+description: "Five speech therapist-approved strategies to build your child's vocabulary at home in Colorado Springs. Simple, everyday tips that work."
 image: /images/blog-vocabulary.png
 layout: post.njk
-tags: post
+tags: ["blog", "speech therapy", "parent support"]
 ---
 
 ## Every Conversation Is a Learning Opportunity

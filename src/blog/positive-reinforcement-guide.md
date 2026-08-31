@@ -3,9 +3,10 @@ title: "Positive Reinforcement: The Science Behind How Children Learn Best"
 date: 2025-09-16
 author: WellCare & Nurture Team
 excerpt: "Positive reinforcement isn't about bribing kids with candy. It's a powerful, evidence-based strategy that shapes behavior by making good things follow good choices. Here's how it really works."
+description: "Understand positive reinforcement in ABA therapy — not bribery, but science. Practical tips for parents from Colorado Springs behavior analysts."
 image: /images/blog-reinforcement.png
 layout: post.njk
-tags: post
+tags: ["blog", "aba", "parent support"]
 ---
 
 ## What Is Positive Reinforcement?

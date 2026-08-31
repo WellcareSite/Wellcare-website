@@ -3,9 +3,10 @@ title: "Sibling Relationships When One Child Has Special Needs"
 date: 2026-10-02
 author: WellCare & Nurture Team
 excerpt: "When one child in the family receives extra attention for therapy and appointments, siblings can feel overlooked. Here's how to nurture every child in the family."
+description: "Support siblings of children with special needs. Tips for balancing family dynamics from pediatric therapy experts in Colorado Springs."
 image: /images/blog-sibling-relationships.png
 layout: post.njk
-tags: post
+tags: ["blog", "parent support"]
 ---
 
 ## The Whole Family Is Affected

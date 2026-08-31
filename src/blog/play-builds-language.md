@@ -3,9 +3,10 @@ title: "How Play Builds Language: The Science of Speech Through Fun"
 date: 2025-08-25
 author: WellCare & Nurture Team
 excerpt: "When speech therapists 'just play' with your child, there's actually powerful science at work. Here's why play-based speech therapy is so effective — and how to use the same strategies at home."
+description: "Learn why play-based speech therapy works and how to use the same language-building strategies at home. Tips from Colorado Springs SLPs."
 image: /images/blog-play-language.png
 layout: post.njk
-tags: post
+tags: ["blog", "speech therapy", "parent support"]
 ---
 
 ## "You Just Played with My Kid?"

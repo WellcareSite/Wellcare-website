@@ -3,9 +3,10 @@ title: "Sensory Processing: Understanding Your Child's Unique Sensory World"
 date: 2025-02-07
 author: WellCare & Nurture Team
 excerpt: "Does your child cover their ears at loud sounds or avoid certain textures? Sensory processing differences are more common than you think — and understanding them is the first step to helping your child thrive."
+description: "What is sensory processing disorder? Learn the signs of SPD and how occupational therapy in Colorado Springs helps children with sensory differences."
 image: /images/blog-sensory-diverse.png
 layout: post.njk
-tags: post
+tags: ["blog", "sensory", "occupational therapy"]
 ---
 
 ## What Is Sensory Processing?

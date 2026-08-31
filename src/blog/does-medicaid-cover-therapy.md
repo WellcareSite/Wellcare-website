@@ -3,9 +3,10 @@ title: "Does Medicaid Cover Pediatric Therapy in Colorado?"
 date: 2026-04-24
 author: WellCare & Nurture Team
 excerpt: "One of the most common questions we hear from families: 'Will Medicaid pay for my child's therapy?' Here's what Health First Colorado covers — and how to get started."
+description: "Learn how Medicaid and TRICARE cover pediatric therapy in Colorado Springs — ABA, speech, OT, and PT. Find out how to get started today."
 image: /images/blog-medicaid-coverage.png
 layout: post.njk
-tags: post
+tags: ["blog", "insurance", "parent support"]
 ---
 
 ## The Short Answer: Yes

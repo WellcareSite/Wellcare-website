@@ -3,9 +3,10 @@ title: "Summer Therapy: Why Continuing Services Over Break Matters"
 date: 2026-05-29
 author: WellCare & Nurture Team
 excerpt: "School's out — but should therapy stop too? Here's why summer is actually one of the best times to make progress, and how to prevent the 'summer slide.'"
+description: "Why continuing pediatric therapy over summer break prevents regression. Avoid the summer slide with ABA, speech, and OT in Colorado Springs."
 image: /images/blog-summer-therapy.png
 layout: post.njk
-tags: post
+tags: ["blog", "parent support", "aba", "speech therapy", "occupational therapy"]
 ---
 
 ## The Summer Slide Isn't Just Academic

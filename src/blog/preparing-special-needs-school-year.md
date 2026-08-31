@@ -3,9 +3,10 @@ title: "Preparing Your Child with Special Needs for a New School Year"
 date: 2026-07-10
 author: WellCare & Nurture Team
 excerpt: "Back-to-school season can be stressful for any family — but especially for children with developmental differences. Here's how to prepare, advocate, and set your child up for success."
+description: "Prepare your child with special needs for the new school year. IEP tips, sensory strategies, and therapy support in Colorado Springs."
 image: /images/blog-back-to-school.png
 layout: post.njk
-tags: post
+tags: ["blog", "school readiness", "sensory", "parent support"]
 ---
 
 ## Start Planning Now — Not in August

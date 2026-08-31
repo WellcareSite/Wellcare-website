@@ -3,9 +3,10 @@ title: "Fine Motor Skills: 10 Fun Activities to Build Hand Strength"
 date: 2025-06-12
 author: WellCare & Nurture Team
 excerpt: "Struggling with buttons, zippers, or holding a crayon? Fine motor skills take time to develop. Here are 10 occupational therapist-approved activities you can do at home."
+description: "Try 10 fun occupational therapy activities to build your child's fine motor skills at home. OT-approved tips from Colorado Springs therapists."
 image: /images/blog-fine-motor.png
 layout: post.njk
-tags: post
+tags: ["blog", "occupational therapy", "milestones", "parent support"]
 ---
 
 ## Why Fine Motor Skills Matter More Than You Think

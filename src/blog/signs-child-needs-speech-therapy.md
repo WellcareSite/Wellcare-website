@@ -3,9 +3,10 @@ title: "Signs Your Child May Need Speech Therapy — By Age"
 date: 2026-05-01
 author: WellCare & Nurture Team
 excerpt: "Every child develops at their own pace, but certain communication milestones are important markers. Here's a practical age-by-age guide to help you know when to seek a speech evaluation."
+description: "Age-by-age signs your child may need speech therapy. Know when to seek a speech evaluation from pediatric SLPs in Colorado Springs."
 image: /images/blog-speech-therapy-signs.png
 layout: post.njk
-tags: post
+tags: ["blog", "speech therapy", "milestones"]
 ---
 
 ## Every Child Is Different — But Milestones Matter

@@ -32,10 +32,29 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string", default: "WellCare & Nurture Team" }
-      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
-      - { label: "Cover Image", name: "image", widget: "image", required: false }
+      - { label: "SEO Description", name: "description", widget: "text", hint: "120-155 characters. This appears in Google search results under the title. Include a relevant keyword and 'Colorado Springs' where natural.", pattern: ['.{50,160}', "Should be between 50-160 characters"] }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "Short preview shown on the blog listing page" }
+      - { label: "Cover Image", name: "image", widget: "image", required: false, hint: "If not provided, an image will be auto-selected based on the tags below" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "hidden", default: "post" }
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        min: 1
+        default: ["blog"]
+        options:
+          - { label: "Blog", value: "blog" }
+          - { label: "ABA Therapy", value: "aba" }
+          - { label: "Speech Therapy", value: "speech therapy" }
+          - { label: "Occupational Therapy", value: "occupational therapy" }
+          - { label: "Physical Therapy", value: "physical therapy" }
+          - { label: "Feeding", value: "feeding" }
+          - { label: "Sensory", value: "sensory" }
+          - { label: "Milestones", value: "milestones" }
+          - { label: "Autism", value: "autism" }
+          - { label: "Parent Support", value: "parent support" }
+          - { label: "School Readiness", value: "school readiness" }
+          - { label: "Insurance & Coverage", value: "insurance" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
 
   # ── Service Pages ──

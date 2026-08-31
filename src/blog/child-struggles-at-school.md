@@ -3,9 +3,10 @@ title: "When Your Child Struggles at School: Warning Signs and What to Do"
 date: 2026-09-11
 author: WellCare & Nurture Team
 excerpt: "The first weeks of school are revealing. If your child is struggling academically, socially, or behaviorally, here's how to identify the root cause and get the right support."
+description: "Recognize warning signs when your child struggles at school. Learn when pediatric therapy in Colorado Springs can help with learning and behavior."
 image: /images/blog-school-struggles.png
 layout: post.njk
-tags: post
+tags: ["blog", "school readiness", "parent support", "milestones"]
 ---
 
 ## The First Month of School Tells You a Lot

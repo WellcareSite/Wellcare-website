@@ -3,9 +3,10 @@ title: "Tummy Time Tips: Building a Strong Foundation from Day One"
 date: 2025-03-21
 author: WellCare & Nurture Team
 excerpt: "Tummy time is one of the most important exercises for your baby's development — but it doesn't always go smoothly. Here's why it matters and how to make it work for your little one."
+description: "Expert tummy time tips for every age from birth. Build your baby's strength and motor skills with guidance from Colorado Springs pediatric PTs."
 image: /images/blog-tummy-time.png
 layout: post.njk
-tags: post
+tags: ["blog", "physical therapy", "milestones"]
 ---
 
 ## Why Tummy Time Matters

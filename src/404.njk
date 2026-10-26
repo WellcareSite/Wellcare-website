@@ -6,6 +6,44 @@ permalink: /404.html
 eleventyExcludeFromCollections: true
 ---
 
+<script>
+  (function() {
+    var redirects = {
+      "/staff-bios.html": "/team/",
+      "/privacy-policy.html": "/privacy/",
+      "/blog.html": "/blog/",
+      "/ask-a-therapist.html": "/contact/",
+      "/practice-page.html": "/",
+      "/our-leadership-team1.html": "/team/",
+      "/concerned-about-a-loved-one.html": "/contact/",
+      "/speechtherapy.html": "/speech-therapy/",
+      "/components": "/",
+      "/components/": "/",
+      "/internships--apprenticeships.html": "/careers/",
+      "/page/events": "/",
+      "/page/events/": "/",
+      "/page/testimonials": "/",
+      "/page/testimonials/": "/",
+      "/page/subscribe-newsletter": "/contact/",
+      "/page/subscribe-newsletter/": "/contact/",
+      "/blog/giving-every-voice-a-chance-celebrating-aac-awareness-month": "/blog/understanding-aac/",
+      "/blog/giving-every-voice-a-chance-celebrating-aac-awareness-month/": "/blog/understanding-aac/",
+      "/blog/pediatric-speech-therapy-in-colorado-springs": "/speech-therapy/",
+      "/blog/pediatric-speech-therapy-in-colorado-springs/": "/speech-therapy/",
+      "/blog/wellcare-pediatric-therapy-specialists-expanding-clinic": "/careers/",
+      "/blog/wellcare-pediatric-therapy-specialists-expanding-clinic/": "/careers/",
+      "/blog/test-notification-v3": "/blog/",
+      "/blog/test-notification-v3/": "/blog/"
+    };
+    var raw = window.location.pathname.toLowerCase();
+    var clean = raw.replace(/\/$/, '');
+    var target = redirects[raw] || redirects[clean] || redirects[clean + '/'];
+    if (target) {
+      window.location.replace(target);
+    }
+  })();
+</script>
+
 <section class="page-hero">
   <div class="container">
     <h1>Page Not Found</h1>

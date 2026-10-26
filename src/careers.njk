@@ -1,67 +1,144 @@
 ---
 layout: base.njk
 title: "Careers — Join Our Pediatric Therapy Team in Colorado Springs"
-description: "Join Colorado Springs' #1 rated pediatric therapy team. BCBA, OT, PT & SLP careers with medical insurance, 401k, CEU reimbursement, student loan reimbursement & paid time off. 4.8 stars on Indeed."
+description: "Join Colorado Springs' #1 rated pediatric therapy team. SLP, OT, PT & RBT careers with multi-disciplinary collaboration, mentorship, and clinical leadership. 4.8 stars for culture."
 permalink: /careers/
 ---
 
-<section class="page-hero">
-  <div class="container">
-    <h1>Join Our Team</h1>
-    <p>Make a difference in the lives of children and families every day</p>
-    <a href="{{ settings.applyUrl or ('mailto:' + settings.email + '?subject=Career%20Inquiry') }}" {% if settings.applyUrl %}target="_blank" rel="noopener"{% endif %} class="btn-cta page-hero-cta">Apply Now ✉</a>
+<style>
+  .role-card {
+    text-decoration: none;
+    color: #1C2F4D;
+    background: #FFFFFF;
+    border: 1px solid #E3EAF2;
+    border-radius: 18px;
+    padding: 24px 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 0 6px 18px rgba(28,47,77,.07);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .role-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(28,47,77,.13);
+  }
+  .role-card.slp { border-top: 5px solid #E57FB3; }
+  .role-card.ot  { border-top: 5px solid #F5A623; }
+  .role-card.pt  { border-top: 5px solid #8CC63F; }
+  .role-card.rbt { border-top: 5px solid #6FB3E3; }
+
+  .role-badge-slp { color: #B4306F; font-weight: 800; font-size: 28px; line-height: 1.1; }
+  .role-badge-ot  { color: #A35F00; font-weight: 800; font-size: 28px; line-height: 1.1; }
+  .role-badge-pt  { color: #3F7A12; font-weight: 800; font-size: 28px; line-height: 1.1; }
+  .role-badge-rbt { color: #1E5FA0; font-weight: 800; font-size: 28px; line-height: 1.1; }
+
+  .role-title { font-weight: 600; font-size: 16px; line-height: 1.35; color: #1C2F4D; }
+  .role-apply { margin-top: 8px; font-weight: 700; font-size: 15px; color: #1E5FA0; }
+
+  .careers-hero-title {
+    margin: 0;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 1.1;
+  }
+  .why-us-title {
+    margin: 0;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #1C2F4D;
+  }
+
+  @media (max-width: 900px) {
+    #roles > div {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+  }
+  @media (max-width: 760px) {
+    .careers-hero-title {
+      font-size: 40px !important;
+    }
+    .why-us-title {
+      font-size: 32px !important;
+    }
+    .why-us-card {
+      padding: 36px 24px !important;
+    }
+  }
+  @media (max-width: 500px) {
+    #roles > div {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>
+
+<!-- HERO -->
+<section style="background: linear-gradient(115deg, #1D5A88 0%, #2E86CC 55%, #5AACE0 100%); color: #FFFFFF; position: relative;">
+  <div style="max-width: 1180px; margin: 0 auto; padding: 72px 24px 130px; text-align: center;">
+    <h1 class="careers-hero-title">Join Our Team</h1>
+    <p style="margin: 14px 0 0; font-size: 20px; color: #EAF4FC;">Make a difference in the lives of children and families every day</p>
   </div>
-  <svg class="hero-bottom-wave" viewBox="0 0 1440 80" preserveAspectRatio="none">
-    <path d="M0,48 C240,80 480,0 720,40 C960,80 1200,10 1440,48 L1440,80 L0,80 Z" fill="white"/>
+  <svg viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; left: 0; bottom: -1px; width: 100%; height: 80px; display: block;">
+    <path d="M0 50 C 360 10, 720 80, 1080 40 S 1440 30, 1440 30 L1440 80 L0 80 Z" fill="#FFFFFF"/>
   </svg>
 </section>
 
+<!-- DISCIPLINES / OPEN ROLES -->
+<section id="roles" style="max-width: 1180px; margin: 0 auto; padding: 24px 24px 0;">
+  <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px;">
+    <!-- SLP -->
+    <a href="https://www.paycomonline.net/v4/ats/web.php/portal/4753E4A132784793A22C23CC3A4655E3/jobs/235136" target="_blank" rel="noopener" class="role-card slp">
+      <span class="role-badge-slp">SLP</span>
+      <span class="role-title">Speech-Language Pathologist</span>
+      <span class="role-apply">View &amp; apply →</span>
+    </a>
+    <!-- OT -->
+    <a href="https://www.paycomonline.net/v4/ats/web.php/portal/4753E4A132784793A22C23CC3A4655E3/jobs/235462" target="_blank" rel="noopener" class="role-card ot">
+      <span class="role-badge-ot">OT</span>
+      <span class="role-title">Occupational Therapist</span>
+      <span class="role-apply">View &amp; apply →</span>
+    </a>
+    <!-- PT -->
+    <a href="https://www.paycomonline.net/v4/ats/web.php/portal/4753E4A132784793A22C23CC3A4655E3/jobs/235475" target="_blank" rel="noopener" class="role-card pt">
+      <span class="role-badge-pt">PT</span>
+      <span class="role-title">Physical Therapist</span>
+      <span class="role-apply">View &amp; apply →</span>
+    </a>
+    <!-- RBT -->
+    <a href="https://www.paycomonline.net/v4/ats/web.php/portal/4753E4A132784793A22C23CC3A4655E3/jobs/191038" target="_blank" rel="noopener" class="role-card rbt">
+      <span class="role-badge-rbt">RBT</span>
+      <span class="role-title">Registered Behavior Technician</span>
+      <span class="role-apply">View &amp; apply →</span>
+    </a>
+  </div>
+</section>
+
+<!-- WHY WORK WITH US -->
+<section style="max-width: 1180px; margin: 0 auto; padding: 48px 24px 56px;">
+  <div class="why-us-card" style="background: #F3F7FB; border-radius: 22px; padding: 48px 56px; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; align-items: center;">
+    <h2 class="why-us-title">Why Work With Us?</h2>
+    <div aria-hidden="true" style="display: flex; gap: 6px; margin: 16px 0 0;">
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #E57FB3;"></span>
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #6FB3E3;"></span>
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #F5A623;"></span>
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #F2D91A;"></span>
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #8CC63F;"></span>
+    </div>
+    <p style="margin: 22px 0 0; font-size: 18px; line-height: 1.8; color: #3C4E68; max-width: 820px;">Locally owned since 2016, WellCare &amp; Nurture brings ABA, occupational, physical and speech therapy together for families across the Pikes Peak region, in their homes and in our clinic. Our team rates us <strong style="color: #1C2F4D;">4.8 stars</strong> for culture, work–life balance and leadership. Collaboration is at the heart of everything we do: our OT, ST, PT and ABA providers work <strong style="color: #1C2F4D;">side by side across disciplines</strong>, sharing insight and coordinating care so every child gets the full support of one connected team. Along the way, you'll grow with dedicated mentorship and continuing education, backed by clinical supervision and a responsive operations team right here in Colorado Springs.</p>
+    <a href="#roles" style="margin-top: 30px; text-decoration: none; background: #2E7BC4; color: #FFFFFF; font-weight: 700; font-size: 17px; padding: 14px 40px; border-radius: 999px; min-height: 48px; box-sizing: border-box; display: inline-flex; align-items: center; transition: background 0.2s;">Find your role</a>
+  </div>
+</section>
+
+<!-- OUR CULTURE SECTION -->
 <section class="section" style="padding-top: 0;">
-  <div class="container" style="max-width: 900px;">
-
-    <!-- Employee Satisfaction Highlight — Testimonial Style -->
-    <div style="background: #edf2f7; border-radius: 14px; padding: 1.2rem 2rem 1rem; text-align: center; margin: 2rem auto 2.5rem; max-width: 520px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
-      <p style="font-size: 1.5rem; font-weight: 700; color: #1a3a5c; line-height: 1.3; margin: 0 0.3rem 0.8rem; font-style: italic;"><span style="font-family: Georgia, serif; font-size: 2rem; opacity: 0.5; vertical-align: -0.1em;">&ldquo;</span> We take care of our team the same way we take care of our families. <span style="font-family: Georgia, serif; font-size: 2rem; opacity: 0.5; vertical-align: -0.1em;">&rdquo;</span></p>
-      <!-- Compact badge with flanking lines -->
-      <div style="display: flex; align-items: center; gap: 0; margin: 0;">
-        <div style="flex: 1; height: 1px; background: #c0d0de;"></div>
-        <div style="display: inline-flex; align-items: stretch; background: white; border: 2px solid #5eb6d9; border-radius: 8px; overflow: hidden; margin: 0 0.5rem; transform: scale(0.85);">
-          <!-- Left: 4.8 with stars below -->
-          <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0.4rem 1.2rem; border-right: 1px solid #d0dbe6;">
-            <div style="font-size: 1.7rem; font-weight: 800; color: #1a3a5c; line-height: 1;">4.8</div>
-            <div style="color: #f5a623; font-size: 0.7rem; letter-spacing: 1px; margin-top: 0.2rem;">⭐⭐⭐⭐⭐</div>
-          </div>
-          <!-- Right: tagline + buttons -->
-          <div style="text-align: left; padding: 0.4rem 0.6rem;">
-            <div style="color: #1a3a5c; font-weight: 700; font-size: 0.7rem; line-height: 1.25;">#1 Employee Satisfaction<br>in Colorado Springs</div>
-            <div style="display: flex; gap: 0.3rem; margin-top: 0.25rem;">
-              {% if settings.indeedUrl %}<a href="{{ settings.indeedUrl }}" target="_blank" rel="noopener" style="background: #1a3a5c; color: white; padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.6rem; font-weight: 600; text-decoration: none;">Indeed</a>{% endif %}
-              {% if settings.glassdoorUrl %}<a href="{{ settings.glassdoorUrl }}" target="_blank" rel="noopener" style="background: #0caa41; color: white; padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.6rem; font-weight: 600; text-decoration: none;">Glassdoor</a>{% endif %}
-            </div>
-          </div>
-        </div>
-        <div style="flex: 1; height: 1px; background: #c0d0de;"></div>
-      </div>
-    </div>
-
-    <h2>Why Work With Us?</h2>
-    <p>At WellCare & Nurture, we believe in fostering a supportive, multi-disciplinary environment where professionals can grow and make a lasting impact. Our core values guide everything we do — and that starts with how we treat our team.</p>
-
-    <h3 style="margin-top: 2rem;">Benefits</h3>
-    <div class="benefits-grid" style="margin-top: 1rem;">
-      {% for b in benefits.items %}
-      <div class="benefit-item">
-        <span class="icon">{{ b.icon }}</span>
-        <div>
-          <strong>{{ b.name }}</strong>
-          <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">{{ b.description }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-
-    <h3 style="margin-top: 2.5rem;">Our Culture</h3>
-    <p>We celebrate our team through recognition programs, team-building events, and celebrating work anniversaries and milestones. Our multi-disciplinary collaboration means you'll always be learning from colleagues across specialties.</p>
+  <div class="container" style="max-width: 1100px;">
+    <h3 style="margin-top: 1rem; text-align: center; font-size: 2.2rem; color: #1C2F4D; font-family: 'Playfair Display', Georgia, serif;">Our Culture</h3>
+    <p style="text-align: center; max-width: 720px; margin: 0.5rem auto 2.5rem; color: #555; font-size: 1.05rem; line-height: 1.6;">We celebrate our team through recognition programs, team-building events, and celebrating work anniversaries and milestones. Our multi-disciplinary collaboration means you'll always be learning from colleagues across specialties.</p>
 
     <div class="culture-gallery">
       {% for photo in culturePhotos.items %}
@@ -72,10 +149,11 @@ permalink: /careers/
       {% endfor %}
     </div>
 
-    <div style="text-align: center; margin-top: 2.5rem;">
-      <h2>Ready to Make a Difference?</h2>
-      <p>We're always looking for passionate, compassionate professionals to join our team.</p>
-      <a href="{{ settings.applyUrl or ('mailto:' + settings.email + '?subject=Career%20Inquiry') }}" {% if settings.applyUrl %}target="_blank" rel="noopener"{% endif %} class="btn-cta" style="font-size: 1.1rem; margin-top: 1rem;">Apply Now ✉</a>
+    <!-- Final CTA -->
+    <div style="text-align: center; margin-top: 3.5rem; margin-bottom: 2rem;">
+      <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 2.2rem; color: #1C2F4D;">Ready to Make a Difference?</h2>
+      <p style="color: #555; margin-top: 0.5rem; font-size: 1.05rem;">We're always looking for passionate, compassionate professionals to join our team.</p>
+      <a href="#roles" class="btn-cta" style="font-size: 1.1rem; margin-top: 1.25rem; display: inline-block;">View Open Roles →</a>
     </div>
   </div>
 </section>
